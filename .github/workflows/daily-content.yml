@@ -1,0 +1,37 @@
+name: 每日学习内容生成
+
+on:
+  schedule:
+    # 每天 09:00 (UTC+8 北京时间) 自动跑一次；可改成你想要的时段
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}   # 允许在 GitHub 网页上手动点一下立即跑一次
+
+# 允许 Action 把生成的内容推回仓库
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 生成每日学习内容
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}            # 必填：OpenAI 兼容接口的 Key
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL || 'https://api.openai.com/v1' }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'gpt-4o-mini' }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}  # 推送用；默认用仓库自带令牌即可
+        run: node scripts/gen-daily-content.mjs
+
+      - name: 提交并推送
+        if: env.LLM_API_KEY != ''
+        run: |
+          git config user.email "bot@workbuddy.local"
+          git config user.name "WorkBuddy Bot"
+          git add content
+          git commit -m "chore: daily learning content $(date +%F)" || echo "无变更"
+          git push
