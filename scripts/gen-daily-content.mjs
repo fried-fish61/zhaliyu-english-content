@@ -34,7 +34,7 @@ async function callLLM(system, user) {
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${API_KEY}` },
     body: JSON.stringify({
       model: MODEL,
-      temperature: 0.7,
+      temperature: 1,
       messages: [
         { role: 'system', content: system },
         { role: 'user', content: user }
