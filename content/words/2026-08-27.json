@@ -1,0 +1,176 @@
+{
+  "theme": "法律合规与商事争议解决精选",
+  "theme_en": "Legal Compliance & Commercial Dispute Resolution",
+  "words": [
+    {
+      "term": "fiduciary",
+      "ipa": "/fɪˈduːʃiˌeri/",
+      "cn_meaning": "信托的；受信义的；受托人",
+      "collins_def": "A fiduciary duty is a legal obligation to act in the best interest of another party, especially in managing assets or affairs.",
+      "pron_tip": "重音在第二音节/ˈduː/，词尾-ciary读/ʃiˌeri/，可联想‘对你的（du）信托责任’。",
+      "examples": [
+        {
+          "en": "Directors owe strict fiduciary duties to the company and must avoid conflicts of interest.",
+          "cn": "董事对公司负有严格的信义义务，且必须避免利益冲突。"
+        },
+        {
+          "en": "The trustee was removed for breaching its fiduciary obligations to the beneficiaries.",
+          "cn": "受托人因违反其对受益人的信义义务而被撤换。"
+        }
+      ]
+    },
+    {
+      "term": "indemnification",
+      "ipa": "/ɪnˌdemnɪfɪˈkeɪʃn/",
+      "cn_meaning": "赔偿；补偿；保障",
+      "collins_def": "Indemnification is the act of protecting a party against loss or damage by promising to compensate for any that occurs, or the compensation itself.",
+      "pron_tip": "重音在第四音节/keɪ/，由动词indemnify派生而来，注意中间的/ɪˈkeɪ/转折。",
+      "examples": [
+        {
+          "en": "The merger agreement contains detailed indemnification provisions for breach of representations.",
+          "cn": "并购协议中包含针对违反陈述与保证的详细赔偿条款。"
+        },
+        {
+          "en": "The seller agreed to provide full indemnification for any regulatory fines arising from pre-closing violations.",
+          "cn": "卖方同意对交割前违规行为导致的任何监管罚款提供全额赔偿。"
+        }
+      ]
+    },
+    {
+      "term": "jurisdiction",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+      "cn_meaning": "司法管辖区；管辖权",
+      "collins_def": "Jurisdiction is the power that a court or official has to make legal decisions and judgments, or the geographical area within which this power is exercised.",
+      "pron_tip": "词根juris(法律)+diction(言说)，重音在第三音节/dɪk/，意为‘法律的宣告权’。",
+      "examples": [
+        {
+          "en": "The parties expressly submitted to the exclusive jurisdiction of the Singapore courts.",
+          "cn": "双方当事人明确接受新加坡法院的专属管辖。"
+        },
+        {
+          "en": "Determining jurisdiction in cross-border data compliance cases remains highly complex.",
+          "cn": "在跨境数据合规案件中确定管辖权仍然非常复杂。"
+        }
+      ]
+    },
+    {
+      "term": "subpoena",
+      "ipa": "/səˈpiːnə/",
+      "cn_meaning": "传票；用传票传唤",
+      "collins_def": "A subpoena is a legal document ordering a person to attend a court or tribunal to give evidence, or to produce specified documents.",
+      "pron_tip": "源自拉丁语，意为‘under penalty(在惩罚之下)’，注意拼写oe发/iː/音，重音在第二音节。",
+      "examples": [
+        {
+          "en": "The antitrust regulator issued a subpoena requiring the company to produce five years of pricing records.",
+          "cn": "反垄断监管机构发出传票，要求该公司提交五年的定价记录。"
+        },
+        {
+          "en": "Failure to comply with a subpoena may result in contempt of court sanctions.",
+          "cn": "不遵守传票可能导致藐视法庭的制裁。"
+        }
+      ]
+    },
+    {
+      "term": "injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "（法院）禁令；强制令",
+      "collins_def": "An injunction is a judicial order restraining a person or entity from beginning or continuing an action that threatens the legal rights of another.",
+      "pron_tip": "重音在第二音节/dʒʌŋk/，注意与junction(连接点)区分，injunction重音后移，意为‘法院禁止你与某行为连接’。",
+      "examples": [
+        {
+          "en": "The plaintiff sought a preliminary injunction to halt the alleged patent infringement during trial.",
+          "cn": "原告申请初步禁令，以在诉讼期间叫停被指称的专利侵权行为。"
+        },
+        {
+          "en": "Violating a court injunction can lead to immediate imprisonment or heavy fines.",
+          "cn": "违反法院禁令可能导致即刻监禁或高额罚款。"
+        }
+      ]
+    },
+    {
+      "term": "arbitration",
+      "ipa": "/ˌɑːrbɪˈtreɪʃn/",
+      "cn_meaning": "仲裁",
+      "collins_def": "Arbitration is the settlement of a dispute by an impartial adjudicator or tribunal chosen by the parties, usually as an alternative to litigation.",
+      "pron_tip": "重音在第三音节/treɪ/，注意动词arbitrate重音在第一音节，名词/形容词重音后移。",
+      "examples": [
+        {
+          "en": "The joint venture contract mandates that all disputes be resolved through binding arbitration in Beijing.",
+          "cn": "合资合同强制要求所有争议通过在北京进行的具有约束力的仲裁解决。"
+        },
+        {
+          "en": "Arbitration awards are generally final and not subject to appeal on the merits.",
+          "cn": "仲裁裁决通常是终局的，不得就实体问题提起上诉。"
+        }
+      ]
+    },
+    {
+      "term": "novation",
+      "ipa": "/noʊˈveɪʃn/",
+      "cn_meaning": "（合同/债务）更新；替代",
+      "collins_def": "Novation is the act of replacing an existing contract or obligation with a new one, or substituting one party to a contract with another.",
+      "pron_tip": "与innovation(创新)后半部分同音，可联想‘用新合同替代旧合同是一种创新’。",
+      "examples": [
+        {
+          "en": "The novation of the original loan agreement required the express written consent of the guarantor.",
+          "cn": "原贷款协议的更新需要保证人的明确书面同意。"
+        },
+        {
+          "en": "Through novation, the new contractor assumed all rights and liabilities under the construction contract.",
+          "cn": "通过合同更新，新承包商承担了建设工程合同项下的所有权利与义务。"
+        }
+      ]
+    },
+    {
+      "term": "repudiation",
+      "ipa": "/rɪˌpjuːdiˈeɪʃn/",
+      "cn_meaning": "（对合同义务的）拒绝履行；否认",
+      "collins_def": "Repudiation is the refusal to accept or be bound by an agreement or obligation, especially where one party indicates it will not perform its contractual duties.",
+      "pron_tip": "注意与reputation(名声)区分，词根repudiate表示‘拒绝/否认’，重音在第四音节/eɪ/。",
+      "examples": [
+        {
+          "en": "The buyer’s failure to open the letter of credit constituted an anticipatory repudiation of the sales contract.",
+          "cn": "买方未能开立信用证构成了对销售合同的预期违约（拒绝履行）。"
+        },
+        {
+          "en": "Any repudiation of the payment obligations by the issuer shall be deemed an event of default.",
+          "cn": "发行人对付款义务的任何拒绝履行应被视为违约事件。"
+        }
+      ]
+    },
+    {
+      "term": "escrow",
+      "ipa": "/ˈeskrəʊ/",
+      "cn_meaning": "第三方托管；代管款项",
+      "collins_def": "Escrow is a legal arrangement in which a third party temporarily holds assets, funds, or documents until specified conditions in a contract are fulfilled.",
+      "pron_tip": "重音在首音节/es/，尾音/krəʊ/，可联想‘S-Crow（保险乌鸦）代为保管财物’。",
+      "examples": [
+        {
+          "en": "Ten percent of the purchase price will be held in escrow for twelve months to cover potential warranty claims.",
+          "cn": "购买价格的百分之十将由第三方托管十二个月，以覆盖潜在的质保索赔。"
+        },
+        {
+          "en": "The escrow agent is responsible for releasing the funds only upon satisfaction of all closing conditions.",
+          "cn": "托管代理人仅负责在满足所有交割条件后才释放资金。"
+        }
+      ]
+    },
+    {
+      "term": "precedent",
+      "ipa": "/ˈpresɪdənt/",
+      "cn_meaning": "判例；先例；惯例",
+      "collins_def": "A precedent is a previous legal case or official decision that may be followed as an authoritative rule in subsequent similar circumstances.",
+      "pron_tip": "作名词‘判例’时重音在第一音节/pre/；作形容词‘在先的’时重音在第二音节/prɪˈsiːdnt/，注意区分。",
+      "examples": [
+        {
+          "en": "The Supreme People’s Court judgment established an important precedent for cross-border data privacy disputes.",
+          "cn": "最高人民法院的判决为跨境数据隐私纠纷确立了一项重要先例。"
+        },
+        {
+          "en": "Common-law lawyers rely heavily on binding precedent when advising clients on international transactions.",
+          "cn": "普通法律师在就国际交易向客户提供建议时，严重依赖具有约束力的判例。"
+        }
+      ]
+    }
+  ]
+}
