@@ -1,0 +1,176 @@
+{
+  "theme": "法律合规与商业交易精要",
+  "theme_en": "Legal Compliance and Commercial Transactions",
+  "words": [
+    {
+      "term": "indemnification",
+      "ipa": "/ɪnˌdemnɪfɪˈkeɪʃn/",
+      "cn_meaning": "赔偿；补偿；保障（指对损失或损害的补偿）",
+      "collins_def": "Indemnification is the act of promising to repay someone for money that they spend because of damage, loss, or injury, or the amount of money that is paid.",
+      "pron_tip": "重音在-dem-上，词尾读作 /-keɪʃn/，可联想 in-dem-ni-fi-ca-tion",
+      "examples": [
+        {
+          "en": "The seller shall provide indemnification for any breach of intellectual property rights.",
+          "cn": "卖方应对任何知识产权侵权行为提供赔偿。"
+        },
+        {
+          "en": "The indemnification clause covers all direct and consequential losses.",
+          "cn": "该赔偿条款涵盖所有直接和间接损失。"
+        }
+      ]
+    },
+    {
+      "term": "force majeure",
+      "ipa": "/ˌfɔːs mæˈʒɜː/",
+      "cn_meaning": "不可抗力（指无法预见、无法避免的客观情况）",
+      "collins_def": "Force majeure is an unexpected event such as a war, crime, or an earthquake which prevents someone from doing something that they had planned or agreed to do.",
+      "pron_tip": "法语借词，majure 读作 /mæˈʒɜː/，类似'马-热'",
+      "examples": [
+        {
+          "en": "The contract includes a force majeure clause excusing performance during natural disasters.",
+          "cn": "合同包含不可抗力条款，免除自然灾害期间的履约义务。"
+        },
+        {
+          "en": "The pandemic was declared an event of force majeure by the arbitration tribunal.",
+          "cn": "仲裁庭宣布疫情为不可抗力事件。"
+        }
+      ]
+    },
+    {
+      "term": "due diligence",
+      "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
+      "cn_meaning": "尽职调查；审慎调查（尤指并购或投资前的审查）",
+      "collins_def": "Due diligence is the reasonable investigation and care that a person or business is expected to take before entering into an agreement or transaction.",
+      "pron_tip": "due 读 /djuː/（英）或 /duː/（美），diligence 重音在第一音节",
+      "examples": [
+        {
+          "en": "Our legal team conducted due diligence on the target company's compliance history.",
+          "cn": "我们的法务团队对目标公司的合规历史进行了尽职调查。"
+        },
+        {
+          "en": "Failure to perform due diligence may expose the firm to regulatory penalties.",
+          "cn": "未能开展尽职调查可能使公司面临监管处罚。"
+        }
+      ]
+    },
+    {
+      "term": "fiduciary",
+      "ipa": "/fɪˈdjuːʃəri/",
+      "cn_meaning": "受托的；信义的；受信托的",
+      "collins_def": "Fiduciary is used to describe things which relate to a trust, or to the people who have a legal duty to look after someone else's property or financial affairs.",
+      "pron_tip": "重音在第二音节 fi-DU-ciary，联想 '相信 duty' 的人",
+      "examples": [
+        {
+          "en": "Directors owe fiduciary duties to act in the best interests of shareholders.",
+          "cn": "董事负有信义义务，须为股东的最佳利益行事。"
+        },
+        {
+          "en": "The bank was sued for breaching its fiduciary responsibilities.",
+          "cn": "该银行因违反受托责任而被起诉。"
+        }
+      ]
+    },
+    {
+      "term": "injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "（法院的）禁令；强制令",
+      "collins_def": "An injunction is a court order, usually one telling someone not to do something.",
+      "pron_tip": "重音在第二音节 in-JUNC-tion，词根 junct 有'连接'之意，这里指'命令'",
+      "examples": [
+        {
+          "en": "The court granted a preliminary injunction to halt the infringing sales.",
+          "cn": "法院颁布初步禁令，制止侵权销售行为。"
+        },
+        {
+          "en": "Violating an injunction may result in contempt of court charges.",
+          "cn": "违反禁令可能导致藐视法庭的指控。"
+        }
+      ]
+    },
+    {
+      "term": "misrepresentation",
+      "ipa": "/ˌmɪsreprɪzenˈteɪʃn/",
+      "cn_meaning": "虚假陈述；误述；不正确说明",
+      "collins_def": "Misrepresentation is the act of deliberately giving false information to someone, especially in order to persuade them to enter into a contract.",
+      "pron_tip": "前缀 mis-（错误）+ representation（陈述），重音在 -ta-",
+      "examples": [
+        {
+          "en": "The investor claimed misrepresentation regarding the company's financial health.",
+          "cn": "投资者就公司财务状况提出了虚假陈述索赔。"
+        },
+        {
+          "en": "Innocent misrepresentation may still give rise to a right of rescission.",
+          "cn": "即使是无意的虚假陈述也可能产生撤销权。"
+        }
+      ]
+    },
+    {
+      "term": "severability",
+      "ipa": "/sɪˌverəˈbɪləti/",
+      "cn_meaning": "（合同条款的）可分割性；独立性",
+      "collins_def": "Severability is the principle that if one part of a contract or statute is declared invalid, the remaining parts remain in force.",
+      "pron_tip": "词根 sever（切断）+ ability，指条款可被'切分'后独立生效",
+      "examples": [
+        {
+          "en": "The agreement contains a severability clause to preserve its validity if one provision is struck down.",
+          "cn": "协议包含可分割性条款，以便在某一条款被废除时保持整体效力。"
+        },
+        {
+          "en": "Severability ensures that an unenforceable term does not void the entire contract.",
+          "cn": "可分割性原则确保不可执行的条款不会导致整个合同无效。"
+        }
+      ]
+    },
+    {
+      "term": "estoppel",
+      "ipa": "/ɪˈstɒpl/",
+      "cn_meaning": "【法律】禁止反言；禁反言原则",
+      "collins_def": "Estoppel is a legal principle that prevents someone from asserting something in court that contradicts what they have previously said or done.",
+      "pron_tip": "重音在第二音节 e-STOP-pel，联想 'stop 停止' 反悔",
+      "examples": [
+        {
+          "en": "The doctrine of estoppel prevented the company from denying the validity of the oral agreement.",
+          "cn": "禁止反言原则阻止该公司否认口头协议的效力。"
+        },
+        {
+          "en": "Promissory estoppel may be invoked when a party relies on a promise to their detriment.",
+          "cn": "当一方基于信赖承诺而遭受不利时，可援引允诺禁反言。"
+        }
+      ]
+    },
+    {
+      "term": "clawback",
+      "ipa": "/ˈklɔːbæk/",
+      "cn_meaning": "（款项、薪酬的）追回；回拨（条款）",
+      "collins_def": "A clawback is a provision in a law or contract that allows money to be taken back from people who had been given it, for example if they leave a company early or if they commit misconduct.",
+      "pron_tip": "复合词 claw（爪）+ back（回），字面'抓回'",
+      "examples": [
+        {
+          "en": "The executive compensation policy includes a clawback provision for financial restatements.",
+          "cn": "高管薪酬政策包含针对财务重述的追回条款。"
+        },
+        {
+          "en": "Regulatory reforms strengthened clawback rules for bankers' bonuses.",
+          "cn": "监管改革加强了银行家奖金的追回规定。"
+        }
+      ]
+    },
+    {
+      "term": "redaction",
+      "ipa": "/rɪˈdækʃn/",
+      "cn_meaning": "（文件、数据的）编校；涂黑处理；编辑修订",
+      "collins_def": "Redaction is the process of editing a text or document, especially in order to remove confidential information before it is made public.",
+      "pron_tip": "词根 redact（编辑），注意与 reduction 区分，这里读 /rɪ-DAK-shn/",
+      "examples": [
+        {
+          "en": "Personal data must undergo redaction before the documents are disclosed to the opposing party.",
+          "cn": "在向对方当事人披露文件前，必须对个人数据进行编校/涂黑处理。"
+        },
+        {
+          "en": "The compliance officer reviewed the redaction of sensitive commercial information.",
+          "cn": "合规官审查了敏感商业信息的涂黑处理。"
+        }
+      ]
+    }
+  ]
+}
