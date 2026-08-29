@@ -1,0 +1,176 @@
+{
+  "theme": "法律合规与商事争议解决核心术语",
+  "theme_en": "Legal Compliance & Commercial Dispute Resolution",
+  "words": [
+    {
+      "term": "indemnification",
+      "ipa": "/ɪnˌdem.nɪ.fɪˈkeɪ.ʃən/",
+      "cn_meaning": "赔偿，补偿；保障（使免受损失）",
+      "collins_def": "legal protection against damage or loss, or a legal right to compensation for any harm suffered",
+      "pron_tip": "来自 indemnity（赔偿），注意中间 -fic- 发 /fɪk/",
+      "examples": [
+        {
+          "en": "The software license includes an indemnification clause covering third-party intellectual property claims.",
+          "cn": "该软件许可协议包含一项赔偿条款，涵盖第三方知识产权索赔。"
+        },
+        {
+          "en": "The director sought indemnification from the company for legal costs incurred in defending the lawsuit.",
+          "cn": "该董事向公司寻求对其因应诉而产生的法律费用的赔偿保障。"
+        }
+      ]
+    },
+    {
+      "term": "fiduciary",
+      "ipa": "/fɪˈdʒuː.ʃi.er.i/",
+      "cn_meaning": "受托的，信义的；受托人",
+      "collins_def": "relating to the responsibility to take care of someone else's money or property in a suitable way",
+      "pron_tip": "与 confide（信任）同根，注意 /ˈdʒuː/ 的发音",
+      "examples": [
+        {
+          "en": "Board members owe fiduciary duties of loyalty and care to the corporation and its shareholders.",
+          "cn": "董事会成员对公司及其股东负有忠实义务和勤勉的信义义务。"
+        },
+        {
+          "en": "A fiduciary relationship exists between trustees and the beneficiaries of the trust.",
+          "cn": "受托人与信托受益人之间存在信义关系。"
+        }
+      ]
+    },
+    {
+      "term": "estoppel",
+      "ipa": "/ɪˈstɒp.əl/",
+      "cn_meaning": "禁止反言（法律上阻止一方否认其先前确认的事实）",
+      "collins_def": "a legal rule that prevents someone from saying in court that something is not true when they have previously stated that it is true",
+      "pron_tip": "法律外来词，注意双写 p，原义为“阻止”",
+      "examples": [
+        {
+          "en": "The doctrine of estoppel prevented the landlord from denying the validity of the oral lease extension.",
+          "cn": "禁止反言原则阻止该房东否认口头续租协议的效力。"
+        },
+        {
+          "en": "Promissory estoppel may enforce a promise even in the absence of a formal contract.",
+          "cn": "即使没有正式合同，允诺禁反言原则也可能使一项允诺具有强制执行力。"
+        }
+      ]
+    },
+    {
+      "term": "redaction",
+      "ipa": "/rɪˈdæk.ʃən/",
+      "cn_meaning": "（对文件的）编校，涂黑处理（隐匿敏感信息）",
+      "collins_def": "the process of editing a document, especially to remove confidential information before it is made public",
+      "pron_tip": "不要与 reduction /rɪˈdʌk.ʃən/ 混淆，来自 redact（编辑）",
+      "examples": [
+        {
+          "en": "Sensitive personal information was removed through redaction before the documents were disclosed to the opposing party.",
+          "cn": "在向对方披露文件之前，敏感的个人信息已通过涂黑处理被移除。"
+        },
+        {
+          "en": "Counsel spent three weeks on the redaction of privileged communications.",
+          "cn": "法律顾问花了三周时间对受保密特权保护的通信进行编校。"
+        }
+      ]
+    },
+    {
+      "term": "severability",
+      "ipa": "/ˌsev.ər.əˈbɪl.ɪ.ti/",
+      "cn_meaning": "（合同条款的）可分割性",
+      "collins_def": "the quality of a law or contract being able to exist or continue even if part of it is removed or declared invalid",
+      "pron_tip": "来自 sever（切断）+ ability，重音在 bil",
+      "examples": [
+        {
+          "en": "The contract contains a severability clause ensuring the remainder remains enforceable if one provision is struck down.",
+          "cn": "合同包含可分割性条款，确保若某一条款被废除，其余部分仍然可执行。"
+        },
+        {
+          "en": "The court examined the issue of severability before invalidating the non-compete covenant.",
+          "cn": "法院在认定竞业禁止条款无效之前，先审查了可分割性问题。"
+        }
+      ]
+    },
+    {
+      "term": "subpoena",
+      "ipa": "/səˈpiː.nə/",
+      "cn_meaning": "传票（强制出庭作证或提交文件的命令）",
+      "collins_def": "a legal document ordering someone to attend a court of law or demanding the production of evidence",
+      "pron_tip": "源自拉丁语，原意为 under penalty（在处罚威胁之下）",
+      "examples": [
+        {
+          "en": "The compliance officer was served with a subpoena to produce records relating to the internal investigation.",
+          "cn": "合规官收到传票，被要求提交与内部调查相关的记录。"
+        },
+        {
+          "en": "Failure to comply with a subpoena may result in contempt of court sanctions.",
+          "cn": "不遵守传票可能导致藐视法庭的制裁。"
+        }
+      ]
+    },
+    {
+      "term": "antitrust",
+      "ipa": "/ˌæn.tiˈtrʌst/",
+      "cn_meaning": "反垄断的",
+      "collins_def": "relating to efforts to prevent companies from working together to control prices unfairly or to create a monopoly",
+      "pron_tip": "anti（反）+ trust（托拉斯），注意重音在 trust",
+      "examples": [
+        {
+          "en": "The proposed merger is subject to rigorous antitrust review by the State Administration for Market Regulation.",
+          "cn": "该拟议合并须接受国家市场监督管理总局的严格反垄断审查。"
+        },
+        {
+          "en": "Antitrust violations can lead to substantial fines and civil liability.",
+          "cn": "违反反垄断法可能导致巨额罚款和民事责任。"
+        }
+      ]
+    },
+    {
+      "term": "deposition",
+      "ipa": "/ˌdep.əˈzɪʃ.ən/",
+      "cn_meaning": "宣誓证词；庭外讯问/取证",
+      "collins_def": "a formal written statement made under oath before a trial, usually recorded for use in court proceedings",
+      "pron_tip": "来自 depose（宣誓作证），注意与 deposit（存款）区分",
+      "examples": [
+        {
+          "en": "During his deposition, the former CFO disclosed details of the accounting irregularities.",
+          "cn": "在前首席财务官的庭外取证中，他披露了会计违规的细节。"
+        },
+        {
+          "en": "Her attorney prepared her for the deposition by reviewing key documents and likely questions.",
+          "cn": "她的律师通过审阅关键文件和可能的问题，为她出庭作证做准备。"
+        }
+      ]
+    },
+    {
+      "term": "rescission",
+      "ipa": "/rɪˈsɪʒ.ən/",
+      "cn_meaning": "（合同的）撤销，解除（使合同自始无效）",
+      "collins_def": "the act of officially ending a contract or agreement, restoring the parties to the position they were in before it was made",
+      "pron_tip": "来自 rescind（废除），注意词尾发 /ʒən/ 而非 /ʃən/",
+      "examples": [
+        {
+          "en": "The buyer sought rescission of the contract on the grounds of fraudulent misrepresentation.",
+          "cn": "买方以欺诈性虚假陈述为由请求撤销合同。"
+        },
+        {
+          "en": "Rescission is an equitable remedy aimed at unwinding the transaction rather than awarding damages.",
+          "cn": "合同解除是一种衡平法救济，旨在撤销交易而非判给损害赔偿。"
+        }
+      ]
+    },
+    {
+      "term": "novation",
+      "ipa": "/nəʊˈveɪ.ʃən/",
+      "cn_meaning": "（合同义务的）更新；以新债务人/合同替代旧有之",
+      "collins_def": "the act of replacing an existing contract with a new one, or substituting one party or obligation for another",
+      "pron_tip": "来自拉丁语 novus（新），与 innovation 同根",
+      "examples": [
+        {
+          "en": "The novation of the loan agreement released the original guarantor and substituted the parent company as the new obligor.",
+          "cn": "贷款协议的债务更新解除了原担保人的责任，并以母公司作为新的债务人予以替代。"
+        },
+        {
+          "en": "Novation requires the express consent of all original parties to discharge the existing obligations.",
+          "cn": "合同义务的更新需要所有原当事人的明确同意，方可解除现有义务。"
+        }
+      ]
+    }
+  ]
+}
