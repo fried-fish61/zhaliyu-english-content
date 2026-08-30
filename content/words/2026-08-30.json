@@ -1,0 +1,170 @@
+{
+  "theme": "法律合规与商事争议解决核心术语",
+  "theme_en": "Legal Compliance & Commercial Dispute Resolution",
+  "words": [
+    {
+      "term": "Indemnification",
+      "ipa": "/ɪnˌdemnɪfɪˈkeɪʃn/",
+      "cn_meaning": "赔偿；补偿；保障（尤指对损失或损害的）",
+      "collins_def": "Indemnification is the act of promising to protect someone against loss or damage, or the payment made to compensate for such loss or damage.",
+      "examples": [
+        {
+          "en": "The acquisition agreement includes comprehensive indemnification provisions covering breaches of representations and warranties.",
+          "cn": "收购协议包含全面的赔偿条款，涵盖对陈述与保证的违反。"
+        },
+        {
+          "en": "Buyers often seek indemnification from sellers for any undisclosed liabilities discovered after closing.",
+          "cn": "买方通常要求卖方就交割后发现的一切未披露责任提供赔偿。"
+        }
+      ]
+    },
+    {
+      "term": "Subpoena",
+      "ipa": "/səˈpiːnə/",
+      "cn_meaning": "（传唤出庭或提交证据的）传票；传唤",
+      "collins_def": "A subpoena is a legal document requiring a person to attend a court or tribunal as a witness, or to produce specified documents.",
+      "pron_tip": "源自拉丁语 sub poena（“在刑罚之下”），注意重音在第二音节",
+      "examples": [
+        {
+          "en": "The regulatory agency issued a subpoena demanding the production of all client account records.",
+          "cn": "监管机构签发传票，要求提交所有客户账户记录。"
+        },
+        {
+          "en": "Failure to comply with a federal subpoena may result in contempt of court charges.",
+          "cn": "不遵守联邦传票可能导致藐视法庭指控。"
+        }
+      ]
+    },
+    {
+      "term": "Fiduciary",
+      "ipa": "/fɪˈdjuːʃəri/",
+      "cn_meaning": "受托的；信义的；受托人",
+      "collins_def": "Fiduciary is used to describe a relationship based on trust, especially where one person manages money or property for another and must act in their best interests.",
+      "pron_tip": "重音在第二音节 fi-DU-ciary，常与 duty / obligation 搭配使用",
+      "examples": [
+        {
+          "en": "Trustees have fiduciary obligations to act in the best interests of the trust beneficiaries.",
+          "cn": "受托人对信托受益人负有信义义务，须为其最佳利益行事。"
+        },
+        {
+          "en": "A breach of fiduciary duty can lead to personal liability for the company's directors.",
+          "cn": "违反信义义务可能导致公司董事承担个人责任。"
+        }
+      ]
+    },
+    {
+      "term": "Arbitration",
+      "ipa": "/ˌɑːbɪˈtreɪʃn/",
+      "cn_meaning": "仲裁；公断",
+      "collins_def": "Arbitration is the formal process by which disputes are resolved, where an independent person or panel makes a binding decision.",
+      "examples": [
+        {
+          "en": "The commercial contract contains an arbitration clause referring disputes to the ICC in Paris.",
+          "cn": "该商业合同包含仲裁条款，将争议提交巴黎国际商会仲裁。"
+        },
+        {
+          "en": "Unlike court proceedings, arbitration awards are generally final and not subject to appeal.",
+          "cn": "与法院诉讼不同，仲裁裁决通常是终局的，不得上诉。"
+        }
+      ]
+    },
+    {
+      "term": "Jurisdiction",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+      "cn_meaning": "管辖权；司法权；管辖区域",
+      "collins_def": "Jurisdiction is the legal authority that a court or official has to make judgments and enforce laws in a particular area.",
+      "examples": [
+        {
+          "en": "The parties explicitly agreed that English law and jurisdiction would govern their contractual relationship.",
+          "cn": "双方明确约定其合同关系受英国法律和管辖权约束。"
+        },
+        {
+          "en": "Determining jurisdiction in cross-border data privacy cases remains a complex legal challenge.",
+          "cn": "在跨境数据隐私案件中确定管辖权仍然是一个复杂的法律挑战。"
+        }
+      ]
+    },
+    {
+      "term": "Covenant",
+      "ipa": "/ˈkʌvənənt/",
+      "cn_meaning": "（合同或契约中的）条款；承诺；约因",
+      "collins_def": "A covenant is a formal agreement or promise, often legally binding, especially one made in a contract or deed.",
+      "pron_tip": "重音在第一音节 CUV-e-nant，常见于 affirmative / negative covenant",
+      "examples": [
+        {
+          "en": "The negative covenant prohibits the borrower from pledging its assets to other creditors without consent.",
+          "cn": "该消极条款禁止借款人在未经同意的情况下将其资产抵押给其他债权人。"
+        },
+        {
+          "en": "Affirmative covenants require the company to maintain certain financial ratios throughout the loan period.",
+          "cn": "积极承诺条款要求公司在整个贷款期内维持特定的财务比率。"
+        }
+      ]
+    },
+    {
+      "term": "Materiality",
+      "ipa": "/məˌtɪəriˈæləti/",
+      "cn_meaning": "实质性；重要性；（财务/法律上的）重大性",
+      "collins_def": "Materiality is the quality of being significant or important enough to affect a decision, especially in a legal or financial context.",
+      "examples": [
+        {
+          "en": "Counsel advised that the error was below the threshold of materiality and need not be disclosed.",
+          "cn": "律师建议该错误低于重大性阈值，无需披露。"
+        },
+        {
+          "en": "The concept of materiality plays a central role in securities fraud and compliance investigations.",
+          "cn": "重大性概念在证券欺诈与合规调查中扮演核心角色。"
+        }
+      ]
+    },
+    {
+      "term": "Adjudication",
+      "ipa": "/əˌdʒuːdɪˈkeɪʃn/",
+      "cn_meaning": "裁决；判决；裁定",
+      "collins_def": "Adjudication is the formal judgment or decision made by a court or tribunal in a legal dispute.",
+      "examples": [
+        {
+          "en": "The adjudication of the bankruptcy claims is expected to take at least eighteen months.",
+          "cn": "破产债权的裁定预计至少需要十八个月。"
+        },
+        {
+          "en": "Administrative adjudication allows regulatory bodies to resolve disputes without formal court intervention.",
+          "cn": "行政裁决允许监管机构在不经过正式法院干预的情况下解决争议。"
+        }
+      ]
+    },
+    {
+      "term": "Injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "（法院的）禁令；强制令",
+      "collins_def": "An injunction is an official order from a court requiring a person or entity to do or refrain from doing a specific act.",
+      "pron_tip": "注意前缀 in- 在此表示“进入司法程序”，与 junction（连接）区分",
+      "examples": [
+        {
+          "en": "The court granted a preliminary injunction to stop the unauthorized use of the patented technology.",
+          "cn": "法院授予初步禁令，制止对专利技术的未经授权使用。"
+        },
+        {
+          "en": "Seeking a permanent injunction is a common remedy in intellectual property infringement cases.",
+          "cn": "寻求永久性禁令是知识产权侵权案件中常见的救济方式。"
+        }
+      ]
+    },
+    {
+      "term": "Waiver",
+      "ipa": "/ˈweɪvə(r)/",
+      "cn_meaning": "（权利、要求等的）放弃；弃权书；豁免",
+      "collins_def": "A waiver is the voluntary relinquishment or surrender of a known right, privilege, or claim.",
+      "examples": [
+        {
+          "en": "The defendant argued that the plaintiff had implicitly provided a waiver of the right to terminate.",
+          "cn": "被告辩称原告已默示放弃终止合同的权利。"
+        },
+        {
+          "en": "Signing the waiver does not absolve the service provider of liability for gross negligence.",
+          "cn": "签署弃权书不免除服务提供商对重大过失的责任。"
+        }
+      ]
+    }
+  ]
+}

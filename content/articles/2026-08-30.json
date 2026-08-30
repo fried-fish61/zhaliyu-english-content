@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "title": "The Extraterritorial Reach of Data Compliance Regimes",
+      "body": [
+        "On August 30, 2026, multinational corporations face an increasingly fragmented landscape of data compliance obligations that extend far beyond national borders. The extraterritorial application of regulations such as the European Union's General Data Protection Regulation (GDPR) and China's Personal Information Protection Law (PIPL) has created a complex web of legal requirements for companies processing cross-border data flows. These frameworks assert jurisdiction not only over entities physically located within their territories but also over any organization that offers goods or services to local residents or monitors their behavior.",
+        "The convergence of stringent data localization mandates and expansive extraterritorial reach poses existential challenges for global enterprises. Firms must now navigate divergent consent mechanisms, varying definitions of sensitive personal information, and incompatible cross-border transfer mechanisms simultaneously. A technology company headquartered in Singapore, for instance, might find itself subject to GDPR's adequacy decisions, PIPL's security assessments, and emerging sector-specific guidelines in Southeast Asian jurisdictions—all for the same dataset.",
+        "Compliance officers emphasize that passive adherence is no longer sufficient in this evolving regulatory environment. Proactive data governance strategies must incorporate jurisdictional mapping, dynamic risk assessments, and localized legal counsel to mitigate enforcement actions that can reach four percent of global annual turnover. As artificial intelligence systems amplify data collection capabilities, the intersection of algorithmic accountability and cross-border compliance will likely dominate corporate legal agendas throughout the remainder of the decade.",
+        "1. **extraterritorial** — reaching beyond national boundaries",
+        "2. **fragmented** — broken into separate or disconnected parts",
+        "3. **convergence** — the process of coming together from different directions",
+        "4. **mitigate** — to make less severe, serious, or painful",
+        "5. **jurisdiction** — the official power to make legal decisions and judgments",
+        "1. \"These frameworks assert jurisdiction not only over entities physically located within their territories but also over any organization that offers goods or services to local residents or monitors their behavior.\"",
+        "- 主句：These frameworks assert jurisdiction not only over entities... but also over any organization",
+        "- 后置定语：physically located within their territories（修饰 entities）",
+        "- 定语从句：that offers goods or services to local residents or monitors their behavior（修饰 organization）",
+        "2. \"A technology company headquartered in Singapore, for instance, might find itself subject to GDPR's adequacy decisions, PIPL's security assessments, and emerging sector-specific guidelines in Southeast Asian jurisdictions—all for the same dataset.\"",
+        "- 主句：A technology company... might find itself subject to... guidelines in Southeast Asian jurisdictions",
+        "- 后置定语：headquartered in Singapore（修饰 company）",
+        "- 插入语：for instance",
+        "- 补充说明：all for the same dataset（对前述内容的概括强调）",
+        "3. \"Compliance officers emphasize that passive adherence is no longer sufficient in this evolving regulatory environment.\"",
+        "- 主句：Compliance officers emphasize",
+        "- 宾语从句：that passive adherence is no longer sufficient in this evolving regulatory environment"
+      ]
+    }
+  ]
+}
