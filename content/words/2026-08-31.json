@@ -1,0 +1,136 @@
+{
+  "theme": "法律合规与商业诉讼精要",
+  "theme_en": "Legal Compliance & Commercial Litigation Essentials",
+  "words": [
+    {
+      "term": "Indemnify",
+      "ipa": "/ɪnˈdemnɪfaɪ/",
+      "cn_meaning": "赔偿；补偿；保障免受损害",
+      "collins_def": "If one party indemnifies another, they promise to pay any money that the other party has to pay as a result of injury or damage, or they protect the other party from the legal consequences of their actions.",
+      "pron_tip": "in-DEM-ni-fy，重音在第二音节；词根 demn- 意为“伤害、罚金”，即对损害进行金钱补救。",
+      "examples": [
+        {
+          "en": "The seller shall indemnify the buyer against any third-party intellectual property claims arising from the licensed software.",
+          "cn": "卖方应就许可软件引发的任何第三方知识产权索赔向买方作出赔偿。"
+        }
+      ]
+    },
+    {
+      "term": "Fiduciary",
+      "ipa": "/fɪˈduːʃiˌeri/",
+      "cn_meaning": "受托的；信托的；受信人",
+      "collins_def": "Fiduciary is used to describe people or organizations that have a special duty to act in another person's or organization's interests, for example because they are managing their money or affairs.",
+      "pron_tip": "fi-DOO-shee-air-ee；联想 trust（信任），核心含义是基于信任关系而负有的忠实与勤勉义务。",
+      "examples": [
+        {
+          "en": "Directors owe fiduciary duties to act in the best interests of the company and its shareholders.",
+          "cn": "董事负有信义义务，须为公司和股东的最佳利益行事。"
+        }
+      ]
+    },
+    {
+      "term": "Subpoena",
+      "ipa": "/səˈpiːnə/",
+      "cn_meaning": "传票（出庭作证或提交文件）",
+      "collins_def": "A subpoena is a legal document telling someone that they must attend a court of law and give evidence as a witness, or ordering them to produce specific documents.",
+      "pron_tip": "suh-PEE-nuh；源自拉丁语“under penalty（违者受罚）”，联想收到后“怕呢？”。",
+      "examples": [
+        {
+          "en": "The regulator issued a subpoena requiring the bank to produce all relevant trading records from the past five years.",
+          "cn": "监管机构签发了传票，要求该银行提交过去五年的所有相关交易记录。"
+        }
+      ]
+    },
+    {
+      "term": "Injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "禁令（法院强制令）",
+      "collins_def": "An injunction is a court order telling someone either to do something or, more commonly, not to do something, often to prevent harm or preserve the status quo.",
+      "pron_tip": "in-JUNK-shun；前缀 in- 表“进入”，junction 表“连接”，联想法庭强力介入并“连接”一道禁止令。",
+      "examples": [
+        {
+          "en": "The court granted a preliminary injunction to prevent the defendant from transferring assets overseas before trial.",
+          "cn": "法院颁发了初步禁令，以防止被告在庭审前向境外转移资产。"
+        }
+      ]
+    },
+    {
+      "term": "Misrepresentation",
+      "ipa": "/ˌmɪsreprɪzenˈteɪʃn/",
+      "cn_meaning": "虚假陈述；不实陈述",
+      "collins_def": "Misrepresentation is the act of giving false or misleading information about something or someone, especially in order to deceive people or induce them to enter a contract.",
+      "pron_tip": "mis-rep-ri-zen-TAY-shun；前缀 mis- 表“错误”，representation 表“陈述”，合即“错误的陈述”。",
+      "examples": [
+        {
+          "en": "The investor sued the issuer for fraudulent misrepresentation in the prospectus regarding the company’s debt level.",
+          "cn": "投资者以招股说明书中有关公司债务水平的欺诈性虚假陈述为由起诉发行人。"
+        }
+      ]
+    },
+    {
+      "term": "Waiver",
+      "ipa": "/ˈweɪvər/",
+      "cn_meaning": "弃权；放弃；豁免",
+      "collins_def": "A waiver is an official written statement or action in which someone gives up a legal right, claim, or privilege, or a decision not to enforce a particular rule or requirement.",
+      "pron_tip": "WAY-ver；谐音“为吾”，联想“为了我方利益而主动放弃某项权利”。",
+      "examples": [
+        {
+          "en": "The failure to enforce any provision of this agreement shall not constitute a waiver of that provision.",
+          "cn": "未能执行本协议任何条款不构成对该条款的弃权。"
+        }
+      ]
+    },
+    {
+      "term": "Estoppel",
+      "ipa": "/ɪˈstɒpl/",
+      "cn_meaning": "禁止反言；不容否认",
+      "collins_def": "Estoppel is a legal principle that prevents someone from asserting something in court or claiming a right that contradicts what they have previously said or done.",
+      "pron_tip": "e-STOP-el；发音似“一stop哦”，联想法庭说“停！你之前说过的话不能反悔”。",
+      "examples": [
+        {
+          "en": "The doctrine of promissory estoppel prevented the employer from withdrawing the bonus offer after employees had relied on it.",
+          "cn": "允诺禁止反言原则阻止了雇主在员工已产生合理依赖后撤回奖金要约。"
+        }
+      ]
+    },
+    {
+      "term": "Deposition",
+      "ipa": "/ˌdepəˈzɪʃn/",
+      "cn_meaning": "庭外取证；庭外宣誓证词",
+      "collins_def": "A deposition is a formal statement made under oath, especially by a witness, that is written down or recorded for use as evidence in court at a later date.",
+      "pron_tip": "dep-e-ZI-shun；联想 deposit（存放），即将证词“存放”起来以备庭审之用。",
+      "examples": [
+        {
+          "en": "The witness’s deposition was taken in Beijing pursuant to the Hague Evidence Convention.",
+          "cn": "根据《海牙取证公约》，该证人的庭外宣誓证词在北京取得。"
+        }
+      ]
+    },
+    {
+      "term": "Malfeasance",
+      "ipa": "/mælˈfiːzns/",
+      "cn_meaning": "渎职；违法行为；不正当行为",
+      "collins_def": "Malfeasance is behavior, especially by a public official or corporate officer, that is illegal, wrongful, or contrary to their official duties.",
+      "pron_tip": "mal-FEE-zンス；前缀 mal- 表“坏的”，词根 feas- 表“做”，合即“做坏事、渎职”。",
+      "examples": [
+        {
+          "en": "The internal audit uncovered evidence of malfeasance by a senior procurement manager in the tender process.",
+          "cn": "内部审计发现了高级采购经理在招标过程中存在渎职行为的证据。"
+        }
+      ]
+    },
+    {
+      "term": "Lien",
+      "ipa": "/liːn/",
+      "cn_meaning": "留置权；扣押权",
+      "collins_def": "A lien is a legal right or claim that someone has on another person’s property as security for a debt or charge, until the debt is paid off.",
+      "pron_tip": "liːn，发音同 lean（倚靠）；联想债权人“倚靠”在债务人财产上，直至债务清偿。",
+      "examples": [
+        {
+          "en": "The contractor filed a mechanic’s lien against the property to secure unpaid construction fees.",
+          "cn": "承包商为担保未付工程款，对该财产申请了技工留置权。"
+        }
+      ]
+    }
+  ]
+}
