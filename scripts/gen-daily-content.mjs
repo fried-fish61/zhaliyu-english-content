@@ -82,7 +82,7 @@ async function main() {
   // 2) 文章：每天 2 篇 —— 一篇专业主题 + 一篇兴趣主题（分两次调用更稳）
   if (!exists.has(`articles_${DATE}`)) {
     const ART_SYSTEM =
-      '你是英文阅读教学作者。只输出 JSON，不要任何额外文字。结构：{"articles":[{"title":"标题","body":["第1段正文","第2段正文","1. **单词** — 英文释义","1. \\"原句\\"","- 主句：拆解","- 从句：拆解"]}]}。body 是字符串数组：前几段为正文，之后可追加「1. **词汇** — 释义」与「1. \\"原句\\"」+「- 标签：内容」形式的拆解（前端会自动切分）。**必须返回且仅返回 1 篇文章**（articles 数组长度为 1），每篇 250-400 词。'
+      '你是英文阅读教学作者。只输出 JSON，不要任何额外文字。结构：{"articles":[{"title":"标题","body":["第1段正文","第2段正文","1. **单词** — 英文释义","1. \\"原句\\"","- 主句：拆解","- 从句：拆解"],"comprehension":[{"q":"英文题干","options":["A. 选项一","B. 选项二","C. 选项三","D. 选项四"],"answer":"B","explanation":"中文解析：说明正确答案在文中的依据"}]}]}。body 是字符串数组：前几段为正文，之后可追加「1. **词汇** — 释义」与「1. \\"原句\\"」+「- 标签：内容」形式的拆解（前端会自动切分）。comprehension 是 **3-5 道英文阅读理解选择题**，必须严格依据正文事实出题（建议 1 题主旨题 + 1-2 题细节题 + 1 题推断题，另可加 1 题词汇猜测题），每题 4 个选项，answer 为大写字母且必须与 options 中的正确项对应，explanation 用中文说明依据。**必须返回且仅返回 1 篇文章**（articles 数组长度为 1），每篇 250-400 词。'
     const topicPlans = [
       {
         label: '专业',
@@ -93,12 +93,33 @@ async function main() {
         user: `请为 ${DATE} 生成 1 篇基于个人兴趣的英文阅读素材，难度中上、笔调轻快有温度。主题必须从「BTS 与 K-pop 音乐文化」「花样滑冰（选手/赛事/艺术性）」「宠物（猫/狗的行为与陪伴）」「社会学观察（城市、社群、日常生活中的社会现象）」中选一个具体角度切入。`
       }
     ]
+    // 阅读理解题清洗：只保留题干、选项、有效答案齐全的题（answer 为大写字母且落在选项范围内）
+    const cleanComprehension = (comps) => {
+      const letters = 'ABCDEFG'
+      const cleaned = (Array.isArray(comps) ? comps : [])
+        .map((c) => ({
+          q: String(c?.q ?? '').trim(),
+          options: Array.isArray(c?.options) ? c.options.map((o) => String(o).trim()).filter(Boolean) : [],
+          answer: String(c?.answer ?? '').trim().toUpperCase().replace(/[^A-G]/g, ''),
+          explanation: String(c?.explanation ?? '').trim()
+        }))
+        .filter((c) => c.q && c.options.length >= 2 && c.answer && letters.indexOf(c.answer) < c.options.length)
+      return cleaned.length ? cleaned : null
+    }
     const articles = []
     for (const plan of topicPlans) {
       try {
         const art = await callLLM(ART_SYSTEM, plan.user)
         const a = Array.isArray(art.articles) ? art.articles[0] : null
         if (a && Array.isArray(a.body) && a.body.length) {
+          const comps = cleanComprehension(a.comprehension)
+          if (comps) {
+            a.comprehension = comps
+            log(`${plan.label}文章阅读理解题：`, comps.length, '道')
+          } else {
+            console.warn(`[gen-content] ${plan.label}文章阅读理解题缺失或无效，已跳过该字段`)
+            delete a.comprehension
+          }
           articles.push(a)
           log(`已生成${plan.label}文章：`, a.title || '(无标题)')
         } else {
