@@ -34,7 +34,7 @@ async function callLLM(system, user) {
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${API_KEY}` },
     body: JSON.stringify({
       model: MODEL,
-      temperature: 1,
+      temperature: 0.7,
       messages: [
         { role: 'system', content: system },
         { role: 'user', content: user }
@@ -79,13 +79,47 @@ async function main() {
     log('已生成单词', out.words.length)
   }
 
-  // 2) 文章：1 篇，含正文段落 + 核心词汇 + 长难句（body 末尾混合，前端会自动切分）
+  // 2) 文章：每天 2 篇 —— 一篇专业主题 + 一篇兴趣主题（分两次调用更稳）
   if (!exists.has(`articles_${DATE}`)) {
-    const art = await callLLM(
-      '你是英文阅读教学作者。只输出 JSON，不要任何额外文字。结构：{"articles":[{"title":"标题","body":["第1段正文","第2段正文","1. **单词** — 英文释义","1. \"原句\"","- 主句：拆解","- 从句：拆解"]}]}。body 是字符串数组：前几段为正文，之后可追加「1. **词汇** — 释义」与「1. \"原句\"」+「- 标签：内容」形式的拆解（前端会自动切分）。主题围绕法律合规/商业/科技，长度适中（约 250-400 词）。',
-      `请为 ${DATE} 生成 1 篇英文阅读素材，难度中上，主题可选「数据合规」「反洗钱」「公司治理」等。`
-    )
-    const data = { articles: (art.articles || []).slice(0, 2) }
+    const ART_SYSTEM =
+      '你是英文阅读教学作者。只输出 JSON，不要任何额外文字。结构：{"articles":[{"title":"标题","body":["第1段正文","第2段正文","1. **单词** — 英文释义","1. \\"原句\\"","- 主句：拆解","- 从句：拆解"]}]}。body 是字符串数组：前几段为正文，之后可追加「1. **词汇** — 释义」与「1. \\"原句\\"」+「- 标签：内容」形式的拆解（前端会自动切分）。**必须返回且仅返回 1 篇文章**（articles 数组长度为 1），每篇 250-400 词。'
+    const topicPlans = [
+      {
+        label: '专业',
+        user: `请为 ${DATE} 生成 1 篇专业主题的英文阅读素材，难度中上。主题必须从「反洗钱」「公司治理」「反不正当竞争」「内部调查」「AI 治理」「商业贿赂」中选一个具体角度切入，贴近实务、有观点和细节。`
+      },
+      {
+        label: '兴趣',
+        user: `请为 ${DATE} 生成 1 篇基于个人兴趣的英文阅读素材，难度中上、笔调轻快有温度。主题必须从「BTS 与 K-pop 音乐文化」「花样滑冰（选手/赛事/艺术性）」「宠物（猫/狗的行为与陪伴）」「社会学观察（城市、社群、日常生活中的社会现象）」中选一个具体角度切入。`
+      }
+    ]
+    const articles = []
+    for (const plan of topicPlans) {
+      try {
+        const art = await callLLM(ART_SYSTEM, plan.user)
+        const a = Array.isArray(art.articles) ? art.articles[0] : null
+        if (a && Array.isArray(a.body) && a.body.length) {
+          articles.push(a)
+          log(`已生成${plan.label}文章：`, a.title || '(无标题)')
+        } else {
+          console.warn(`[gen-content] ${plan.label}文章返回为空`)
+        }
+      } catch (e) {
+        console.warn(`[gen-content] 生成${plan.label}文章失败：`, e instanceof Error ? e.message : e)
+      }
+    }
+    // 兜底：不足 2 篇时补占位，保证每天至少 2 个入口
+    while (articles.length < 2) {
+      console.warn('[gen-content] 文章不足 2 篇，补 1 篇占位')
+      articles.push({
+        title: `补充阅读 · ${DATE}`,
+        body: [
+          `This is a placeholder article generated on ${DATE}. One of the daily article generations failed or returned an empty body. Please review the GitHub Actions log to see which topic call failed, then rerun the workflow.`,
+          '1. **placeholder** — a stand-in entry used when one of the two daily article generations failed.'
+        ]
+      })
+    }
+    const data = { articles: articles.slice(0, 2) }
     writeFileSync(`${CONTENT_DIR}/articles/${DATE}.json`, JSON.stringify(data, null, 2))
     manifest.push({ type: 'articles', date: DATE, file: `articles/${DATE}.json` })
     log('已生成文章', data.articles.length)
