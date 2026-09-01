@@ -20,6 +20,12 @@ const BASE_URL = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').repla
 const MODEL = process.env.LLM_MODEL || 'gpt-4o-mini'
 const API_KEY = process.env.LLM_API_KEY
 const CONTENT_DIR = process.env.CONTENT_DIR || 'content'
+// 温度：gpt-5 / o-series / deepseek-reasoner 等推理模型仅接受 temperature=1，
+// 其他模型接受 0-2 之间任何值。LLM_TEMPERATURE 可覆盖，默认 0.7（保证经典模型输出稳定）。
+const TEMPERATURE = Number(process.env.LLM_TEMPERATURE ?? 0.7)
+// 单次 LLM 调用超时：Kimi-K2 等推理模型首次响应可达 1–2 分钟，默认 180s；
+// 也可通过环境变量 LLM_TIMEOUT_MS 调大或调小。
+const LLM_TIMEOUT_MS = Number(process.env.LLM_TIMEOUT_MS ?? 180000)
 // 内容日期按北京时间（UTC+8）计算，避免 GitHub Actions 定时延迟造成跨时区日期错位：
 //   定时任务可能延迟数小时才执行，用 UTC 日期会把当天内容标成前一天/后一天。
 //   DATE_OFFSET_HOURS 可用环境变量覆盖（默认 +8 = 北京时间）。
@@ -33,28 +39,53 @@ async function callLLM(system, user) {
     console.error('[gen-content] 未配置 LLM_API_KEY，跳过生成')
     process.exit(0)
   }
-  const res = await fetch(`${BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${API_KEY}` },
-    body: JSON.stringify({
-      model: MODEL,
-      temperature: 1,
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user }
-      ]
-    })
+  const body = JSON.stringify({
+    model: MODEL,
+    temperature: TEMPERATURE,
+    messages: [
+      { role: 'system', content: system },
+      { role: 'user', content: user }
+    ]
   })
-  if (!res.ok) {
-    const txt = await res.text().catch(() => '')
-    throw new Error(`LLM HTTP ${res.status}: ${txt.slice(0, 300)}`)
+
+  let lastErr
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    const ctrl = new AbortController()
+    const started = Date.now()
+    const timer = setTimeout(() => ctrl.abort(), LLM_TIMEOUT_MS)
+    const beat = setInterval(() => {
+      log(`仍在等待模型响应…${Math.round((Date.now() - started) / 1000)}s`)
+    }, 20000)
+    try {
+      const res = await fetch(`${BASE_URL}/chat/completions`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${API_KEY}` },
+        body,
+        signal: ctrl.signal
+      })
+      if (!res.ok) {
+        const txt = await res.text().catch(() => '')
+        throw new Error(`LLM HTTP ${res.status}: ${txt.slice(0, 300)}`)
+      }
+      const json = await res.json()
+      const raw = json.choices?.[0]?.message?.content || ''
+      // 提取第一个 {...} 块，兼容模型偶尔的啰嗦输出
+      const m = raw.match(/\{[\s\S]*\}/)
+      if (!m) throw new Error('LLM 未返回 JSON：' + raw.slice(0, 200))
+      return JSON.parse(m[0])
+    } catch (e) {
+      lastErr = e
+      const msg = e instanceof Error ? e.message : String(e)
+      log(`第 ${attempt} 次调用失败（${Math.round((Date.now() - started) / 1000)}s）：${msg}`)
+      // 4xx 属于请求参数/权限问题，重试无意义
+      if (/LLM HTTP 4\d\d/.test(msg)) throw e
+      if (attempt < 3) await new Promise((r) => setTimeout(r, 5000))
+    } finally {
+      clearTimeout(timer)
+      clearInterval(beat)
+    }
   }
-  const json = await res.json()
-  const raw = json.choices?.[0]?.message?.content || ''
-  // 提取第一个 {...} 块，兼容模型偶尔的啰嗦输出
-  const m = raw.match(/\{[\s\S]*\}/)
-  if (!m) throw new Error('LLM 未返回 JSON：' + raw.slice(0, 200))
-  return JSON.parse(m[0])
+  throw lastErr
 }
 
 function readManifest() {
