@@ -8,7 +8,6 @@
 //   LLM_API_KEY     必填，OpenAI 兼容接口的 API Key（如 OpenAI / DeepSeek / Moonshot）
 //   LLM_BASE_URL    可选，默认 https://api.openai.com/v1
 //   LLM_MODEL       可选，默认 gpt-4o-mini
-//   LLM_TEMPERATURE 可选，默认 1（Kimi-K2 等推理模型仅接受 1；经典模型也接受 1）
 //   GH_TOKEN        Git 推送令牌；缺省用 Actions 自带的 GITHUB_TOKEN
 //   CONTENT_DIR     可选，内容目录，默认仓库根目录下的 content
 //
@@ -103,18 +102,119 @@ async function main() {
   const manifest = readManifest()
   const exists = new Set(manifest.map((e) => `${e.type}_${e.date}`))
 
-  // 1) 单词：法律/合规/通用商务英语主题，10 个
+  // 1) 单词：法律/合规/通用商务英语主题，10 个（带历史去重 + 主题轮换 + 内部去重）
   if (!exists.has(`words_${DATE}`)) {
-    const words = await callLLM(
-      '你是英语词汇教学助手。只输出 JSON，不要任何额外文字。结构：{"theme":"中文主题","theme_en":"英文主题","words":[{"term":"英文单词","ipa":"音标","cn_meaning":"中文释义","collins_def":"英文权威释义","pron_tip":"发音/记忆提示（可选）","examples":[{"en":"英文例句","cn":"例句中文"}]}]}。主题为当天精选，围绕法律合规、商业、职场常用词，难度中等偏上。',
-      `请为 ${DATE} 生成 10 个值得学习的英文单词（避免与常见小学词汇重复），适合中国法律/合规从业者。`
-    )
-    const out = { theme: words.theme, theme_en: words.theme_en, words: (words.words || []).slice(0, 10) }
+    // 读取最近 N 天的所有词文件，提取 term，构建禁用列表，避免 LLM 重复生成
+    const LOOKBACK_DAYS = 7
+    const recentTerms = new Set()
+    const recentByDate = []
+    const sortedWordDates = [...new Set(manifest.filter((e) => e.type === 'words').map((e) => e.date))].sort()
+    for (const d of sortedWordDates.slice(-LOOKBACK_DAYS)) {
+      const p = `${CONTENT_DIR}/words/${d}.json`
+      if (existsSync(p)) {
+        try {
+          const data = JSON.parse(readFileSync(p, 'utf8'))
+          const terms = []
+          for (const w of data.words || []) {
+            const t = (w?.term || '').toLowerCase().trim()
+            if (t) {
+              recentTerms.add(t)
+              terms.push(t)
+            }
+          }
+          if (terms.length) recentByDate.push({ date: d, terms })
+        } catch {}
+      }
+    }
+    const forbidden = [...recentTerms]
+    log(`已加载最近 ${LOOKBACK_DAYS} 天 ${forbidden.length} 个历史词条作为禁用列表`)
+
+    // 主题轮换池：避免每天都是「法律合规与商事争议解决核心术语」导致内容同质化
+    // 按 DATE 取哈希选一个主题，确保可复现但相邻日期不重复
+    const THEME_POOL = [
+      { zh: '公司法与公司治理核心术语', en: 'Corporate Law & Governance' },
+      { zh: '合同法与商业交易精要', en: 'Contract Law & Commercial Transactions' },
+      { zh: '合规与监管法律术语', en: 'Regulatory Compliance Essentials' },
+      { zh: '商事争议解决与诉讼核心术语', en: 'Commercial Dispute Resolution & Litigation' },
+      { zh: '内部调查与合规调查关键术语', en: 'Internal Investigations & Compliance Audits' },
+      { zh: '反垄断与反不正当竞争术语', en: 'Antitrust & Unfair Competition' },
+      { zh: '数据合规与隐私保护术语', en: 'Data Compliance & Privacy Protection' },
+      { zh: '跨境贸易与制裁合规术语', en: 'Cross-border Trade & Sanctions Compliance' },
+      { zh: '知识产权与商业秘密术语', en: 'Intellectual Property & Trade Secrets' },
+      { zh: '并购重组与资本市场核心术语', en: 'M&A Restructuring & Capital Markets' }
+    ]
+    const dayHash = [...DATE].reduce((a, c) => a + c.charCodeAt(0), 0)
+    const themeHint = THEME_POOL[dayHash % THEME_POOL.length]
+
+    const WORD_SYSTEM =
+      '你是英语词汇教学助手。只输出 JSON，不要任何额外文字。结构：{"theme":"中文主题","theme_en":"英文主题","words":[{"term":"英文单词","ipa":"音标","cn_meaning":"中文释义","collins_def":"英文权威释义","pron_tip":"发音/记忆提示（可选）","examples":[{"en":"英文例句","cn":"例句中文"}]}]}。主题为当天精选，围绕法律合规、商业、职场常用词，难度中等偏上。'
+
+    // 把禁用词放进 prompt（最多 80 个，超出提示总数），并明确说"绝对不要重复"
+    const forbiddenPreview = forbidden.slice(0, 80).join(', ')
+    const forbiddenTail = forbidden.length > 80 ? `, …（共 ${forbidden.length} 个，已省略）` : ''
+    const forbiddenBlock =
+      forbidden.length > 0
+        ? `\n\n**关键约束：以下 ${forbidden.length} 个词在最近 ${LOOKBACK_DAYS} 天已经生成过，绝对不要重复，必须从这之外选新词**：\n${forbiddenPreview}${forbiddenTail}`
+        : ''
+
+    const WORD_USER = `请为 ${DATE} 生成 **15 个**值得学习的英文单词（多给 5 个以便去重），适合中国法律/合规从业者。**当日主题聚焦「${themeHint.zh}」（${themeHint.en}）**，请围绕该主题选词，避免与基础小学词汇重复。${forbiddenBlock}`
+
+    // 最多重试 3 次；每次都把"上一次有重复的词"加进禁用列表，进一步收紧
+    let out = null
+    let cumulativeForbidden = new Set(forbidden)
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      log(`单词生成尝试 ${attempt}/3（已禁用 ${cumulativeForbidden.size} 个历史词）`)
+      const userPrompt =
+        cumulativeForbidden.size > forbidden.length
+          ? `${WORD_USER}\n\n**额外约束：上一轮生成中仍有重复，下列词也必须避开**：${[...cumulativeForbidden].slice(forbidden.length).join(', ')}`
+          : WORD_USER
+      const words = await callLLM(WORD_SYSTEM, userPrompt)
+      const raw = (Array.isArray(words.words) ? words.words : []).slice(0, 15)
+
+      // 去重 1：与历史 + 上一轮累积去重
+      const seen = new Set(cumulativeForbidden)
+      const unique = []
+      const dupInResult = []
+      for (const w of raw) {
+        const t = (w?.term || '').toLowerCase().trim()
+        if (!t) continue
+        if (seen.has(t)) {
+          dupInResult.push(t)
+          continue
+        }
+        seen.add(t)
+        unique.push(w)
+      }
+      log(`第 ${attempt} 轮：原始 ${raw.length} 个，与历史去重后剩 ${unique.length} 个（重复 ${dupInResult.length} 个：${dupInResult.slice(0, 5).join(', ')}${dupInResult.length > 5 ? '…' : ''}）`)
+
+      if (unique.length >= 10) {
+        out = {
+          theme: words.theme || themeHint.zh,
+          theme_en: words.theme_en || themeHint.en,
+          words: unique.slice(0, 10),
+          used_terms: unique.slice(0, 10).map((w) => w.term)
+        }
+        break
+      } else {
+        // 把这一轮重复的词加进累积禁用，下次提示时收紧
+        for (const t of dupInResult) cumulativeForbidden.add(t)
+        if (attempt === 3) {
+          // 最后一次还不够 10 个，全部保留 + 警告
+          out = {
+            theme: words.theme || themeHint.zh,
+            theme_en: words.theme_en || themeHint.en,
+            words: unique,
+            used_terms: unique.map((w) => w.term)
+          }
+        }
+      }
+    }
+
     writeFileSync(`${CONTENT_DIR}/words/${DATE}.json`, JSON.stringify(out, null, 2))
     manifest.push({ type: 'words', date: DATE, file: `words/${DATE}.json` })
     log('已生成单词', out.words.length)
     if (out.words.length < 10) {
-      console.warn(`[gen-content] 警告：单词只有 ${out.words.length} 个（目标 10 个）`)
+      console.warn(`[gen-content] 警告：单词只有 ${out.words.length} 个（目标 10 个），可在 Actions 日志查具体遗漏`)
     }
   }
 
