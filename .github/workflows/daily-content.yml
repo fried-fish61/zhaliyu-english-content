@@ -2,11 +2,13 @@ name: 每日学习内容生成
 
 on:
   schedule:
-    # 每天 09:00 (UTC+8 北京时间) 自动跑一次；可改成你想要的时段
-    - cron: '0 1 * * *'
+    # UTC 18:00 = 北京时间次日 02:00
+    # GitHub 定时任务不保证准点（实测延迟约 5 小时），
+    # 实际执行时间约为北京时间 07:00–09:00，早上即可看到当天内容。
+    # 内容日期由脚本按 UTC+8 计算，无论延迟多久都记为北京时间当天。
+    - cron: '0 18 * * *'
   workflow_dispatch: {}   # 允许在 GitHub 网页上手动点一下立即跑一次
 
-# 允许 Action 把生成的内容推回仓库
 permissions:
   contents: write
 
@@ -21,10 +23,12 @@ jobs:
 
       - name: 生成每日学习内容
         env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}            # 必填：OpenAI 兼容接口的 Key
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL || 'https://api.openai.com/v1' }}
           LLM_MODEL: ${{ secrets.LLM_MODEL || 'gpt-4o-mini' }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}  # 推送用；默认用仓库自带令牌即可
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          TZ: Asia/Shanghai
+          DATE_OFFSET_HOURS: '8'
         run: node scripts/gen-daily-content.mjs
 
       - name: 提交并推送
@@ -33,5 +37,5 @@ jobs:
           git config user.email "bot@workbuddy.local"
           git config user.name "WorkBuddy Bot"
           git add content
-          git commit -m "chore: daily learning content $(date +%F)" || echo "无变更"
+          git commit -m "chore: daily learning content $(date -u +%F)" || echo "无变更"
           git push
