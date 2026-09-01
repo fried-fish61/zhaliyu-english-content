@@ -8,6 +8,7 @@
 //   LLM_API_KEY     必填，OpenAI 兼容接口的 API Key（如 OpenAI / DeepSeek / Moonshot）
 //   LLM_BASE_URL    可选，默认 https://api.openai.com/v1
 //   LLM_MODEL       可选，默认 gpt-4o-mini
+//   LLM_TEMPERATURE 可选，默认 1（Kimi-K2 等推理模型仅接受 1；经典模型也接受 1）
 //   GH_TOKEN        Git 推送令牌；缺省用 Actions 自带的 GITHUB_TOKEN
 //   CONTENT_DIR     可选，内容目录，默认仓库根目录下的 content
 //
@@ -20,9 +21,9 @@ const BASE_URL = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').repla
 const MODEL = process.env.LLM_MODEL || 'gpt-4o-mini'
 const API_KEY = process.env.LLM_API_KEY
 const CONTENT_DIR = process.env.CONTENT_DIR || 'content'
-// 温度：gpt-5 / o-series / deepseek-reasoner 等推理模型仅接受 temperature=1，
-// 其他模型接受 0-2 之间任何值。LLM_TEMPERATURE 可覆盖，默认 0.7（保证经典模型输出稳定）。
-const TEMPERATURE = Number(process.env.LLM_TEMPERATURE ?? 0.7)
+// 温度：Kimi-K2 / deepseek-reasoner 等推理模型仅接受 temperature=1，其他模型（OpenAI/DeepSeek 经典模型）接受 0-2。
+// 默认 1 对推理模型最安全（避免 400），经典模型也接受 1；如需更确定性的非推理输出，设 LLM_TEMPERATURE=0.7。
+const TEMPERATURE = Number(process.env.LLM_TEMPERATURE ?? 1)
 // 单次 LLM 调用超时：Kimi-K2 等推理模型首次响应可达 1–2 分钟，默认 180s；
 // 也可通过环境变量 LLM_TIMEOUT_MS 调大或调小。
 const LLM_TIMEOUT_MS = Number(process.env.LLM_TIMEOUT_MS ?? 180000)
