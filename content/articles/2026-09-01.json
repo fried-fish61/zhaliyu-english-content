@@ -1,0 +1,152 @@
+{
+  "articles": [
+    {
+      "title": "Why \"Human in the Loop\" Remains the Weakest Link in AI Governance",
+      "body": [
+        "Regulators worldwide increasingly mandate \"human in the loop\" oversight for high-risk artificial intelligence systems. The EU AI Act, for instance, requires meaningful human review before automated decisions affect consumers' credit, employment, or insurance prospects. In China, the algorithmic recommendation provisions similarly demand that platform operators retain human control over automated decision-making. Yet in practice, this safeguard often becomes a compliance checkbox rather than a genuine control mechanism.",
+        "The problem lies not in the absence of humans, but in the poverty of their authority. Consider the consumer lending industry, where AI models now pre-screen loan applications within milliseconds. Human reviewers at several major banks receive only a final risk score and a two-line summary, deliberately stripped of the underlying data logic and feature weights. Tasked with auditing thirty to forty cases per hour, these frontline employees lack both the temporal bandwidth and the technical visibility to challenge algorithmic outputs effectively.",
+        "Without structural empowerment, human oversight degrades into ritualistic rubber-stamping. A 2024 internal audit at a multinational insurer revealed that 78 percent of flagged AI decisions were approved by supervisors within eight seconds—far too brief for any meaningful risk analysis. The auditors further concluded that supervisors often feared contradicting the algorithm because their quarterly performance metrics explicitly prioritized processing speed and throughput over detection accuracy.",
+        "Effective AI governance therefore requires deep organizational redesign, not merely technical compliance or policy manuals. Human monitors must possess the statutory right to demand full model explanations, to access raw training data, and to halt automated workflows without career penalty. Until enterprises fundamentally restructure incentives and grant genuine veto power to frontline reviewers, the human-in-the-loop requirement will remain the weakest link in corporate AI governance frameworks.",
+        "1. **mandate** — to officially require something to be done",
+        "2. **degrades** — to decline in quality or value",
+        "3. **algorithmic** — relating to or using a set of rules or procedures for solving problems",
+        "1. \"Regulators worldwide increasingly mandate 'human in the loop' oversight for high-risk artificial intelligence systems.\"",
+        "- 主句：Regulators worldwide mandate oversight",
+        "- 状语：increasingly / for high-risk artificial intelligence systems",
+        "2. \"Without structural empowerment, human oversight degrades into ritualistic rubber-stamping.\"",
+        "- 主句：human oversight degrades into ritualistic rubber-stamping",
+        "- 状语：Without structural empowerment",
+        "3. \"Human monitors must possess the statutory right to demand full model explanations and to halt automated workflows without career penalty.\"",
+        "- 主句：Human monitors must possess the statutory right",
+        "- 不定式短语：to demand full model explanations and to halt automated workflows without career penalty"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main argument of the passage?",
+          "options": [
+            "A. AI systems should replace human reviewers entirely to improve operational efficiency.",
+            "B. Regulatory requirements for human oversight are sufficient to ensure safe AI deployment.",
+            "C. Human oversight in AI governance is often ineffective due to a lack of real authority and proper organizational support.",
+            "D. The EU AI Act is the only regulation that effectively controls high-risk AI systems."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文章开篇指出法规要求人类监督，但随即转折说明这种保障常沦为合规复选框；第二、三段通过银行业和保险业的实例说明人类审查员缺乏实权与信息；最后一段总结，除非企业重构激励机制并赋予一线审查员真正的否决权，否则人类在环机制将始终是公司治理中最薄弱的环节。因此全文主旨是C项。"
+        },
+        {
+          "q": "According to the passage, what information do human reviewers in the lending industry typically receive?",
+          "options": [
+            "A. Full access to the underlying data logic and feature weights.",
+            "B. Only a final risk score and a brief summary without detailed data logic.",
+            "C. Complete training data used by the AI model.",
+            "D. Technical documentation explaining every algorithmic parameter."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段第三句明确指出，银行业的人类审查员仅收到最终风险评分和两行摘要（a final risk score and a two-line summary），并且被刻意剥离了底层数据逻辑和特征权重（stripped of the underlying data logic and feature weights），因此正确答案为B。"
+        },
+        {
+          "q": "What did the 2024 internal audit at a multinational insurer reveal about supervisors' behavior?",
+          "options": [
+            "A. Supervisors rejected the majority of flagged AI decisions after careful review.",
+            "B. Most supervisors refused to approve any AI-generated recommendations.",
+            "C. Seventy-eight percent of flagged AI decisions were approved within eight seconds.",
+            "D. The audit led to the immediate removal of AI systems from the workflow."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段第二句直接陈述，2024年一家跨国保险公司的内部审计显示，78%的被标记AI决策在八秒内获得主管批准（78 percent of flagged AI decisions were approved by supervisors within eight seconds），这与C项完全一致。"
+        },
+        {
+          "q": "What can be inferred about the author's proposed solution for effective AI governance?",
+          "options": [
+            "A. Companies should eliminate human reviewers to reduce costs.",
+            "B. Compliance with the EU AI Act alone guarantees effective oversight.",
+            "C. Frontline reviewers should be granted genuine veto power and access to comprehensive model explanations.",
+            "D. AI models should be banned from making any automated decisions in high-risk areas."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：最后一段指出，有效的AI治理需要组织层面的重新设计，人类监控者必须拥有要求完整模型解释、访问原始训练数据以及暂停自动化工作流程的法定权利（statutory right to demand full model explanations... and to halt automated workflows），并且企业必须赋予一线审查员真正的否决权（grant genuine veto power to frontline reviewers）。由此可推断作者主张C项。"
+        },
+        {
+          "q": "The phrase \"ritualistic rubber-stamping\" in paragraph 3 most likely means ______.",
+          "options": [
+            "A. carefully examining every detail before making a decision",
+            "B. formally approving something without genuine thought or review",
+            "C. using official seals to certify regulatory compliance",
+            "D. conducting regular ceremonies to validate AI systems"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第三段中，\"ritualistic rubber-stamping\" 用于描述缺乏结构性赋权时人类监督的变质状态。后文紧接着指出，78%的被标记决策在8秒内获批，远不足以进行任何有意义的风险分析。结合上下文可知，该短语指形式上履行批准程序，但实质上未经真正思考或审查，故B项正确。"
+        }
+      ]
+    },
+    {
+      "title": "The 5:47 AM Alarm Clock",
+      "body": [
+        "On this crisp Monday morning of September 1, 2026, my alarm clock did not ring. Instead, a small orange tabby named Mochi landed on my chest with the precision of a seasoned gymnast, her purr-engine already revving at full throttle. Living alone in a studio apartment for three years, I had grown accustomed to silence—but Mochi, I quickly learned, has zero respect for personal space or sleeping schedules.",
+        "People often ask if I feel lonely working from home. What they do not see is the theatrical performance that unfolds daily across my desk. Mochi does not merely sit beside my laptop; she orchestrates an elaborate ballet across the keyboard, offering her fluffy tail as an unwanted scarf during Zoom calls and judging my code with unblinking amber eyes. When I reach for my coffee, she claims the warm spot of the abandoned chair as her throne. There is something deeply comical and grounding about arguing with a four-pound creature over the ownership of a mouse pad.",
+        "Researchers claim that a cat's purr operates at a therapeutic frequency of 25 to 150 Hertz, a range known to promote healing in human bones and tissues. While I appreciate the biology behind it, I suspect the real medicine lies elsewhere: in the way she greets me at the door with a single, rising chirp, or how she commandeers the sunniest patch of hardwood floor as if she personally invented sunlight. It is impossible to anthropomorphize too much when the subject is already thoroughly convinced she runs the entire household.",
+        "Tonight, as usual, Mochi will occupy exactly seventy percent of my pillow, leaving me the sliver of an edge. I will grumble, adjust, and eventually fall asleep to the steady rhythm of her breathing. And in that small, warm pocket of shared space, the vast, complicated world outside shrinks to something perfectly manageable. For a solo dweller, that is more than enough.",
+        "1. **orchestrates** — to organize or arrange something carefully to produce a desired effect",
+        "2. **therapeutic** — having a good effect on the body or mind; contributing to a sense of well-being",
+        "3. **anthropomorphize** — to attribute human characteristics or behavior to an animal",
+        "1. \"Living alone in a studio apartment for three years, I had grown accustomed to silence—but Mochi, I quickly learned, has zero respect for personal space or sleeping schedules.\"",
+        "- 主句：I had grown accustomed to silence",
+        "- 插入语：I quickly learned",
+        "- 并列分句：Mochi has zero respect for personal space or sleeping schedules",
+        "- 状语：Living alone in a studio apartment for three years（现在分词短语作原因状语）",
+        "2. \"Researchers claim that a cat's purr operates at a therapeutic frequency of 25 to 150 Hertz, a range known to promote healing in human bones and tissues.\"",
+        "- 主句：Researchers claim...",
+        "- 宾语从句：that a cat's purr operates at a therapeutic frequency of 25 to 150 Hertz",
+        "- 同位语：a range known to promote healing in human bones and tissues（补充说明frequency）",
+        "3. \"And in that small, warm pocket of shared space, the vast, complicated world outside shrinks to something perfectly manageable.\"",
+        "- 主句：the vast, complicated world outside shrinks to something perfectly manageable",
+        "- 状语：in that small, warm pocket of shared space（介词短语作地点状语）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the passage mainly about?",
+          "options": [
+            "A. The scientific benefits of cat ownership for human bone health.",
+            "B. A personal reflection on how a cat provides companionship and comfort to a solo dweller.",
+            "C. Tips for training cats to respect their owners' sleeping schedules.",
+            "D. A comparison between living with pets and living completely alone in big cities."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章通过描述与猫咪Mochi的清晨互动、工作陪伴及夜晚共眠等日常细节，展现了独居者与宠物之间的温情陪伴。虽然第三段提到了科学发现，但这只是细节，全文核心是作者的个人感悟与情感联结。"
+        },
+        {
+          "q": "According to the passage, how does Mochi behave while the author works?",
+          "options": [
+            "A. She sleeps quietly in another room to avoid disturbing the author.",
+            "B. She sits still and watches the author from a distance.",
+            "C. She moves around the keyboard and stays close to the author during video calls.",
+            "D. She demands to be fed every few minutes during work hours."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第二段明确提到，Mochi会在键盘上表演\"精心编排的芭蕾舞\"（orchestrates an elaborate ballet across the keyboard），在Zoom会议时把尾巴伸过来，还会盯着作者写代码，说明她在工作时会靠近作者并在键盘周围活动。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward Mochi taking up most of the pillow?",
+          "options": [
+            "A. The author finds it annoying and plans to buy a larger pillow.",
+            "B. The author secretly resents losing sleep because of the cat.",
+            "C. The author accepts it as part of the comforting routine they share.",
+            "D. The author is concerned that the cat's behavior indicates illness."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：最后一段提到作者会抱怨（grumble）、调整姿势，但最终会在猫咪的呼吸节奏中入睡，并且这种共享空间让外面的世界变得可以承受（perfectly manageable），说明作者接受甚至享受这种日常互动。"
+        },
+        {
+          "q": "In paragraph 3, the word \"therapeutic\" is closest in meaning to:",
+          "options": [
+            "A. harmful",
+            "B. entertaining",
+            "C. medically beneficial",
+            "D. extremely loud"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：该词后紧跟的频率范围\"25 to 150 Hertz\"被描述为\"known to promote healing in human bones and tissues\"，即促进人体骨骼和组织愈合，因此therapeutic在此处意为\"有治疗效果的、有益健康的\"。"
+        }
+      ]
+    }
+  ]
+}

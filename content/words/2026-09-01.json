@@ -1,0 +1,136 @@
+{
+  "theme": "法律合规与商事争议解决核心术语",
+  "theme_en": "Legal Compliance & Commercial Dispute Resolution Essentials",
+  "words": [
+    {
+      "term": "Jurisdiction",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+      "cn_meaning": "管辖权；司法权；管辖范围",
+      "collins_def": "Jurisdiction is the power that a court of law or an official has to carry out legal judgments or to enforce laws.",
+      "pron_tip": "重音在第三音节 jur-is-DIC-tion，注意词尾 -tion 弱读",
+      "examples": [
+        {
+          "en": "The arbitration clause determines the jurisdiction for resolving any disputes arising under this contract.",
+          "cn": "仲裁条款决定了因本合同产生争议的管辖权归属。"
+        }
+      ]
+    },
+    {
+      "term": "Subpoena",
+      "ipa": "/səˈpiːnə/",
+      "cn_meaning": "传票；传唤（出庭或提交证据）",
+      "collins_def": "A subpoena is a legal document telling someone that they must attend a court of law and give evidence, or produce documents.",
+      "pron_tip": "字母 'b' 不发音，读作 sub-PEE-nuh",
+      "examples": [
+        {
+          "en": "The regulator served a subpoena on the financial institution, requiring the production of all relevant transaction records.",
+          "cn": "监管机构向该金融机构送达了传票，要求其提交所有相关交易记录。"
+        }
+      ]
+    },
+    {
+      "term": "Indemnification",
+      "ipa": "/ɪnˌdemnɪfɪˈkeɪʃn/",
+      "cn_meaning": "赔偿；补偿；保障",
+      "collins_def": "Indemnification is the act of promising to pay someone in case they suffer damage or loss, or the act of paying them back if this happens.",
+      "pron_tip": "词根 demn- 与 damage 相关，重音在第五音节 fi-CA-tion",
+      "examples": [
+        {
+          "en": "The seller agreed to provide indemnification against any third-party intellectual property infringement claims.",
+          "cn": "卖方同意就任何第三方知识产权侵权索赔提供赔偿保障。"
+        }
+      ]
+    },
+    {
+      "term": "Fiduciary",
+      "ipa": "/fɪˈdjuːʃəri/",
+      "cn_meaning": "受托人的；信义的；受信托的",
+      "collins_def": "A fiduciary is a person or organization that has a legal and ethical duty to act in the best interests of another party.",
+      "pron_tip": "来自拉丁语 fiducia（信任），重音在第二音节 fi-DU-shu-ry",
+      "examples": [
+        {
+          "en": "As a fiduciary, the fund manager must prioritize the client's interests over its own profits.",
+          "cn": "作为受托人，基金经理必须将客户利益置于自身利润之上。"
+        }
+      ]
+    },
+    {
+      "term": "Materiality",
+      "ipa": "/məˌtɪəriˈæləti/",
+      "cn_meaning": "重要性；实质性（尤指法律或财务语境）",
+      "collins_def": "Materiality is the state or quality of being relevant or significant, especially in a legal or financial context, often determining whether an omission or misstatement influences a decision.",
+      "pron_tip": "与形容词 material 同源，重音在第四音节 ma-te-ri-A-li-ty",
+      "examples": [
+        {
+          "en": "The auditor evaluated the materiality of the misstatement before issuing the financial report.",
+          "cn": "审计师在发布财务报告前评估了该错报的重要性。"
+        }
+      ]
+    },
+    {
+      "term": "Injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "禁令；禁制令",
+      "collins_def": "An injunction is a court order telling someone either to do something or, more usually, not to do something.",
+      "pron_tip": "词根 junct 表“连接”，in- 表“进入”，重音在第二音节 in-JUNK-shun",
+      "examples": [
+        {
+          "en": "The plaintiff sought a preliminary injunction to prevent the defendant from transferring the disputed assets overseas.",
+          "cn": "原告申请初步禁令，以阻止被告将争议资产转移至海外。"
+        }
+      ]
+    },
+    {
+      "term": "Deposition",
+      "ipa": "/ˌdepəˈzɪʃn/",
+      "cn_meaning": "（庭外）宣誓作证；证词；录取证言",
+      "collins_def": "A deposition is formal testimony under oath, taken outside of court before a trial, in which a witness answers questions from attorneys.",
+      "pron_tip": "法律语境重音在第三音节 dep-o-ZI-tion，注意区别于日常用语中“沉积物”的含义",
+      "examples": [
+        {
+          "en": "During the deposition, the former executive testified under oath about the company's internal compliance failures.",
+          "cn": "在庭外取证中，该前高管就公司内部合规失效问题宣誓作证。"
+        }
+      ]
+    },
+    {
+      "term": "Tort",
+      "ipa": "/tɔːt/",
+      "cn_meaning": "侵权（行为）；民事过失",
+      "collins_def": "A tort is a legal wrong which unfairly causes someone else to suffer loss or harm, resulting in legal liability for the person who commits the tortious act.",
+      "pron_tip": "单音节词，与法语 tort（错误）同源，注意与 tart（果馅饼）区分",
+      "examples": [
+        {
+          "en": "The claimant filed a tort action alleging negligence in the handling of confidential client data.",
+          "cn": "原告提起侵权诉讼，指控对方在处理机密客户数据时存在过失。"
+        }
+      ]
+    },
+    {
+      "term": "Arbitration",
+      "ipa": "/ˌɑːbɪˈtreɪʃn/",
+      "cn_meaning": "仲裁；公断",
+      "collins_def": "Arbitration is the judging of a dispute between people or groups by a neutral person or panel who is not involved in the dispute.",
+      "pron_tip": "词根 arbitr 与 arbiter（仲裁人）同源，重音在第三音节 ar-bi-TRA-shun",
+      "examples": [
+        {
+          "en": "The commercial contract stipulates that any dispute shall be resolved through binding arbitration in Singapore.",
+          "cn": "该商业合同规定，任何争议均须通过在新加坡进行的具有约束力的仲裁解决。"
+        }
+      ]
+    },
+    {
+      "term": "Lien",
+      "ipa": "/liːn/",
+      "cn_meaning": "留置权；扣押权",
+      "collins_def": "A lien is a legal claim or right against property that is used to secure the payment of a debt or the performance of an obligation.",
+      "pron_tip": "来自法语，单音节长音 /liːn/，注意与 line 的发音不同",
+      "examples": [
+        {
+          "en": "The creditor filed a lien against the company's real estate to secure the outstanding loan.",
+          "cn": "债权人对该公司的房地产申请了留置权，以担保未偿贷款。"
+        }
+      ]
+    }
+  ]
+}
