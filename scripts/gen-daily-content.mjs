@@ -20,7 +20,11 @@ const BASE_URL = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').repla
 const MODEL = process.env.LLM_MODEL || 'gpt-4o-mini'
 const API_KEY = process.env.LLM_API_KEY
 const CONTENT_DIR = process.env.CONTENT_DIR || 'content'
-const DATE = new Date().toISOString().slice(0, 10)
+// 内容日期按北京时间（UTC+8）计算，避免 GitHub Actions 定时延迟造成跨时区日期错位：
+//   定时任务可能延迟数小时才执行，用 UTC 日期会把当天内容标成前一天/后一天。
+//   DATE_OFFSET_HOURS 可用环境变量覆盖（默认 +8 = 北京时间）。
+const DATE_OFFSET_HOURS = Number(process.env.DATE_OFFSET_HOURS ?? 8)
+const DATE = new Date(Date.now() + DATE_OFFSET_HOURS * 3600 * 1000).toISOString().slice(0, 10)
 
 function log(...a) { console.log('[gen-content]', ...a) }
 
@@ -77,6 +81,9 @@ async function main() {
     writeFileSync(`${CONTENT_DIR}/words/${DATE}.json`, JSON.stringify(out, null, 2))
     manifest.push({ type: 'words', date: DATE, file: `words/${DATE}.json` })
     log('已生成单词', out.words.length)
+    if (out.words.length < 10) {
+      console.warn(`[gen-content] 警告：单词只有 ${out.words.length} 个（目标 10 个）`)
+    }
   }
 
   // 2) 文章：每天 2 篇 —— 一篇专业主题 + 一篇兴趣主题（分两次调用更稳）
