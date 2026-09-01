@@ -1,0 +1,146 @@
+{
+  "articles": [
+    {
+      "title": "Protecting Attorney-Client Privilege in Cross-Border Internal Investigations",
+      "body": [
+        "As multinational corporations navigate an increasingly complex regulatory landscape, internal investigations have become a cornerstone of corporate compliance programs. Yet when these investigations span multiple jurisdictions—particularly the United States, Europe, and China—the protection of attorney-client privilege often proves fragile and unpredictable. Unlike the United States, where in-house communications with counsel generally receive robust protection, many civil-law jurisdictions treat corporate legal privilege far more narrowly, routinely exposing sensitive investigative materials to compelled disclosure in subsequent regulatory proceedings.",
+        "A recurring pitfall in practice is the assumption that copying external counsel on an internal report automatically cloaks it with privilege. Courts in both Europe and China have made clear that such pro forma involvement is insufficient; the investigation must be conducted under the reasonable expectation of legal advice, and external counsel must exercise genuine direction over the process. When forensic accountants, compliance officers, and lawyers collaborate within the same workstream, the character of each communication becomes ambiguous, increasing disclosure risk.",
+        "To mitigate these vulnerabilities, leading organizations are adopting privilege-first protocols before any evidence review begins. These include engaging external counsel to define the scope at the outset, labeling documents with dual privilege designations such as \"attorney-client privileged and attorney work product,\" and restricting the distribution of investigative updates to a strictly need-to-know audience. Although these measures raise upfront administrative costs, they substantially reduce the probability that strategic legal analysis will be dissected in foreign regulatory forums or parallel civil litigation.",
+        "In an era of heightened global enforcement, privilege protection is no longer an abstract legal luxury but a tangible risk-management infrastructure. Corporations that reflexively view internal investigations as purely administrative exercises, rather than legally protected professional activities directed by qualified counsel, may inadvertently forfeit their most critical defensive shield the moment regulatory scrutiny crosses national borders.",
+        "1. **cornerstone** — a basic element or foundation; something of central importance",
+        "1. **jurisdictions** — areas or regions within which particular legal authorities exercise power",
+        "1. **pro forma** — done merely as a routine or formality, without genuine engagement",
+        "1. **mitigate** — to make less severe, serious, or painful",
+        "1. **infrastructure** — the basic organizational structures and facilities needed for operation",
+        "1. \"Yet when these investigations span multiple jurisdictions—particularly the United States, Europe, and China—the protection of attorney-client privilege often proves fragile.\"",
+        "- 主句：the protection of attorney-client privilege often proves fragile",
+        "- 从句：when these investigations span multiple jurisdictions",
+        "1. \"Courts in both Europe and China have made clear that such pro forma involvement is insufficient; the investigation must be conducted under the reasonable expectation of legal advice, and external counsel must exercise genuine direction over the process.\"",
+        "- 主句：Courts in both Europe and China have made clear [that...]",
+        "- 从句1：that such pro forma involvement is insufficient",
+        "- 并列分句1：the investigation must be conducted under the reasonable expectation of legal advice",
+        "- 并列分句2：external counsel must exercise genuine direction over the process",
+        "1. \"Corporations that reflexively view internal investigations as purely administrative exercises, rather than legally protected professional activities directed by qualified counsel, may inadvertently forfeit their most critical defensive shield the moment regulatory scrutiny crosses national borders.\"",
+        "- 主句：Corporations may inadvertently forfeit their most critical defensive shield",
+        "- 从句：that reflexively view internal investigations as purely administrative exercises",
+        "- 时间状语从句：the moment regulatory scrutiny crosses national borders"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the central theme of the passage?",
+          "options": [
+            "A. The global convergence of attorney-client privilege standards.",
+            "B. The challenges of maintaining attorney-client privilege in cross-border internal investigations and strategies to address them.",
+            "C. The superiority of U.S. privilege rules over civil-law jurisdictions.",
+            "D. The elimination of internal investigations in multinational corporations."
+          ],
+          "answer": "B",
+          "explanation": "文章全文围绕跨国内部调查中律师-客户特权保护的脆弱性展开，讨论了不同司法管辖区的差异、实务误区以及\"特权优先\"的应对策略，B项准确概括了这一核心主题。"
+        },
+        {
+          "q": "According to the passage, why is attorney-client privilege often fragile in civil-law jurisdictions?",
+          "options": [
+            "A. Because external counsel are prohibited from participating in internal investigations.",
+            "B. Because corporate legal privilege is interpreted narrowly, exposing materials to compelled disclosure.",
+            "C. Because multinational corporations refuse to adopt privilege-first protocols.",
+            "D. Because internal investigations are banned in most European and Chinese courts."
+          ],
+          "answer": "B",
+          "explanation": "正文第一段明确指出，与美国不同，许多大陆法系国家对企业法律特权的解释较为狭窄（treat corporate legal privilege narrowly），导致敏感调查材料可能在后续程序中被强制披露。"
+        },
+        {
+          "q": "What can be inferred about the author's view on \"privilege-first\" protocols?",
+          "options": [
+            "A. They are unnecessary expenses that burden corporate legal departments.",
+            "B. They are legally mandated in all major civil-law jurisdictions.",
+            "C. They represent a prudent investment to safeguard strategic legal analysis from forced disclosure.",
+            "D. They eliminate the need for any internal compliance personnel during investigations."
+          ],
+          "answer": "C",
+          "explanation": "第三段提到，尽管这些措施会增加前期行政成本（raise upfront administrative costs），但能大幅降低战略法律分析在外国监管论坛或平行民事诉讼中被 dissected 的风险，由此可推断作者认为这是一种审慎的投资。"
+        },
+        {
+          "q": "As used in paragraph 2, the phrase \"pro forma\" most nearly means:",
+          "options": [
+            "A. Highly technical",
+            "B. Conducted as a routine formality without genuine substance",
+            "C. Strictly confidential",
+            "D. Officially approved by a regulatory body"
+          ],
+          "answer": "B",
+          "explanation": "第二段指出，仅抄送外部律师并不足以确立特权保护，法院认为这种参与是\"pro forma\"，结合上下文\"insufficient\"和\"must exercise genuine direction\"可推断，该词指\"仅为形式上的、缺乏实质内容的\"。"
+        }
+      ]
+    },
+    {
+      "title": "The 6:15 AM Club: What My Dog Taught Me About Showing Up",
+      "body": [
+        "At 6:15 every morning, a cold nose presses insistently against my wrist. It is not an alarm clock; it is a promise with four paws and a wagging tail. My dog, a golden retriever named Maple, does not care about my sleep cycle, my deadlines, or the weather forecast. She cares about the walk. And because she cares with her whole heart, I have learned to care too.",
+        "Our route never changes. We turn left at the garden gate, pause at the third oak tree, and circle the park counterclockwise. To me, this routine was once the very definition of monotony. But to Maple, the same tree is an unread novel every morning. She reads the grass with her nose, investigates every fallen leaf as if it holds state secrets, and greets the dawn with the enthusiasm of someone who has never seen sunlight before.",
+        "It took me months to understand what she was quietly teaching me. While I was mentally compiling to-do lists or rehearsing anxieties about the day ahead, she was practicing the art of presence. She does not rush to get somewhere better, because she is already exactly where she wants to be. There is a peculiar wisdom in her ritual, a gentle rebellion against the human obsession with productivity, speed, and empty novelty.",
+        "When we return home, she collapses by my desk with a satisfied sigh that sounds almost like laughter. I brew my coffee, and the day officially begins. The walk is never logged as an achievement on any app, yet it has become the most honest and grounding part of my daily rhythm. In a world that rewards constant motion, Maple reminds me that some of the best things happen when you simply show up, nose to the wind, ready for whatever the morning smells like.",
+        "1. **monotony** — lack of variety and interest; tedious repetition and routine",
+        "2. **presence** — the state of being fully aware of and engaged with the current moment",
+        "3. **peculiar** — strange or odd in a way that is interesting or noteworthy",
+        "1. \"It is not an alarm clock; it is a promise with four paws and a wagging tail.\"",
+        "- 主句：It is not an alarm clock; it is a promise（并列句，分号连接两个独立分句，形成比喻对比）",
+        "- 修饰成分：with four paws and a wagging tail（介词短语作后置定语，将抽象promise形象化）",
+        "2. \"While I was mentally compiling to-do lists or rehearsing anxieties about the day ahead, she was practicing the art of presence.\"",
+        "- 主句：she was practicing the art of presence（过去进行时，描述狗持续的状态）",
+        "- 从句：While I was mentally compiling...（while引导时间状语从句，与主句动作同步发生，形成主人焦虑与狗专注的对比）",
+        "3. \"In a world that rewards constant motion, Maple reminds me that some of the best things happen when you simply show up, nose to the wind, ready for whatever the morning smells like.\"",
+        "- 主句：Maple reminds me that...（主谓宾结构）",
+        "- 从句1：that rewards constant motion（定语从句，修饰world）",
+        "- 从句2：that some of the best things happen...（宾语从句，说明remind的具体内容）",
+        "- 从句3：when you simply show up（时间状语从句）",
+        "- 独立成分：nose to the wind, ready for...（名词短语+形容词短语作伴随状语，描述show up时的姿态）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the passage mainly about?",
+          "options": [
+            "A. The scientific benefits of daily dog walking on human cardiovascular health.",
+            "B. A dog's consistent morning routine and the life lesson its owner derives from it.",
+            "C. A comparison between the intelligence of dogs and the emotional needs of humans.",
+            "D. Practical advice for establishing a morning exercise habit with pets."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章围绕作者与狗Maple的清晨散步展开，重点描述了狗狗对固定路线的热情以及作者从中领悟到的“在场”与“仪式感”的人生哲理，而非健康建议、智力比较或训练技巧。"
+        },
+        {
+          "q": "According to the passage, which of the following is true about Maple's behavior during the morning walk?",
+          "options": [
+            "A. She insists on changing the walking route to avoid boredom.",
+            "B. She treats the same tree as a source of fresh information every day.",
+            "C. She walks faster when the author is distracted by work thoughts.",
+            "D. She refuses to walk unless the weather forecast is favorable."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文中第二段明确提到“But to Maple, the same tree is an unread novel every morning. She reads the grass with her nose...”，说明Maple对相同的树保持着持续的新鲜感和好奇心。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward Maple's ritual?",
+          "options": [
+            "A. She considers it a wasteful use of time that delays her work.",
+            "B. She believes it is entertaining but lacks any deeper significance.",
+            "C. She initially found it boring but now sees profound wisdom in it.",
+            "D. She feels obliged to participate only to keep the dog physically fit."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第二段提到“To me, this routine was once the very definition of monotony”，而第三段又说“There is a peculiar wisdom in her ritual”，表明作者最初觉得单调乏味，后来领悟到了其中的深刻智慧。"
+        },
+        {
+          "q": "In paragraph 2, the word \"monotony\" is closest in meaning to ______.",
+          "options": [
+            "A. excitement",
+            "B. variety",
+            "C. sameness",
+            "D. confusion"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：根据上下文“Our route never changes”和“the same tree”可知，作者原认为这条不变的路线是单调乏味的，因此“monotony”意为“千篇一律、单调”，与sameness（相同、单调）意思最接近。"
+        }
+      ]
+    }
+  ]
+}

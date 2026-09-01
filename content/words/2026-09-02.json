@@ -1,0 +1,178 @@
+{
+  "theme": "反垄断与反不正当竞争术语",
+  "theme_en": "Antitrust & Unfair Competition",
+  "words": [
+    {
+      "term": "collusion",
+      "ipa": "/kəˈluːʒn/",
+      "cn_meaning": "共谋；串通（竞争者之间秘密达成协议以操纵价格、产量或市场分配）",
+      "collins_def": "secret or illegal cooperation between ostensible rivals, especially in business, to cheat or gain an unfair market advantage.",
+      "examples": [
+        {
+          "en": "Evidence suggested that the two firms had engaged in collusion to fix prices.",
+          "cn": "证据表明两家企业曾串通固定价格。"
+        },
+        {
+          "en": "Collusion among bidders undermines the integrity of public procurement.",
+          "cn": "投标人之间的共谋破坏了公共采购的公正性。"
+        }
+      ]
+    },
+    {
+      "term": "cartel",
+      "ipa": "/kɑːˈtel/",
+      "cn_meaning": "卡特尔（竞争者之间为控制价格、产量或市场而达成的正式联盟）",
+      "collins_def": "an association of manufacturers or suppliers formed to maintain high prices and restrict competition.",
+      "examples": [
+        {
+          "en": "The chemical cartel was fined billions for market allocation.",
+          "cn": "该化学卡特尔因划分市场被处以数十亿罚款。"
+        },
+        {
+          "en": "Cartels are viewed as the most egregious violations of competition law.",
+          "cn": "卡特尔被视为对竞争法最严重的一种违反。"
+        }
+      ]
+    },
+    {
+      "term": "oligopoly",
+      "ipa": "/ˌɒlɪˈɡɒpəli/",
+      "cn_meaning": "寡头垄断（少数几家大企业控制整个市场的市场结构）",
+      "collins_def": "a market structure in which a small number of firms control the production or sale of a particular good or service.",
+      "examples": [
+        {
+          "en": "The telecommunications sector is often viewed as an oligopoly dominated by three carriers.",
+          "cn": "电信行业常被视为由三家运营商主导的寡头垄断市场。"
+        },
+        {
+          "en": "High barriers to entry help sustain the oligopoly in the airline industry.",
+          "cn": "高进入壁垒助长了航空业的寡头垄断格局。"
+        }
+      ]
+    },
+    {
+      "term": "predatory",
+      "ipa": "/ˈpredətri/",
+      "cn_meaning": "掠夺性的（尤指以低于成本定价排挤竞争对手）",
+      "collins_def": "relating to unfair business conduct, such as selling below cost, intended to eliminate rivals and monopolize a market.",
+      "examples": [
+        {
+          "en": "The regulator is investigating whether the pricing strategy was predatory.",
+          "cn": "监管机构正在调查该定价策略是否具有掠夺性。"
+        },
+        {
+          "en": "Predatory conduct aimed at eliminating competitors violates core antitrust principles.",
+          "cn": "旨在消灭竞争对手的掠夺性行为违反核心反垄断原则。"
+        }
+      ]
+    },
+    {
+      "term": "tying",
+      "ipa": "/ˈtaɪɪŋ/",
+      "cn_meaning": "搭售（要求买方购买一种商品时必须同时购买另一种商品）",
+      "collins_def": "the practice of making the sale of one product conditional on the purchase of another, which may constitute an abuse of market power.",
+      "examples": [
+        {
+          "en": "The tech giant was accused of tying its operating system to application software.",
+          "cn": "这家科技巨头被指控将其操作系统与应用软件搭售。"
+        },
+        {
+          "en": "Tying arrangements can foreclose competitors from accessing the market.",
+          "cn": "搭售安排可能将竞争对手排斥在市场之外。"
+        }
+      ]
+    },
+    {
+      "term": "dominance",
+      "ipa": "/ˈdɒmɪnəns/",
+      "cn_meaning": "支配地位；优势地位（指企业在相关市场中具有控制价格、产量等能力）",
+      "collins_def": "a position of commercial strength giving a company the power to behave appreciably independently of its competitors, customers, and suppliers.",
+      "examples": [
+        {
+          "en": "The authority assessed whether the platform had acquired dominance in digital advertising.",
+          "cn": "当局评估该平台是否在数字广告市场取得了支配地位。"
+        },
+        {
+          "en": "Abuse of dominance is prohibited under both EU and Chinese competition law.",
+          "cn": "滥用市场支配地位在欧盟和中国竞争法下均被禁止。"
+        }
+      ]
+    },
+    {
+      "term": "concentration",
+      "ipa": "/ˌkɒnsnˈtreɪʃn/",
+      "cn_meaning": "经营者集中；市场集中度（企业合并、收购或取得控制权导致市场结构变化）",
+      "collins_def": "the degree to which a small number of firms control a large market share, or the act of merging undertakings subject to merger control rules.",
+      "examples": [
+        {
+          "en": "The deal exceeds the turnover thresholds and must undergo concentration notification.",
+          "cn": "该交易超过营业额门槛，必须进行经营者集中申报。"
+        },
+        {
+          "en": "High market concentration may trigger closer scrutiny from competition agencies.",
+          "cn": "高市场集中度可能引发竞争执法机构的更严格审查。"
+        }
+      ]
+    },
+    {
+      "term": "merger",
+      "ipa": "/ˈmɜːdʒə(r)/",
+      "cn_meaning": "合并；兼并（两家或多家企业结合为一个实体）",
+      "collins_def": "the joining together of two separate companies or organizations so that they become one economic entity.",
+      "examples": [
+        {
+          "en": "The proposed merger between the two pharmaceutical firms raised serious competition concerns.",
+          "cn": "两家制药公司拟议的合并引发了严重的竞争担忧。"
+        },
+        {
+          "en": "Pre-merger notification is mandatory for transactions meeting the filing thresholds.",
+          "cn": "达到申报标准的交易必须进行合并前申报。"
+        }
+      ]
+    },
+    {
+      "term": "vertical",
+      "ipa": "/ˈvɜːtɪkl/",
+      "cn_meaning": "纵向的（指产业链上下游企业之间的关系，如纵向垄断协议）",
+      "collins_def": "involving companies or stages of production at different levels in the supply chain, such as manufacturers and distributors.",
+      "examples": [
+        {
+          "en": "Vertical agreements between suppliers and retailers are treated more leniently than horizontal ones.",
+          "cn": "供应商与零售商之间的纵向协议比横向协议受到更宽容的对待。"
+        },
+        {
+          "en": "The case involved alleged vertical price-fixing in the distribution network.",
+          "cn": "该案涉及分销网络中被指控的纵向固定价格行为。"
+        }
+      ]
+    },
+    {
+      "term": "horizontal",
+      "ipa": "/ˌhɒrɪˈzɒntl/",
+      "cn_meaning": "横向的（指同一产业链层面竞争者之间的关系）",
+      "collins_def": "involving companies at the same stage of production or level of the supply chain, especially direct competitors.",
+      "examples": [
+        {
+          "en": "Horizontal price-fixing among competitors is considered a serious infringement.",
+          "cn": "竞争者之间的横向固定价格被视为严重违法行为。"
+        },
+        {
+          "en": "The agency blocked the horizontal merger to preserve market competition.",
+          "cn": "执法机构禁止了该横向合并以保护市场竞争。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "collusion",
+    "cartel",
+    "oligopoly",
+    "predatory",
+    "tying",
+    "dominance",
+    "concentration",
+    "merger",
+    "vertical",
+    "horizontal"
+  ]
+}
