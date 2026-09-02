@@ -1,0 +1,163 @@
+{
+  "articles": [
+    {
+      "title": "The EU AI Act: Recalibrating Corporate Governance for High-Risk AI",
+      "body": [
+        "With the EU AI Act entering into force in 2024 and enforcement timelines fast approaching, multinational corporations are scrambling to embed algorithmic accountability into their governance structures. Unlike conventional software compliance, the Act imposes a risk-based pyramid that classifies AI systems into four tiers: minimal, limited, high-risk, and unacceptable risk. For general counsel and compliance officers, this framework demands more than a cursory legal review; it requires a fundamental recalibration of how technology, ethics, and liability intersect within the boardroom.",
+        "High-risk applications—spanning employment screening, credit scoring, and medical diagnostics—must now satisfy stringent conformity requirements before deployment. These include maintaining comprehensive technical documentation, ensuring human oversight by natural persons rather than automated loops, and deploying transparency mechanisms that allow affected individuals to understand how an output was generated. Crucially, the Act extraterritorially captures any provider placing AI systems on the EU market, meaning a Chinese or American fintech firm serving EU clients faces identical obligations to its Frankfurt-based competitor.",
+        "Yet the most underappreciated challenge lies not in the statutory text—which prescribes penalties reaching up to €35 million or seven percent of global annual turnover—but in operationalizing it. Engineering teams traditionally prioritize model accuracy and latency, while legal teams focus on contractual indemnities. The AI Act forces a convergence: enterprises are establishing cross-functional AI ethics boards and elevating algorithmic risk to the C-suite agenda. Firms that treat compliance as a post-development checklist will likely discover that retrofitting governance onto deployed models is technically arduous and commercially expensive.",
+        "Ultimately, the EU AI Act signals a paradigm shift from \"move fast and break things\" to \"govern first and deploy second.\" Companies that integrate risk classification into their earliest design phases will not only avoid penalties but also convert regulatory adherence into a strategic advantage.",
+        "1. **extraterritorially** — beyond the geographical limits of a particular jurisdiction",
+        "1. \"Crucially, the Act extraterritorially captures any provider placing AI systems on the EU market, meaning a Chinese or American fintech firm serving EU clients faces identical obligations to its Frankfurt-based competitor.\"",
+        "- 主句：the Act extraterritorially captures any provider",
+        "- 现在分词短语（后置定语）：placing AI systems on the EU market（修饰 provider）",
+        "- 现在分词短语（结果状语）：meaning a Chinese or American fintech firm ... faces identical obligations to its Frankfurt-based competitor",
+        "- 定语从句简化：serving EU clients（修饰 fintech firm）",
+        "1. **convergence** — the act of coming together from different directions or perspectives",
+        "1. \"The AI Act forces a convergence: enterprises are establishing cross-functional AI ethics boards and elevating algorithmic risk to the C-suite agenda.\"",
+        "- 主句：The AI Act forces a convergence",
+        "- 同位语/解释说明：enterprises are establishing cross-functional AI ethics boards and elevating algorithmic risk to the C-suite agenda",
+        "1. **paradigm** — a typical example or pattern of something; a model",
+        "1. \"Ultimately, the EU AI Act signals a paradigm shift from 'move fast and break things' to 'govern first and deploy second.'\"",
+        "- 主句：the EU AI Act signals a paradigm shift",
+        "- 介词短语（后置定语/补充说明）：from 'move fast and break things' to 'govern first and deploy second'"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the passage mainly about?",
+          "options": [
+            "A. The technical shortcomings of AI models in the EU market.",
+            "B. The EU AI Act's requirements and their implications for corporate governance.",
+            "C. A comparison between European and American fintech companies.",
+            "D. The history of software compliance regulations in the European Union."
+          ],
+          "answer": "B",
+          "explanation": "文章围绕欧盟人工智能法案的风险分级制度展开，重点讨论了其对企业治理结构（如AI伦理委员会、高管议程）的影响，而非单纯的技术细节或历史。"
+        },
+        {
+          "q": "According to the passage, which of the following is a requirement for high-risk AI systems under the EU AI Act?",
+          "options": [
+            "A. They must be developed exclusively by EU-based engineering teams.",
+            "B. They must achieve a minimum accuracy rate of 95% before deployment.",
+            "C. They must include transparency mechanisms for affected individuals.",
+            "D. They must replace all human supervisors with automated monitoring tools."
+          ],
+          "answer": "C",
+          "explanation": "根据正文第二段，高风险AI应用必须包含透明度机制（transparency mechanisms），让受影响的个人能够理解输出结果是如何生成的。"
+        },
+        {
+          "q": "What does the author identify as the most underappreciated challenge in implementing the AI Act?",
+          "options": [
+            "A. The shortage of qualified AI engineers in the European market.",
+            "B. The difficulty of bridging the gap between legal and engineering teams.",
+            "C. The high cost of cloud computing required for AI deployment.",
+            "D. The lack of clear definitions in the statutory text of the regulation."
+          ],
+          "answer": "B",
+          "explanation": "正文第三段指出，最被低估的挑战不在于法律条文本身，而在于如何将其付诸实施（operationalizing it），即工程团队注重模型准确性而法务团队关注合同赔偿，两者需要融合。"
+        },
+        {
+          "q": "What can be inferred about the author's view on corporate compliance with the AI Act?",
+          "options": [
+            "A. It should be treated as a routine post-development checklist item.",
+            "B. It is primarily a concern for EU-based companies only.",
+            "C. It offers potential strategic advantages if integrated early in design.",
+            "D. It will soon be replaced by a more lenient regulatory framework."
+          ],
+          "answer": "C",
+          "explanation": "文章最后一段提到，将风险分类纳入最早设计阶段的公司不仅能避免罚款，还能将监管合规转化为战略优势，可推断作者认为早期整合具有战略价值。"
+        },
+        {
+          "q": "The word \"recalibrating\" in the title is closest in meaning to",
+          "options": [
+            "A. Rejecting completely",
+            "B. Adjusting carefully",
+            "C. Simplifying unnecessarily",
+            "D. Advertising widely"
+          ],
+          "answer": "B",
+          "explanation": "Recalibrating 意为重新校准、仔细调整。在标题中，它指企业需要仔细调整其治理框架以适应欧盟AI法案的要求，与 adjusting carefully 意思最接近。"
+        }
+      ]
+    },
+    {
+      "title": "The 6:47 AM Cat Alarm",
+      "body": [
+        "Every morning at 6:47 AM, without fail, a soft thump lands on my bedside table. It is not my phone. It is Luna, my three-year-old tabby, executing her daily sunrise ritual. She does not meow. She simply sits there, her amber eyes gleaming in the half-light, waiting for me to acknowledge her presence. If I pretend to sleep, she gently boops my nose with her paw—a move so precise and patient that I have come to regard it as the most reliable alarm clock I have ever owned.",
+        "Before Luna, my mornings were a frantic dash of snooze buttons and instant coffee. Now, they unfold at a different tempo. I wake up not to a blaring ringtone but to the sound of her purring as she weaves between my ankles in the kitchen. While the kettle boils, she claims the sunniest spot on the windowsill, stretching her limbs in a slow-motion ballet that seems to say, \"What is the rush?\" I have started drinking my coffee there, beside her, watching the city gradually brighten.",
+        "Scientists say that living with cats can lower stress and even reduce the risk of heart disease. But the real medicine, I think, is subtler than any clinical trial can measure. It is the way Luna reminds me that days are not just blocks of time to be optimized, but spaces to be inhabited. When she suddenly dashes across the living room at midnight, chasing nothing but her own shadow, she is teaching me a peculiar sort of joy—unproductive, ridiculous, and entirely necessary.",
+        "Last Tuesday, she brought me a crumpled leaf she had carried up four flights of stairs. She dropped it at my feet with the pride of a hunter returning from the savanna. I keep that leaf pressed inside my notebook now. It is brown and brittle, but it reminds me that love, even from a creature who cannot speak, is profoundly articulate.",
+        "1. **ritual** — a set pattern of behavior regularly followed in a particular situation",
+        "1. \"It is Luna, my three-year-old tabby, executing her daily sunrise ritual.\"",
+        "- 主句：It is Luna... executing her daily sunrise ritual（主谓结构，用现在分词短语补充说明Luna正在进行的动作）",
+        "- 同位语：my three-year-old tabby（对Luna的身份进行补充说明）",
+        "2. **frantic** — hurried and chaotic, often driven by anxiety or urgency",
+        "2. \"Before Luna, my mornings were a frantic dash of snooze buttons and instant coffee.\"",
+        "- 主句：my mornings were a frantic dash of snooze buttons and instant coffee（主系表结构，描述作者过去早晨的状态）",
+        "- 状语：Before Luna（时间状语，暗示与现在养猫后的生活形成对比）",
+        "3. **articulate** — able to express thoughts or feelings clearly and coherently",
+        "3. \"It is brown and brittle, but it reminds me that love, even from a creature who cannot speak, is profoundly articulate.\"",
+        "- 主句：it reminds me that love... is profoundly articulate（主谓宾结构，点明作者保留树叶的原因）",
+        "- 宾语从句：that love... is profoundly articulate（具体说明“提醒”的内容）",
+        "- 插入语：even from a creature who cannot speak（让步状语，强调即使不会说话也能表达爱）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. The author criticizes modern technology for ruining people's sleep quality.",
+            "B. The author describes how living with a cat has changed her daily rhythm and perspective.",
+            "C. The author explains scientific research on the health benefits of owning pets.",
+            "D. The author tells a humorous story about training her cat to fetch leaves."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章通过描述与猫咪Luna的日常生活——从早晨的唤醒仪式到午夜的奔跑，再到她赠送树叶——展现了养猫如何改变了作者的生活节奏和对时间的看法，因此B项最能概括全文主旨。"
+        },
+        {
+          "q": "According to the passage, what does Luna do if the author pretends to keep sleeping?",
+          "options": [
+            "A. She leaves the room quietly.",
+            "B. She starts knocking things off the bedside table.",
+            "C. She gently touches the author's nose with her paw.",
+            "D. She meows loudly until the author wakes up."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：根据第一段中的“If I pretend to sleep, she gently boops my nose with her paw”，可知当作者假装睡觉时，Luna会用爪子轻轻碰她的鼻子，故C正确。"
+        },
+        {
+          "q": "What can be inferred about the author's life before she had Luna?",
+          "options": [
+            "A. She woke up naturally without any alarm.",
+            "B. She found her mornings relaxing and well-organized.",
+            "C. She considered her mornings rushed and stressful.",
+            "D. She never drank coffee in the morning."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第二段提到“Before Luna, my mornings were a frantic dash of snooze buttons and instant coffee”，其中“frantic dash”（疯狂的冲刺）暗示作者以前的早晨匆忙且充满压力，与现在的从容形成对比，故可推断C正确。"
+        },
+        {
+          "q": "In paragraph 1, the word \"boops\" is closest in meaning to ______.",
+          "options": [
+            "A. taps softly",
+            "B. pushes hard",
+            "C. scratches quickly",
+            "D. rubs repeatedly"
+          ],
+          "answer": "A",
+          "explanation": "中文解析：根据上下文中的“gently”以及“with her paw—a move so precise and patient”，可以推断“boops”是指用爪子轻柔地触碰，因此最接近“taps softly”的含义。"
+        },
+        {
+          "q": "Why does the author keep the dried leaf in her notebook?",
+          "options": [
+            "A. Because it is a rare species she wants to study.",
+            "B. Because it reminds her of the love her cat shows her.",
+            "C. Because it proves that cats are natural-born hunters.",
+            "D. Because she plans to return it to the tree outside."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：最后一段明确提到“It is brown and brittle, but it reminds me that love, even from a creature who cannot speak, is profoundly articulate.”，说明作者保留这片叶子是因为它让她感受到猫咪无言却深沉的爱，故B正确。"
+        }
+      ]
+    }
+  ]
+}

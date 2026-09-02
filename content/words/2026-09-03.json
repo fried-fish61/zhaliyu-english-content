@@ -1,0 +1,139 @@
+{
+  "theme": "数据合规与隐私保护术语",
+  "theme_en": "Data Compliance & Privacy Protection",
+  "words": [
+    {
+      "term": "pseudonymization",
+      "ipa": "/ˌsuːdənɪmaɪˈzeɪʃn/",
+      "cn_meaning": "（数据）假名化",
+      "collins_def": "the processing of personal data in such a way that it can no longer be attributed to a specific data subject without the use of additional information",
+      "pron_tip": "su-don-i-my-ZAY-shun，重音在第四音节",
+      "examples": [
+        {
+          "en": "Pseudonymization reduces the risks associated with data processing while maintaining the data's utility for analysis.",
+          "cn": "假名化在保持数据可用于分析的同时，降低了数据处理所带来的风险。"
+        }
+      ]
+    },
+    {
+      "term": "anonymization",
+      "ipa": "/əˌnɒnɪmaɪˈzeɪʃn/",
+      "cn_meaning": "（数据）匿名化",
+      "collins_def": "the process of altering data so that it can no longer be used to identify a particular individual",
+      "examples": [
+        {
+          "en": "Once true anonymization is achieved, the information is no longer considered personal data under the GDPR.",
+          "cn": "一旦实现真正的匿名化，该信息在GDPR下便不再被视为个人数据。"
+        }
+      ]
+    },
+    {
+      "term": "encryption",
+      "ipa": "/ɪnˈkrɪpʃn/",
+      "cn_meaning": "加密；密码编码",
+      "collins_def": "the process of changing electronic information or signals into a secret code that cannot be understood without a special key",
+      "examples": [
+        {
+          "en": "End-to-end encryption ensures that only the communicating users can read the messages.",
+          "cn": "端到端加密确保只有通信双方能够读取信息。"
+        }
+      ]
+    },
+    {
+      "term": "profiling",
+      "ipa": "/ˈprəʊfaɪlɪŋ/",
+      "cn_meaning": "（数据）画像；用户剖绘",
+      "collins_def": "the use of personal data to evaluate certain personal aspects relating to a natural person, such as their preferences or behavior",
+      "examples": [
+        {
+          "en": "Automated profiling for credit scoring must comply with strict transparency and fairness requirements.",
+          "cn": "用于信用评分的自动化画像必须遵守严格的透明度与公平性要求。"
+        }
+      ]
+    },
+    {
+      "term": "retention",
+      "ipa": "/rɪˈtenʃn/",
+      "cn_meaning": "（数据）留存；保留（期）",
+      "collins_def": "the continued storage of documents or data for a specific period to meet legal, regulatory, or business requirements",
+      "examples": [
+        {
+          "en": "The company established a maximum data retention period of seven years for tax records.",
+          "cn": "该公司规定税务记录的最长数据留存期为七年。"
+        }
+      ]
+    },
+    {
+      "term": "portability",
+      "ipa": "/ˌpɔːtəˈbɪləti/",
+      "cn_meaning": "（数据）可携带性；可移植性",
+      "collins_def": "the right of a data subject to receive their personal data in a structured format and transmit it to another controller",
+      "examples": [
+        {
+          "en": "Data portability empowers users to switch service providers without losing their information.",
+          "cn": "数据可携带性使用户能够在不丢失信息的情况下更换服务提供商。"
+        }
+      ]
+    },
+    {
+      "term": "rectification",
+      "ipa": "/ˌrektɪfɪˈkeɪʃn/",
+      "cn_meaning": "（数据）更正；修正",
+      "collins_def": "the process of correcting inaccurate personal data or completing incomplete personal data upon request of the data subject",
+      "examples": [
+        {
+          "en": "Under privacy laws, individuals have the right to rectification of erroneous credit report entries.",
+          "cn": "根据隐私法律，个人有权要求更正错误的信用报告条目。"
+        }
+      ]
+    },
+    {
+      "term": "erasure",
+      "ipa": "/ɪˈreɪʒə(r)/",
+      "cn_meaning": "（数据）擦除；删除（权）",
+      "collins_def": "the removal of personal data from systems when there is no compelling reason for its continued processing",
+      "examples": [
+        {
+          "en": "The data subject requested the erasure of all personal data related to their minor offences.",
+          "cn": "数据主体要求删除与其轻微犯罪相关的所有个人数据。"
+        }
+      ]
+    },
+    {
+      "term": "controller",
+      "ipa": "/kənˈtrəʊlə(r)/",
+      "cn_meaning": "（数据）控制者",
+      "collins_def": "the natural or legal person who determines the purposes and means of the processing of personal data",
+      "examples": [
+        {
+          "en": "As the data controller, the organization is liable for ensuring lawful processing by its vendors.",
+          "cn": "作为数据控制者，该组织有责任确保其供应商依法处理数据。"
+        }
+      ]
+    },
+    {
+      "term": "processor",
+      "ipa": "/ˈprəʊsesə(r)/",
+      "cn_meaning": "（数据）处理者",
+      "collins_def": "a natural or legal person which processes personal data on behalf of the controller",
+      "examples": [
+        {
+          "en": "The cloud provider signed a data processing agreement as a processor for the e-commerce platform.",
+          "cn": "该云服务商作为电商平台的处理者签署了数据处理协议。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "pseudonymization",
+    "anonymization",
+    "encryption",
+    "profiling",
+    "retention",
+    "portability",
+    "rectification",
+    "erasure",
+    "controller",
+    "processor"
+  ]
+}
