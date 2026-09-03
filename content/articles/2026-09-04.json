@@ -1,0 +1,163 @@
+{
+  "articles": [
+    {
+      "title": "The Art of the Corporate Interview: Balancing Truth-Seeking with Legal Boundaries",
+      "body": [
+        "When a whistleblower allegation triggers an internal investigation, the employee interview often becomes the decisive battlefield. Unlike law enforcement interrogations, corporate interviews operate in a gray zone where the goal is to uncover facts without crossing into coercion or violating employment rights. Mastering this balance separates effective compliance teams from those who inadvertently taint the evidence they collect.",
+        "Experienced investigators typically begin by establishing rapport rather than confronting the subject immediately. They ask open-ended questions about workflows and reporting lines before narrowing in on discrepancies. However, subtle pressure tactics—such as suggesting that cooperation determines job security—can backfire legally. Courts have increasingly scrutinized internal interviews where employees felt compelled to incriminate themselves, even absent formal Miranda warnings. The key lies in creating psychological safety for truthful disclosure while maintaining the interviewer's institutional authority.",
+        "Legal boundaries further complicate the process. Investigators must deliver an Upjohn warning at the outset, clarifying that legal counsel represents the company, not the individual employee. Failure to do so can jeopardize attorney-client privilege. Additionally, promising confidentiality that the organization cannot guarantee risks eroding trust and exposing the firm to future litigation. Recording practices, too, vary by jurisdiction; some regions require dual consent, making undocumented summaries a safer, though less definitive, record.",
+        "As remote work normalizes video interviews, new challenges emerge. Investigators lose the ability to read body language fully, while employees may feel less inhibited behind a screen—or more emboldened to record the session covertly. Ultimately, a successful corporate interview is not an interrogation but a structured conversation anchored in transparency, legal prudence, and respect for procedural fairness.",
+        "1. **allegation** — a claim or assertion that someone has done something illegal or wrong, typically made without proof",
+        "1. \"Unlike law enforcement interrogations, corporate interviews operate in a gray zone where the goal is to uncover facts without crossing into coercion or violating employment rights.\"",
+        "- 主句：corporate interviews operate in a gray zone",
+        "- 从句/修饰：Unlike law enforcement interrogations (介词短语作比较状语); where the goal is to uncover facts without crossing into coercion or violating employment rights (定语从句修饰zone)",
+        "2. **coercion** — the practice of persuading someone to do something by using force or threats",
+        "2. \"Courts have increasingly scrutinized internal interviews where employees felt compelled to incriminate themselves, even absent formal Miranda warnings.\"",
+        "- 主句：Courts have increasingly scrutinized internal interviews",
+        "- 从句：where employees felt compelled to incriminate themselves (定语从句修饰interviews); even absent formal Miranda warnings (形容词短语作让步状语)",
+        "3. **jeopardize** — to put something such as a plan or system in danger of being harmed or destroyed",
+        "3. \"Failure to do so can jeopardize attorney-client privilege.\"",
+        "- 主句：Failure to do so can jeopardize attorney-client privilege",
+        "- 修饰：to do so (后置定语修饰Failure)"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the primary focus of the passage?",
+          "options": [
+            "A. To compare corporate and criminal interrogation techniques in detail",
+            "B. To examine how internal investigators balance effective interviewing with legal constraints",
+            "C. To criticize companies for systematically violating employee rights during investigations",
+            "D. To explain the technical requirements for conducting remote video interviews"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章开篇即指出企业内部访谈需要在查明事实与避免胁迫或侵权之间取得平衡，随后围绕调查技巧（如建立融洽关系）与法律边界（如Upjohn警告、特权保护）展开论述，因此B项准确概括了全文主旨。"
+        },
+        {
+          "q": "According to the passage, why should investigators avoid suggesting that cooperation affects job security?",
+          "options": [
+            "A. Because it violates the requirement to deliver an Upjohn warning",
+            "B. Because such pressure tactics may have legal consequences",
+            "C. Because employees are already protected by formal Miranda warnings",
+            "D. Because it automatically invalidates attorney-client privilege"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段明确指出，暗示合作决定工作保障等微妙施压策略‘can backfire legally’，且法院已对让员工感到被迫自证其罪的内部访谈加强审查，故B项符合文意。"
+        },
+        {
+          "q": "What can be inferred about the Upjohn warning from the passage?",
+          "options": [
+            "A. It guarantees complete confidentiality for the employee being interviewed",
+            "B. It is only required during remote video interviews",
+            "C. It helps preserve the company's attorney-client privilege",
+            "D. It replaces the need for open-ended questioning in investigations"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到，调查人员必须在访谈开始时进行Upjohn警告，阐明法律顾问代表的是公司而非个人员工；‘Failure to do so can jeopardize attorney-client privilege.’ 由此可推断，进行该警告有助于保护公司的律师—客户特权，C项正确。"
+        },
+        {
+          "q": "In paragraph 2, the word \"scrutinized\" is closest in meaning to",
+          "options": [
+            "A. ignored",
+            "B. carefully examined",
+            "C. officially approved",
+            "D. secretly recorded"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：根据上下文，法院对内部访谈的态度是 increasingly scrutinized，即日益严格地‘仔细审查’，与carefully examined同义，故选B。"
+        },
+        {
+          "q": "The passage suggests that remote video interviews present a challenge because",
+          "options": [
+            "A. they always require dual consent for recording regardless of jurisdiction",
+            "B. investigators may miss non-verbal cues and face unexpected recording risks",
+            "C. employees consistently refuse to answer open-ended questions online",
+            "D. the Upjohn warning cannot be effectively delivered in a virtual setting"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：最后一段指出，远程视频访谈使调查人员‘lose the ability to read body language fully’，同时员工可能‘more emboldened to record the session covertly’，即调查人员难以捕捉非语言线索，且面临被秘密录制的风险，B项与此相符。"
+        }
+      ]
+    },
+    {
+      "title": "The Art of the Feline Cold Shoulder",
+      "body": [
+        "If dogs are open books of devotion, cats are minimalist poetry—sparse, subtle, and easy to misread. For years, I mistook my cat’s aloofness for indifference, interpreting her habit of watching me from doorways as a sign she merely tolerated my existence. It took a crashed laptop and a teary afternoon for me to decode her love language. That day, instead of performing her usual disappearing act, she leaped onto the sofa arm and sat there, tail curled, as if to say, “I am still here, and that is enough.”",
+        "When deadlines crushed me last autumn, I expected sympathy from no one. Yet there she was, not on my keyboard as usual, but on the windowsill three feet away—close enough to see, far enough to grant me space. Occasionally, she would blink at me with exaggerated slowness, a gesture feline behaviorists call a “cat kiss.” She never demanded attention. She simply stationed herself nearby, a silent, purring witness to my stress. It was not the grand rescue I might have wanted, but it was exactly the quiet solidarity I needed.",
+        "This is the paradox of cat companionship: they offer intimacy without invasion. A dog might bound over with unconditional, sloppy enthusiasm, but a cat chooses you. When she head-butts my shin at 6 a.m. or drops a toy mouse at my feet, she is not asking for food; she is confirming our membership in the same invisible tribe. The warmth lies precisely in that choice. In a world that often feels noisy and obligatory, a cat’s affection feels like a secret you have been trusted to keep.",
+        "Living with a cat has taught me that affection does not always need volume. Sometimes the most profound companionship is a creature who respects your solitude while refusing to let you be truly alone. She reminds me that love can look like simply sharing a room in comfortable silence, two beings existing on their own terms yet gently tethered to one another.",
+        "1. **aloofness** — the quality of being distant or uninvolved in a way that seems unfriendly",
+        "1. **paradox** — a situation that seems contradictory because it contains two opposite facts",
+        "1. **intimacy** — a close, familiar, and affectionate personal relationship",
+        "1. \"If dogs are open books of devotion, cats are minimalist poetry—sparse, subtle, and easy to misread.\"",
+        "- 主句：cats are minimalist poetry — 主系表结构，将猫比喻为极简诗歌",
+        "- 条件状语从句：If dogs are open books of devotion — if引导，与主句形成鲜明对比",
+        "- 形容词短语：sparse, subtle, and easy to misread — 补充说明poetry的特征，暗示猫的爱含蓄难懂",
+        "1. \"When she head-butts my shin at 6 a.m. or drops a toy mouse at my feet, she is not asking for food; she is confirming our membership in the same invisible tribe.\"",
+        "- 主句：she is not asking for food; she is confirming our membership... — 两个并列分句，分号连接表转折与对比",
+        "- 时间状语从句：When she head-butts my shin... or drops a toy mouse... — when引导，内含or连接的并列动作",
+        "- 介词短语：in the same invisible tribe — 修饰membership，比喻人与猫属于同一群体",
+        "1. \"Sometimes the most profound companionship is a creature who respects your solitude while refusing to let you be truly alone.\"",
+        "- 主句：the most profound companionship is a creature — 主系表结构",
+        "- 定语从句：who respects your solitude while refusing... — who引导修饰creature",
+        "- 伴随状语：while refusing to let you be truly alone — while后接现在分词短语，表伴随动作，深化情感张力"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are more intelligent than dogs because they understand human emotions better.",
+            "B. The author believes cat ownership requires more patience than owning a dog.",
+            "C. Cats demonstrate affection through subtle, non-intrusive behaviors that are often misunderstood.",
+            "D. People should study feline behavior carefully before deciding to adopt a cat."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文章通篇通过作者与猫相处的具体经历，说明猫咪并非冷漠，而是以含蓄、不打扰的方式表达陪伴与爱意，C项准确概括了全文主旨。"
+        },
+        {
+          "q": "According to the author, what does a cat's slow blink indicate?",
+          "options": [
+            "A. The cat is feeling sleepy and wants to rest.",
+            "B. It is a sign of affection sometimes called a \"cat kiss.\"",
+            "C. The cat is warning the owner to stay away.",
+            "D. It shows the cat is bored with its surroundings."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段明确提到\"she would blink at me with exaggerated slowness, a gesture feline behaviorists call a 'cat kiss'\"，说明缓慢眨眼是猫咪表达亲昵的行为。"
+        },
+        {
+          "q": "What can be inferred about the author's view on dogs from paragraph 3?",
+          "options": [
+            "A. The author thinks dogs are too noisy and annoying to live with.",
+            "B. The author dislikes dogs because they are overly dependent on owners.",
+            "C. The author sees dogs as warmly enthusiastic but less subtle in showing love than cats.",
+            "D. The author prefers dogs over cats for their unconditional loyalty."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到\"A dog might bound over with unconditional, sloppy enthusiasm, but a cat chooses you\"，可见作者认为狗的热情直接而外放，而猫的爱则更为含蓄与选择性，C项符合推断。"
+        },
+        {
+          "q": "In paragraph 1, the word \"aloofness\" is closest in meaning to",
+          "options": [
+            "A. curiosity about unfamiliar things",
+            "B. physical distance from others",
+            "C. emotional reserve or distance",
+            "D. aggressive unfriendliness"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第一段中作者将aloofness与indifference并列，并描述猫在门边观察自己，给人一种疏远、不热情的印象，因此aloofness意为情感上的保留与疏离，与C项最接近。"
+        },
+        {
+          "q": "Why did the author mention the \"crashed laptop and a teary afternoon\" in paragraph 1?",
+          "options": [
+            "A. To show that cats can sense and respond to human stress in their own way.",
+            "B. To explain why the author decided to buy a new computer.",
+            "C. To criticize cats for not offering comfort during difficult times.",
+            "D. To compare cats' reactions with dogs' reactions in the same situation."
+          ],
+          "answer": "A",
+          "explanation": "中文解析：第一段指出，正是在那次崩溃的午后，作者开始decode her love language，并描述猫咪反常地陪伴在旁，意在说明猫其实能感知人类情绪，只是以自己独特的方式回应。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "theme": "跨境贸易与制裁合规术语",
+  "theme_en": "Cross-border Trade & Sanctions Compliance",
+  "words": [
+    {
+      "term": "extraterritoriality",
+      "ipa": "/ɪkˌstɛrɪtɔːrɪˈælɪti/",
+      "cn_meaning": "域外适用；域外效力",
+      "collins_def": "the application of a state's laws beyond its territorial borders to regulate activities or persons in other jurisdictions.",
+      "pron_tip": "词根 extra-（超出）+ territorial（领土的），意为法律效力超越本国领土。",
+      "examples": [
+        {
+          "en": "The extraterritoriality of U.S. sanctions forces foreign banks to re-evaluate their compliance programs.",
+          "cn": "美国制裁的域外效力迫使外国银行重新评估其合规计划。"
+        },
+        {
+          "en": "Chinese blocking statutes aim to counter the extraterritoriality of certain foreign laws.",
+          "cn": "中国的阻断法旨在反制某些外国法律的域外效力。"
+        }
+      ]
+    },
+    {
+      "term": "countermeasures",
+      "ipa": "/ˈkaʊntərˌmɛʒərz/",
+      "cn_meaning": "（国际法/贸易法中的）反制措施",
+      "collins_def": "actions taken by a state to oppose or retaliate against another state's unlawful or coercive measures.",
+      "examples": [
+        {
+          "en": "Beijing enacted countermeasures to offset the effects of extraterritorial sanctions.",
+          "cn": "北京出台反制措施以抵消域外制裁的影响。"
+        },
+        {
+          "en": "The new countermeasures law authorizes Chinese courts to issue antisuit injunctions.",
+          "cn": "新的反制措施法律授权中国法院签发反诉讼禁令。"
+        }
+      ]
+    },
+    {
+      "term": "re-export",
+      "ipa": "/ˌriːˈɛkspɔːrt/",
+      "cn_meaning": "再出口；转口",
+      "collins_def": "the export of goods that have previously been imported, often subject to specific trade controls or licensing requirements.",
+      "examples": [
+        {
+          "en": "U.S. export regulations restrict the re-export of certain technologies to designated countries.",
+          "cn": "美国出口法规限制特定技术向指定国家的再出口。"
+        },
+        {
+          "en": "The company was fined for facilitating the unauthorized re-export of controlled goods.",
+          "cn": "该公司因协助未经授权的管制货物再出口而被罚款。"
+        }
+      ]
+    },
+    {
+      "term": "deemed export",
+      "ipa": "/diːmd ˈɛkspɔːrt/",
+      "cn_meaning": "视同出口（向境内外国人释放受控技术被视为向该国出口）",
+      "collins_def": "the release of technology or source code to a foreign national in the home country, treated under export control law as an export to that person's home country.",
+      "examples": [
+        {
+          "en": "Sharing controlled technical data with a foreign employee may trigger deemed export rules.",
+          "cn": "与外籍员工分享受控技术数据可能触发视同出口规则。"
+        },
+        {
+          "en": "Universities must obtain licenses for deemed exports in sensitive research areas.",
+          "cn": "大学必须就敏感研究领域的视同出口申请许可证。"
+        }
+      ]
+    },
+    {
+      "term": "circumvention",
+      "ipa": "/ˌsɜːrkəmˈvɛnʃən/",
+      "cn_meaning": "规避（制裁或法律限制）",
+      "collins_def": "the act of avoiding or defeating the purpose of a law, regulation, or restriction, especially sanctions, through deceptive or indirect means.",
+      "pron_tip": "来自 circumvent，circum-（环绕）+ vent-（来），字面意义为“绕过来”。",
+      "examples": [
+        {
+          "en": "The bank was penalized for its role in a scheme involving the circumvention of Iranian sanctions.",
+          "cn": "该银行因参与规避伊朗制裁的计划而被处罚。"
+        },
+        {
+          "en": "Complex ownership structures are often used for the circumvention of trade embargoes.",
+          "cn": "复杂的所有权结构常被用于规避贸易禁运。"
+        }
+      ]
+    },
+    {
+      "term": "diversion",
+      "ipa": "/daɪˈvɜːrʒən/",
+      "cn_meaning": "（货物、资金或技术的）非法转用；转移",
+      "collins_def": "the redirection of goods, technology, or funds from their intended destination or use to an unauthorized end user or purpose, often in violation of sanctions.",
+      "examples": [
+        {
+          "en": "The end-user certificate is designed to prevent the diversion of sensitive equipment to military use.",
+          "cn": "最终用户证明旨在防止敏感设备被转用于军事用途。"
+        },
+        {
+          "en": "Authorities intercepted the shipment due to suspicion of diversion to a sanctioned entity.",
+          "cn": "当局因怀疑货物被转移给受制裁实体而截停了该批货物。"
+        }
+      ]
+    },
+    {
+      "term": "dual-use",
+      "ipa": "/ˌduːəl ˈjuːs/",
+      "cn_meaning": "军民两用的",
+      "collins_def": "(of technology, goods, or materials) capable of being used for both civilian and military purposes, and therefore subject to export controls.",
+      "examples": [
+        {
+          "en": "The export of dual-use semiconductors requires a license from the commerce department.",
+          "cn": "军民两用半导体的出口需要商务部的许可证。"
+        },
+        {
+          "en": "Companies must classify products to determine whether they fall under dual-use regulations.",
+          "cn": "企业必须对产品进行分类以确定其是否属于两用物项法规管辖范围。"
+        }
+      ]
+    },
+    {
+      "term": "blocking statute",
+      "ipa": "/ˈblɒkɪŋ ˌstætʃuːt/",
+      "cn_meaning": "阻断法令（禁止本国实体遵守外国域外法律）",
+      "collins_def": "a domestic law that prohibits local entities from complying with or recognizing foreign extraterritorial measures, and allows them to recover resulting damages.",
+      "examples": [
+        {
+          "en": "The EU blocking statute was updated to shield European firms from U.S. sanctions on Iran.",
+          "cn": "欧盟阻断法令经更新以保护欧洲企业免受美国对伊朗制裁的影响。"
+        },
+        {
+          "en": "China's blocking statute provides a legal basis for rejecting foreign jurisdiction over domestic transactions.",
+          "cn": "中国的阻断法为拒绝外国对国内交易的管辖权提供了法律依据。"
+        }
+      ]
+    },
+    {
+      "term": "beneficial ownership",
+      "ipa": "/ˌbɛnɪˈfɪʃəl ˈoʊnərʃɪp/",
+      "cn_meaning": "受益所有权；受益所有人权益",
+      "collins_def": "the ultimate natural person who owns or controls a legal entity or asset, regardless of the nominal or intermediary holder of title.",
+      "pron_tip": "注意 beneficial 读作 /ˌbɛnɪˈfɪʃəl/，重音在第三音节。",
+      "examples": [
+        {
+          "en": "Sanctions screening requires identification of the beneficial ownership behind shell companies.",
+          "cn": "制裁筛查要求识别空壳公司背后的受益所有人。"
+        },
+        {
+          "en": "The new disclosure rules mandate reporting of beneficial ownership exceeding 25 percent.",
+          "cn": "新的披露规则要求报告超过25%的受益所有权。"
+        }
+      ]
+    },
+    {
+      "term": "shell company",
+      "ipa": "/ʃɛl ˈkʌmpəni/",
+      "cn_meaning": "空壳公司（无实际经营、常被用于掩盖真实所有权）",
+      "collins_def": "a non-operating corporate entity with no significant assets or employees, often used to obscure true ownership or facilitate financial transactions.",
+      "examples": [
+        {
+          "en": "The sanctions evasion network was exposed as a web of shell companies registered in offshore jurisdictions.",
+          "cn": "该制裁规避网络被揭露为在离岸司法管辖区注册的一系列空壳公司。"
+        },
+        {
+          "en": "Regulators require enhanced due diligence when a customer is controlled by a shell company.",
+          "cn": "当客户受空壳公司控制时，监管机构要求加强尽职调查。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "extraterritoriality",
+    "countermeasures",
+    "re-export",
+    "deemed export",
+    "circumvention",
+    "diversion",
+    "dual-use",
+    "blocking statute",
+    "beneficial ownership",
+    "shell company"
+  ]
+}
