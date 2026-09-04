@@ -1,0 +1,138 @@
+{
+  "theme": "知识产权与商业秘密术语",
+  "theme_en": "Intellectual Property & Trade Secrets",
+  "words": [
+    {
+      "term": "misappropriation",
+      "ipa": "/ˌmɪsəˌproʊpriˈeɪʃn/",
+      "cn_meaning": "（尤指商业秘密的）盗用，不当使用",
+      "collins_def": "The wrongful use of another's property, ideas, or trade secrets for one's own benefit, especially in a manner that violates a duty of trust or confidence.",
+      "examples": [
+        {
+          "en": "The company sued a former employee for misappropriation of proprietary client lists.",
+          "cn": "该公司起诉一名前员工盗用专有客户名单。"
+        }
+      ]
+    },
+    {
+      "term": "patentability",
+      "ipa": "/ˌpætəntəˈbɪləti/",
+      "cn_meaning": "可专利性（是否符合授予专利的条件）",
+      "collins_def": "The state or condition of being eligible for a patent, satisfying legal criteria including novelty, non-obviousness, and utility.",
+      "examples": [
+        {
+          "en": "The prior art search is crucial to assess the patentability of the new invention.",
+          "cn": "现有技术检索对评估新发明的可专利性至关重要。"
+        }
+      ]
+    },
+    {
+      "term": "know-how",
+      "ipa": "/ˈnoʊ haʊ/",
+      "cn_meaning": "专有技术，技术诀窍",
+      "collins_def": "Practical knowledge, skill, or expertise in a particular field, especially of a technical nature, that is often treated as a trade secret.",
+      "examples": [
+        {
+          "en": "The licensing agreement covers both the underlying patents and related technical know-how.",
+          "cn": "该许可协议涵盖相关基础专利及专有技术。"
+        }
+      ]
+    },
+    {
+      "term": "trade dress",
+      "ipa": "/ˈtreɪd dres/",
+      "cn_meaning": "商业外观（产品或服务的整体视觉形象）",
+      "collins_def": "The total image and overall appearance of a product or its packaging, or the design of a building, that signifies the source of the goods to consumers.",
+      "examples": [
+        {
+          "en": "The court found that the restaurant's distinctive decor constituted protectable trade dress.",
+          "cn": "法院认定该餐厅独特的装饰构成受保护的商业外观。"
+        }
+      ]
+    },
+    {
+      "term": "prior art",
+      "ipa": "/ˈpraɪər ɑːrt/",
+      "cn_meaning": "现有技术（专利法中申请日前已公开的技术）",
+      "collins_def": "The body of publicly available knowledge and existing inventions that is relevant to a patent application before its filing date.",
+      "examples": [
+        {
+          "en": "The examiner rejected the claim based on prior art disclosed in a 1998 journal article.",
+          "cn": "审查员基于1998年期刊文章中披露的现有技术驳回了该权利要求。"
+        }
+      ]
+    },
+    {
+      "term": "non-obviousness",
+      "ipa": "/nɒn ˈɒbviəsnəs/",
+      "cn_meaning": "非显而易见性（专利授权要件之一，即创造性）",
+      "collins_def": "In patent law, the requirement that an invention must represent a sufficient inventive step and not be obvious to a person skilled in the relevant art.",
+      "examples": [
+        {
+          "en": "The appellate court reversed the decision, holding that the combination lacked the required element of non-obviousness.",
+          "cn": "上诉法院推翻了该裁决，认为该组合缺乏所需的非显而易见性要件。"
+        }
+      ]
+    },
+    {
+      "term": "utility model",
+      "ipa": "/juːˈtɪləti ˈmɒdl/",
+      "cn_meaning": "实用新型（对产品的形状、构造等提出的实用新方案）",
+      "collins_def": "A form of intellectual property right granting limited-term protection for minor inventions involving technical improvements to the shape, structure, or combination of a product.",
+      "examples": [
+        {
+          "en": "In China, a utility model patent protects the shape or structure of a product without substantive examination.",
+          "cn": "在中国，实用新型专利保护产品的形状或构造，且不经过实质审查。"
+        }
+      ]
+    },
+    {
+      "term": "royalty",
+      "ipa": "/ˈrɔɪəlti/",
+      "cn_meaning": "许可使用费，版税",
+      "collins_def": "A sum paid to the owner of a patent, copyright, or other intellectual property right for the use of that right by another party.",
+      "examples": [
+        {
+          "en": "The licensee agreed to pay a running royalty of five percent on net sales.",
+          "cn": "被许可方同意按净销售额的5%支付滚动许可费。"
+        }
+      ]
+    },
+    {
+      "term": "assignment",
+      "ipa": "/əˈsaɪnmənt/",
+      "cn_meaning": "（知识产权的）转让",
+      "collins_def": "The legal transfer of ownership rights in intellectual property from one party (the assignor) to another (the assignee).",
+      "examples": [
+        {
+          "en": "The assignment of patent rights must be recorded with the National Intellectual Property Administration.",
+          "cn": "专利权的转让须在国家知识产权局登记。"
+        }
+      ]
+    },
+    {
+      "term": "work-for-hire",
+      "ipa": "/ˈwɜːrk fɔːr ˈhaɪər/",
+      "cn_meaning": "雇佣作品/职务作品（著作权归雇主所有）",
+      "collins_def": "A work created by an employee within the scope of employment, for which the employer is deemed the legal author and copyright owner.",
+      "examples": [
+        {
+          "en": "Under U.S. copyright law, software code written by employees is typically treated as a work-for-hire.",
+          "cn": "根据美国版权法，员工编写的软件代码通常被视为雇佣作品。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "misappropriation",
+    "patentability",
+    "know-how",
+    "trade dress",
+    "prior art",
+    "non-obviousness",
+    "utility model",
+    "royalty",
+    "assignment",
+    "work-for-hire"
+  ]
+}

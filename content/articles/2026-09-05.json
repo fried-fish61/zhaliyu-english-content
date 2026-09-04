@@ -1,0 +1,167 @@
+{
+  "articles": [
+    {
+      "title": "Toward Accountable AI: Why Governance Must Start with the Algorithm",
+      "body": [
+        "In an era where artificial intelligence increasingly dictates hiring decisions, credit approvals, and even medical diagnoses, corporate AI governance has shifted from a technical luxury to a legal necessity. Yet many organizations still treat AI compliance as a box-checking exercise, publishing lofty ethical principles while leaving the underlying algorithms opaque and unexamined. This gap between policy and practice is not merely a reputational risk; it is becoming a direct source of regulatory liability.",
+        "Recent enforcement patterns on both sides of the Atlantic reveal a decisive turn. Regulators are no longer satisfied with generic commitments to \"fairness\" or \"transparency.\" Instead, they demand demonstrable evidence that AI systems have been rigorously tested for discriminatory outcomes before deployment. Consider documented cases where recruiting engines taught themselves to penalize résumés mentioning women's colleges, or where credit-scoring proxies inadvertently disadvantaged applicants from minority-concentrated ZIP codes. Such outcomes can trigger severe sanctions even if no discriminatory intent was explicitly programmed. The emerging legal standard is algorithmic accountability—focusing on what the system actually produces, not what its developers intended.",
+        "For in-house compliance teams, this evolution requires a fundamental operational rethink. Effective AI governance must embed legal and ethical review into the earliest stages of model development, rather than treating it as a final approval gate. It demands diverse training data audits, ongoing bias testing against protected demographic categories, and mandatory human-in-the-loop protocols for high-stakes decisions. Merely drafting an AI ethics charter is insufficient; the controls must live inside the code.",
+        "Ultimately, the companies that will thrive under tightening regulatory scrutiny are those that recognize governance not as an external constraint, but as an engineering requirement. When compliance is hard-coded into the algorithm, the distinction between ethical AI and lawful AI disappears—and that is precisely the point.",
+        "1. **accountability** — the condition of being responsible for one's actions and liable to explain them",
+        "2. **demonstrable** — capable of being shown or proved by evidence or argument",
+        "3. **embed** — to fix something firmly and deeply in a surrounding mass or context",
+        "4. **proxy** — a variable that is used in place of another variable that cannot be directly measured",
+        "5. **high-stakes** — involving serious risks or dangers; having the potential for significant gain or loss",
+        "1. \"This gap between policy and practice is not merely a reputational risk; it is becoming a direct source of regulatory liability.\"",
+        "- 主句：This gap between policy and practice is not merely a reputational risk",
+        "- 并列分句：it is becoming a direct source of regulatory liability",
+        "2. \"Such outcomes can trigger severe sanctions even if no discriminatory intent was explicitly programmed.\"",
+        "- 主句：Such outcomes can trigger severe sanctions",
+        "- 从句：even if no discriminatory intent was explicitly programmed（让步状语从句）",
+        "3. \"When compliance is hard-coded into the algorithm, the distinction between ethical AI and lawful AI disappears—and that is precisely the point.\"",
+        "- 主句：the distinction between ethical AI and lawful AI disappears",
+        "- 从句：When compliance is hard-coded into the algorithm（时间状语从句）",
+        "- 并列句：that is precisely the point"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main argument of the passage?",
+          "options": [
+            "A. AI governance should be handled exclusively by technical engineers to ensure efficiency.",
+            "B. Companies must integrate compliance into algorithm design rather than relying on superficial policy statements.",
+            "C. Regulators are primarily concerned with the speed of AI deployment rather than its fairness.",
+            "D. The main risk of AI systems lies in their high operational costs for large corporations."
+          ],
+          "answer": "B",
+          "explanation": "文章主旨在于批评企业将AI合规仅视为政策宣示（box-checking exercise），并主张治理必须深入到算法设计和代码层面（the controls must live inside the code），B项准确概括了这一核心论点。"
+        },
+        {
+          "q": "According to the passage, what are regulators now demanding from companies regarding AI systems?",
+          "options": [
+            "A. Generic commitments to ethical principles without specific testing",
+            "B. Proof that algorithms have been tested for discriminatory results before being used",
+            "C. Immediate suspension of all AI-driven hiring tools across industries",
+            "D. Public apologies whenever an algorithm produces an unintended outcome"
+          ],
+          "answer": "B",
+          "explanation": "正文第二段明确指出，监管机构不再满足于笼统的公平承诺，而是要求企业提供可证明的证据（demonstrable evidence），证明AI系统在部署前已接受歧视性结果检测，B项与此一致。"
+        },
+        {
+          "q": "Which of the following measures does the author suggest for in-house compliance teams?",
+          "options": [
+            "A. Eliminating human reviewers to reduce bias in final decisions",
+            "B. Conducting bias testing only after public complaints have emerged",
+            "C. Embedding legal review into the early stages of model development",
+            "D. Restricting AI use to low-level administrative tasks exclusively"
+          ],
+          "answer": "C",
+          "explanation": "第三段提出，有效的AI治理必须将法律和伦理审查嵌入模型开发的最早阶段（embed legal and ethical review into the earliest stages of model development），而非仅作为最终审批环节，C项正确。"
+        },
+        {
+          "q": "What can be inferred about the author's view on \"human-in-the-loop protocols\"?",
+          "options": [
+            "A. They are an unnecessary expense that slows down AI innovation.",
+            "B. They should be mandatory for decisions with significant consequences.",
+            "C. They are only relevant for medical AI applications.",
+            "D. They serve as a temporary substitute until algorithms become perfectly accurate."
+          ],
+          "answer": "B",
+          "explanation": "第三段提到，对于高风险决策（high-stakes decisions），必须设立强制性的human-in-the-loop协议（mandatory human-in-the-loop protocols）。由此可推断，作者认为在后果重大的决策中，人类介入应当是强制性的，B项正确。"
+        },
+        {
+          "q": "As used in paragraph 2, the word \"proxies\" most nearly means ______.",
+          "options": [
+            "A. direct measurements of creditworthiness",
+            "B. legal representatives defending AI developers",
+            "C. substitute indicators that stand in for other variables",
+            "D. official government auditors examining algorithms"
+          ],
+          "answer": "C",
+          "explanation": "第二段中，proxies用于描述信贷评分模型中用来间接影响申请人评估的变量（如特定邮政编码），与文中给出的英文释义“a variable that is used in place of another variable”相符，C项正确。"
+        }
+      ]
+    },
+    {
+      "title": "The Ice Diaries: Why Figure Skating Still Takes My Breath Away",
+      "body": [
+        "To the casual viewer, figure skating is merely a sport of quadruple jumps and glittering costumes. But to those of us who keep spare ice-skating schedules tucked inside our wallets, it is something far more intimate: a conversation between a blade and a frozen surface, set to music. I still remember the first time I watched a live competition. While the arena roared after a flawless triple axel, what struck me most was the hush that fell during the spiral sequence—the sound of steel carving arcs into ice, delicate and deliberate.",
+        "What keeps me returning to the rink is not the promise of perfection, but the beauty of vulnerability. A skater’s gloved hand brushing the air, the visible breath clouding in the cold arena, the slight wobble before a landing—these are the moments that transform athleticism into art. Unlike team sports where victory erases individual nuance, figure skating leaves nowhere to hide. Every hesitation and every triumph is offered openly to the judges, the crowd, and the cold.",
+        "In an age where our entertainment is algorithmically tailored to our shortest attention spans, there is something rebellious about a sport that demands you watch a four-minute program without scrolling. Each performance is ephemeral; once the music fades and the skater exits through the gate, that exact rendering of emotion can never be replicated. You cannot pause a live spiral. You cannot rewind a real-time landing.",
+        "I suppose that is why I adore it. You do not need to understand the technical panels or the difference between a lutz and a loop to feel the story being told. You simply need to sit still, let the cold air settle on your skin, and allow a stranger on blades to carry your heart across the ice for a little while. It is, above all, deeply and stubbornly human.",
+        "1. **deliberate** — done consciously and intentionally",
+        "2. **vulnerability** — the quality of being emotionally open and exposed to possible harm or judgment",
+        "3. **ephemeral** — lasting for a very short time; transient",
+        "4. **nuance** — a subtle or slight difference in expression, meaning, or response",
+        "1. \"What keeps me returning to the rink is not the promise of perfection, but the beauty of vulnerability.\"",
+        "- 主句：What keeps me returning to the rink（主语从句）+ is（系动词）+ not the promise of perfection, but the beauty of vulnerability（并列表语）",
+        "- 结构特点：not...but... 平行结构，语义上强调花样滑冰的艺术性而非技术性完美",
+        "2. \"In an age where our entertainment is algorithmically tailored to our shortest attention spans, there is something rebellious about a sport that demands you watch a four-minute program without scrolling.\"",
+        "- 主句：there is something rebellious about a sport（there be存在句，表语为不定代词something）",
+        "- 从句1：where our entertainment is algorithmically tailored...（关系副词where引导定语从句，修饰age）",
+        "- 从句2：that demands you watch...（关系代词that引导定语从句，修饰sport；demand后接省略should的虚拟语气从句）",
+        "- 状语：In an age...（介词短语作时间状语），without scrolling（介词短语作方式状语）",
+        "3. \"You do not need to understand the technical panels or the difference between a lutz and a loop to feel the story being told.\"",
+        "- 主句：You do not need to understand...（主谓宾结构）",
+        "- 不定式：to understand the technical panels...作need的宾语；to feel the story being told作目的状语",
+        "- 分词：being told（现在分词的被动式作后置定语，修饰the story）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Figure skating should eliminate technical scoring to focus only on artistic performance.",
+            "B. The author believes live sports are always more enjoyable than digital entertainment.",
+            "C. The author views figure skating as a deeply personal and transient art form that transcends pure athleticism.",
+            "D. Modern audiences generally prefer team sports because they offer more excitement than individual sports."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文章通篇强调花样滑冰对作者而言不仅是竞技运动，更是一种亲密、脆弱且转瞬即逝的艺术体验（第二段'beauty of vulnerability'、第三段'ephemeral'、末段'deeply and stubbornly human'），C项准确概括了这一主旨。A项过于极端，文中并未主张取消技术评分；B项将范围扩大到所有现场运动，偏离主题；D项与文中对团队运动的对比描述不符。"
+        },
+        {
+          "q": "According to the author, what was most memorable about their first live figure skating experience?",
+          "options": [
+            "A. The thunderous applause following a flawless triple axel.",
+            "B. The glittering costumes worn by the competitors.",
+            "C. The quiet sound of the blade cutting the ice during the spiral sequence.",
+            "D. The detailed explanations provided by the technical judges."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：依据在第一段末尾：'what struck me most was the hush that fell during the spiral sequence—the sound of steel carving arcs into ice, delicate and deliberate'，作者明确指出最打动自己的是螺旋步时冰刀划过冰面的静谧声响，而非观众的欢呼或服装。D项在文中未提及。"
+        },
+        {
+          "q": "What does the author imply by calling figure skating 'rebellious' in the current age?",
+          "options": [
+            "A. Skaters frequently challenge the official rules of the competition.",
+            "B. The sport requires unusually aggressive physical confrontation.",
+            "C. It demands sustained, undivided attention in a world dominated by digital distractions.",
+            "D. The scoring system refuses to adopt modern computer technology."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：依据在第三段首句。作者先指出当下娱乐被'algorithmically tailored to our shortest attention spans'（算法迎合短暂注意力），随后说花样滑冰要求观众连续观看四分钟且不能滑动屏幕（'without scrolling'），暗示这项运动要求专注、抵抗碎片化阅读习惯，因此C项正确。文中并未提及违反规则（A）、身体对抗（B）或拒绝电脑计分（D）。"
+        },
+        {
+          "q": "In paragraph 2, the word 'nuance' is closest in meaning to:",
+          "options": [
+            "A. complete victory",
+            "B. slight or subtle difference in expression",
+            "C. physical coordination",
+            "D. competitive strategy"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：依据在第二段'Unlike team sports where victory erases individual nuance, figure skating leaves nowhere to hide'。作者对比团队运动与花样滑冰：团队胜利往往会掩盖个体的细微差别，而花滑无处可藏。结合上下文，nuance指个体表达中微妙、细腻的差异，因此B项正确。"
+        },
+        {
+          "q": "Why does the author describe figure skating as 'deeply and stubbornly human'?",
+          "options": [
+            "A. Because it preserves raw, unhidden emotion that cannot be perfectly replicated.",
+            "B. Because it is the oldest Olympic sport with a long historical tradition.",
+            "C. Because athletes must physically fight against each other on the ice.",
+            "D. Because the audience is required to skate together with the performers."
+          ],
+          "answer": "A",
+          "explanation": "中文解析：依据在第二段和第三段。第二段提到花滑'leaves nowhere to hide'，每一个犹豫与胜利都公开呈现；第三段强调每次表演都是'ephemeral'，情感表达无法被复制。末段总结这种无法隐藏的、真实的、转瞬即逝的情感传递正是其'deeply and stubbornly human'的特质，A项准确概括了这一点。B、C、D项均无原文支持。"
+        }
+      ]
+    }
+  ]
+}
