@@ -1,0 +1,138 @@
+{
+  "theme": "并购重组与资本市场核心术语",
+  "theme_en": "M&A Restructuring & Capital Markets",
+  "words": [
+    {
+      "term": "divestiture",
+      "ipa": "/daɪˈvestɪtʃər/",
+      "cn_meaning": "（资产、子公司的）剥离，出让",
+      "collins_def": "Divestiture is the act of selling off subsidiary business interests or investments; in M&A, regulators may mandate divestiture to preserve market competition.",
+      "examples": [
+        {
+          "en": "The antitrust regulator ordered the divestiture of three regional subsidiaries before clearing the acquisition.",
+          "cn": "反垄断监管机构批准收购前，要求剥离三家地区性子公司。"
+        }
+      ]
+    },
+    {
+      "term": "recapitalization",
+      "ipa": "/ˌriːkæpɪtəlaɪˈzeɪʃn/",
+      "cn_meaning": "资本重组；再资本化",
+      "collins_def": "Recapitalization is a corporate reorganization of a company's capital structure, typically by exchanging one form of financing for another to improve financial stability or thwart a hostile takeover.",
+      "examples": [
+        {
+          "en": "The board approved a leveraged recapitalization to return cash to shareholders while maintaining operational control.",
+          "cn": "董事会批准了杠杆资本重组，在保持经营控制权的同时向股东返还现金。"
+        }
+      ]
+    },
+    {
+      "term": "spin-off",
+      "ipa": "/ˈspɪn ɔːf/",
+      "cn_meaning": "（公司）分拆；拆分上市",
+      "collins_def": "A spin-off is a type of corporate restructuring in which a distinct business unit is separated from its parent company to become an independent, publicly traded entity.",
+      "examples": [
+        {
+          "en": "The tech giant announced a spin-off of its cloud computing division into a separately listed company.",
+          "cn": "这家科技巨头宣布将其云计算部门分拆为独立上市实体。"
+        }
+      ]
+    },
+    {
+      "term": "carve-out",
+      "ipa": "/kɑːrv aʊt/",
+      "cn_meaning": "（业务）分拆出售；剥离",
+      "collins_def": "A carve-out is a partial divestiture in which a parent company sells a minority or majority stake in a subsidiary while often retaining some equity or operational ties.",
+      "examples": [
+        {
+          "en": "The private equity firm completed a carve-out of the pharmaceutical unit from the conglomerate.",
+          "cn": "私募股权公司完成了对该集团制药业务单元的分拆收购。"
+        }
+      ]
+    },
+    {
+      "term": "squeeze-out",
+      "ipa": "/ˈskwiː aʊt/",
+      "cn_meaning": "（对少数股东的）挤出；强制收购",
+      "collins_def": "A squeeze-out is a compulsory purchase procedure allowing a majority shareholder who has reached a specified ownership threshold to force minority shareholders to sell their remaining shares.",
+      "examples": [
+        {
+          "en": "After reaching 95% ownership, the bidder initiated a squeeze-out to acquire the remaining shares and delist the company.",
+          "cn": "在持股达到95%后，收购方启动了挤出程序，以收购剩余股份并使公司退市。"
+        }
+      ]
+    },
+    {
+      "term": "scheme of arrangement",
+      "ipa": "/skiːm əv əˈreɪndʒmənt/",
+      "cn_meaning": "安排计划（法院批准的重组/并购程序）",
+      "collins_def": "A scheme of arrangement is a court-sanctioned procedure allowing a company to reach a binding compromise or arrangement with its members or creditors, often used in takeovers and debt restructuring.",
+      "examples": [
+        {
+          "en": "The cross-border acquisition was structured as a scheme of arrangement under English law to ensure creditor approval.",
+          "cn": "该跨境收购依据英国法以安排计划形式构建，以确保获得债权人批准。"
+        }
+      ]
+    },
+    {
+      "term": "debtor-in-possession",
+      "ipa": "/ˈdetər ɪn pəˈzeʃn/",
+      "cn_meaning": "持有资产的债务人（破产重组中继续经营的企业）",
+      "collins_def": "A debtor-in-possession is a company that remains in control of its assets and operations during insolvency or Chapter 11 restructuring proceedings rather than having a trustee appointed.",
+      "examples": [
+        {
+          "en": "As a debtor-in-possession, the retailer secured new financing to keep stores open during restructuring.",
+          "cn": "作为持有资产的债务人，该零售商获得了新融资，以在重组期间维持门店营业。"
+        }
+      ]
+    },
+    {
+      "term": "earnout",
+      "ipa": "/ˈɜːrnaʊt/",
+      "cn_meaning": "（并购中的）盈利能力支付计划；对赌条款",
+      "collins_def": "An earnout is a pricing structure in mergers and acquisitions where the sellers must earn part of the purchase price by achieving agreed financial performance targets after the closing.",
+      "examples": [
+        {
+          "en": "The purchase agreement included a two-year earnout tied to the target's EBITDA performance.",
+          "cn": "购买协议包含一项为期两年、与目标公司息税折旧摊销前利润挂钩的盈利能力支付安排。"
+        }
+      ]
+    },
+    {
+      "term": "breakup fee",
+      "ipa": "/ˈbreɪkʌp fiː/",
+      "cn_meaning": "（并购交易中的）分手费；终止费",
+      "collins_def": "A breakup fee is a penalty set forth in an acquisition agreement that requires the target company to pay the bidder if the deal is terminated under specified circumstances, such as accepting a superior proposal.",
+      "examples": [
+        {
+          "en": "The merger contract stipulated a $500 million breakup fee payable if the board recommended a competing bid.",
+          "cn": "合并合同规定，若董事会推荐竞争性要约，则需支付5亿美元分手费。"
+        }
+      ]
+    },
+    {
+      "term": "poison pill",
+      "ipa": "/ˈpɔɪzən pɪl/",
+      "cn_meaning": "毒丸计划（反收购防御措施）",
+      "collins_def": "A poison pill is a defensive tactic adopted by a target company's board to make a hostile takeover prohibitively expensive, usually by diluting the bidder's stake.",
+      "examples": [
+        {
+          "en": "The board adopted a poison pill that would flood the market with cheap shares if any investor acquired more than 15% of the stock.",
+          "cn": "董事会通过了毒丸计划：若任何投资者收购超过15%的股份，市场将涌入大量低价新股以稀释其股权。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "divestiture",
+    "recapitalization",
+    "spin-off",
+    "carve-out",
+    "squeeze-out",
+    "scheme of arrangement",
+    "debtor-in-possession",
+    "earnout",
+    "breakup fee",
+    "poison pill"
+  ]
+}

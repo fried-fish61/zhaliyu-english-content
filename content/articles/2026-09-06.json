@@ -1,0 +1,164 @@
+{
+  "articles": [
+    {
+      "title": "Preserving Evidence in Cross-Border Internal Investigations: The China Conundrum",
+      "body": [
+        "When a multinational corporation uncovers allegations of commercial bribery within its China subsidiary, the instinct is to act swiftly. Legal teams often demand immediate forensic imaging of laptops and servers, hoping to preserve incriminating emails and chat logs before deletion. Yet in practice, this urgency collides with China's stringent data governance framework, creating a compliance trap that many global firms still underestimate.",
+        "The core dilemma lies in the tension between investigative necessity and legal restriction. Under the Data Security Law and Personal Information Protection Law, transferring domestic data overseas—even to a parent company's headquarters—may trigger security assessments and standard contractual clauses. More critically, if the data touches on 'important data' or could be construed as affecting state interests, local authorities may block its export entirely. For investigators, this means that a routine evidence collection exercise can inadvertently become a regulatory violation.",
+        "Forward-looking companies are now adopting a 'pre-investigation compliance architecture.' Instead of treating data localization as an afterthought, they deploy regional forensic repositories and pre-approve cross-border transfer protocols before any misconduct surfaces. This approach not only satisfies Chinese regulators but also strengthens the evidentiary chain. Courts and arbitration tribunals increasingly scrutinize how evidence was obtained; materials extracted through unlawful channels risk exclusion, regardless of their probative value.",
+        "Ultimately, the lesson is clear: effective internal investigations in China require integrating data sovereignty principles into the investigative strategy from day one. Speed must be balanced with compliance, and the most persuasive evidence is that which is both genuine and lawfully held.",
+        "1. **forensic** — relating to the application of scientific methods to investigate crimes or disputes",
+        "1. \"Legal teams often demand immediate forensic imaging of laptops and servers, hoping to preserve incriminating emails and chat logs before deletion.\"",
+        "- 主句：Legal teams often demand immediate forensic imaging of laptops and servers",
+        "- 分词短语：hoping to preserve incriminating emails and chat logs before deletion",
+        "1. **incriminating** — making someone appear guilty of wrongdoing",
+        "1. \"Legal teams often demand immediate forensic imaging of laptops and servers, hoping to preserve incriminating emails and chat logs before deletion.\"",
+        "- 主句：Legal teams often demand immediate forensic imaging of laptops and servers",
+        "- 定语功能：incriminating 修饰 emails and chat logs，说明证据具有归罪性",
+        "1. **construe** — interpret or understand the meaning of something in a particular way",
+        "1. \"if the data touches on 'important data' or could be construed as affecting state interests, local authorities may block its export entirely.\"",
+        "- 条件状语从句：if the data touches on 'important data' or could be construed as affecting state interests",
+        "- 主句：local authorities may block its export entirely",
+        "- 被动结构：could be construed (by regulators) as affecting state interests",
+        "1. **inadvertently** — without intention; by accident",
+        "1. \"For investigators, this means that a routine evidence collection exercise can inadvertently become a regulatory violation.\"",
+        "- 主句：this means that...",
+        "- 宾语从句：a routine evidence collection exercise can inadvertently become a regulatory violation",
+        "1. **probative** — serving to test something or prove a point; providing proof",
+        "1. \"Courts and arbitration tribunals increasingly scrutinize how evidence was obtained; materials extracted through unlawful channels risk exclusion, regardless of their probative value.\"",
+        "- 主句一：Courts and arbitration tribunals increasingly scrutinize how evidence was obtained",
+        "- 宾语从句：how evidence was obtained",
+        "- 主句二：materials extracted through unlawful channels risk exclusion",
+        "- 过去分词短语：extracted through unlawful channels 作后置定语修饰 materials",
+        "- 让步短语：regardless of their probative value"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Chinese subsidiaries of multinationals are more prone to commercial bribery than other regions.",
+            "B. Multinationals should align internal investigation procedures with China's data sovereignty laws to ensure evidence validity.",
+            "C. The Chinese government prohibits all cross-border transfers of corporate internal data.",
+            "D. Forensic imaging is no longer an effective method for collecting digital evidence in China."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章开篇指出跨国企业内部调查中的紧迫性与数据治理框架的冲突，随后建议采用'调查前置合规架构'，并在结尾强调'Speed must be balanced with compliance'，核心主旨是跨国企业需将中国数据主权法律纳入内部调查策略以确保证据有效性。"
+        },
+        {
+          "q": "According to the passage, what risk do companies face if they collect evidence without considering data transfer restrictions?",
+          "options": [
+            "A. The evidence may be permanently deleted by local employees.",
+            "B. The evidence may be rejected by courts or arbitration tribunals.",
+            "C. The parent company will automatically lose its business license in China.",
+            "D. Local authorities will initiate criminal proceedings against the entire board."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文中第三段明确指出'Courts and arbitration tribunals increasingly scrutinize how evidence was obtained; materials extracted through unlawful channels risk exclusion'，即通过不合法渠道获取的证据面临被排除的风险，无论其证明力如何。"
+        },
+        {
+          "q": "What can be inferred about the author's view on 'pre-investigation compliance architecture'?",
+          "options": [
+            "A. It is too expensive for most mid-sized multinationals to implement.",
+            "B. It is primarily designed to bypass Chinese regulatory review.",
+            "C. It represents a proactive strategy that balances investigative needs with legal compliance.",
+            "D. It should be managed exclusively by external forensic firms to ensure neutrality."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文中第三段用'Forward-looking companies'形容采用该架构的企业，并指出其不仅满足监管要求，还能增强证据链，说明作者认为这是一种前瞻性的、能够平衡调查需求与法律合规的主动策略。"
+        },
+        {
+          "q": "In paragraph 2, the word 'construed' is closest in meaning to",
+          "options": [
+            "A. concealed",
+            "B. interpreted",
+            "C. transmitted",
+            "D. destroyed"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：原句'could be construed as affecting state interests'意为'可能被理解为/解读为影响国家利益'，'construed'在此处表示'理解、解释'，与'interpreted'含义最接近。"
+        }
+      ]
+    },
+    {
+      "title": "The Gentle Tyranny of a Morning Cat",
+      "body": [
+        "Every morning at precisely 6:15, my alarm clock becomes obsolete. A soft, rhythmic pressure lands on my shoulder—left paw, right paw, repeat—until one sleepy eye opens to meet a pair of unblinking amber ones. Luna, my four-year-old tabby, conducts this dawn symphony with the precision of a seasoned maestro who believes that breakfast time is a matter of universal urgency.",
+        "To the untrained eye, her routine might appear self-serving: the insistent chirps, the strategic placement of her body directly between my face and the smartphone screen, the theatrical flop onto the keyboard when I attempt to check emails. Yet beneath this performance of feline entitlement lies something far more tender. Researchers call it \"social referencing\"—the way she pauses her breakfast to look back at me, the gentle head-butt against my ankle as I boil water for coffee. These micro-moments weave an invisible thread of connection that transforms a simple apartment into a shared world.",
+        "In an era where human connections often arrive through curated notifications, there is profound comfort in a relationship built on present-moment attention. Luna does not care about my unread messages or quarterly reports; she cares that the sunbeam has moved two inches left, and that I ought to move with it. That gentle tyranny of the everyday—a paw on the cheek, a purr vibrating through a shared blanket—reminds us that being needed, simply and immediately, is its own quiet joy.",
+        "1. **obsolete** — no longer used because something new has replaced it",
+        "2. **maestro** — a distinguished conductor or performer; a master of an art",
+        "3. **theatrical** — dramatic and exaggerated in manner or appearance",
+        "4. **entitlement** — the belief that one inherently deserves special privileges",
+        "5. **profound** — very great or intense; deeply insightful",
+        "6. **tyranny** — oppressive control; here used figuratively for overwhelming but gentle dominance",
+        "1. \"Every morning at precisely 6:15, my alarm clock becomes obsolete.\"",
+        "- 主句：my alarm clock becomes obsolete（闹钟变得不再被需要）",
+        "- 状语：Every morning at precisely 6:15（强调猫咪报时的精准与规律）",
+        "2. \"Yet beneath this performance of feline entitlement lies something far more tender.\"",
+        "- 主句：something far more tender lies（某种更温柔的情感存在）",
+        "- 倒装结构：将地点状语 beneath this performance... 提前，主谓倒装以增强文学对比效果",
+        "3. \"That gentle tyranny of the everyday—a paw on the cheek, a purr vibrating through a shared blanket—reminds us that being needed, simply and immediately, is its own quiet joy.\"",
+        "- 主句：That gentle tyranny reminds us...（提醒我们...）",
+        "- 同位语：a paw on the cheek, a purr... blanket（解释 everyday tyranny 的具体表现）",
+        "- 宾语从句：that being needed... is its own quiet joy（被需要本身就是一种宁静的快乐）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main theme of the passage?",
+          "options": [
+            "A. The biological reasons behind cats' early morning hunting instincts.",
+            "B. The contrast between digital notifications and face-to-face conversation.",
+            "C. The affectionate bond between a cat and its owner expressed in daily rituals.",
+            "D. The challenges of maintaining a clean apartment while living with a pet."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：全文围绕作者与猫咪Luna的日常互动展开，从清晨唤醒、阻挡屏幕到共享阳光，强调宠物在日常仪式中带来的情感联结与陪伴，因此C项最能概括主旨。"
+        },
+        {
+          "q": "According to the passage, what does Luna do when the author tries to check emails?",
+          "options": [
+            "A. She runs out of the room searching for food.",
+            "B. She flops onto the keyboard.",
+            "C. She stares at the smartphone screen quietly.",
+            "D. She gently bites the author's ankle."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：正文第二段明确提到\"the theatrical flop onto the keyboard when I attempt to check emails\"，说明猫咪会在作者查看邮件时戏剧性地瘫倒在键盘上。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward Luna's morning routine?",
+          "options": [
+            "A. She finds it annoying and wishes the cat would sleep longer.",
+            "B. She sees it as a burden that disrupts her work schedule.",
+            "C. She appreciates it as a source of comfort and quiet connection.",
+            "D. She believes it is motivated purely by the cat's physical hunger."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：作者在文中使用了\"tender\"、\"profound comfort\"和\"quiet joy\"等词汇来形容猫咪的陪伴，显示出她对这种晨间互动的珍视与感激，而非厌烦或视为负担。"
+        },
+        {
+          "q": "In paragraph 1, the word \"obsolete\" most nearly means ______.",
+          "options": [
+            "A. no longer needed",
+            "B. physically broken",
+            "C. recently purchased",
+            "D. highly advanced"
+          ],
+          "answer": "A",
+          "explanation": "中文解析：根据上下文，因为Luna每天准时在6:15叫醒作者，所以闹钟变得不再被需要，\"obsolete\"在此处意为\"不再需要的\"，与\"no longer needed\"最接近。"
+        },
+        {
+          "q": "Why does the author describe Luna's behavior as a 'gentle tyranny'?",
+          "options": [
+            "A. Because the cat violently attacks the author every morning.",
+            "B. Because the cat's daily needs quietly shape the author's routine.",
+            "C. Because the cat rejects all food except premium brands.",
+            "D. Because the cat destroys the author's electronic devices."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：最后一段中，作者用破折号后的同位语解释这种\"tyranny\"其实是\"a paw on the cheek, a purr vibrating through a shared blanket\"，说明猫咪以温柔但持续的方式影响着作者的日常生活节奏，因此B项正确。"
+        }
+      ]
+    }
+  ]
+}
