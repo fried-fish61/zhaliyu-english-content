@@ -1,0 +1,188 @@
+{
+  "theme": "公司法与公司治理核心术语",
+  "theme_en": "Corporate Law & Governance",
+  "words": [
+    {
+      "term": "ultra vires",
+      "ipa": "/ˌʌltrə ˈvaɪriːz/",
+      "cn_meaning": "（公司）越权行为",
+      "collins_def": "beyond the legal power or authority of a corporation, agent, etc.",
+      "pron_tip": "拉丁语 ultra（超越）+ vires（权力/力量），发音近似“阿尔特拉 歪瑞兹”",
+      "examples": [
+        {
+          "en": "The contract was declared void because it was ultra vires the company's memorandum of association.",
+          "cn": "该合同因超越公司章程授权范围而被宣告无效。"
+        },
+        {
+          "en": "Directors who act ultra vires may be held personally liable for resulting losses.",
+          "cn": "实施越权行为的董事可能对由此造成的损失承担个人责任。"
+        }
+      ]
+    },
+    {
+      "term": "derivative action",
+      "ipa": "/dɪˈrɪvətɪv ˈækʃən/",
+      "cn_meaning": "股东派生诉讼",
+      "collins_def": "a lawsuit brought by a shareholder on behalf of a corporation to enforce a right or remedy a wrong that the corporation has failed to address.",
+      "pron_tip": "derivative（派生的），股东权利派生自公司权利",
+      "examples": [
+        {
+          "en": "Minority shareholders filed a derivative action against the board for breach of fiduciary duty.",
+          "cn": "少数股东就董事会违反信义义务提起了派生诉讼。"
+        },
+        {
+          "en": "The court dismissed the derivative suit for failure to make a pre-suit demand on the board.",
+          "cn": "法院因原告未在起诉前向董事会提出请求而驳回了派生诉讼。"
+        }
+      ]
+    },
+    {
+      "term": "business judgment rule",
+      "ipa": "/ˈbɪznəs ˈdʒʌdʒmənt ruːl/",
+      "cn_meaning": "经营判断规则",
+      "collins_def": "a legal principle that presumes directors act in good faith and in the best interests of the company, shielding them from personal liability for honest mistakes in judgment.",
+      "pron_tip": "缩写 BJR，只要董事决策出于善意、知情且无自利，即受该规则保护",
+      "examples": [
+        {
+          "en": "The directors were protected by the business judgment rule when the risky acquisition ultimately failed.",
+          "cn": "当这项高风险收购最终失败时，董事们受到了经营判断规则的保护。"
+        },
+        {
+          "en": "To overcome the business judgment rule, plaintiffs must show self-dealing or gross negligence.",
+          "cn": "原告若要推翻经营判断规则，必须证明存在自我交易或重大过失。"
+        }
+      ]
+    },
+    {
+      "term": "veil piercing",
+      "ipa": "/veɪl ˈpɪəsɪŋ/",
+      "cn_meaning": "刺破公司面纱",
+      "collins_def": "a judicial doctrine that allows courts to hold shareholders personally liable for corporate debts by disregarding the separate legal personality of the corporation.",
+      "pron_tip": "veil（面纱）+ pierce（刺破），形象表达揭开公司独立法人外壳",
+      "examples": [
+        {
+          "en": "The court ordered veil piercing after finding the parent company commingled funds with its subsidiary.",
+          "cn": "法院在发现母公司与子公司资金混同后，下令刺破公司面纱。"
+        },
+        {
+          "en": "Veil piercing is an extraordinary remedy applied only when the corporate form is used to perpetrate fraud.",
+          "cn": "刺破公司面纱是一种特殊救济手段，仅在法人形式被用于实施欺诈时才适用。"
+        }
+      ]
+    },
+    {
+      "term": "quorum",
+      "ipa": "/ˈkwɔːrəm/",
+      "cn_meaning": "（会议的）法定人数",
+      "collins_def": "the minimum number of members of an assembly or board that must be present to make the proceedings valid.",
+      "pron_tip": "发音“夸伦”，联想 quote（定额），指会议有效所需的最低出席人数",
+      "examples": [
+        {
+          "en": "The board meeting could not proceed because only three directors attended, falling short of the quorum.",
+          "cn": "董事会会议因仅三名董事出席、未达到法定人数而无法召开。"
+        },
+        {
+          "en": "The bylaws require a quorum of two-thirds of all directors for any major decision.",
+          "cn": "公司章程细则规定，任何重大决议须获得全体董事三分之二以上出席方为有效。"
+        }
+      ]
+    },
+    {
+      "term": "proxy statement",
+      "ipa": "/ˈprɑːksi ˈsteɪtmənt/",
+      "cn_meaning": "委托投票说明书；股东委托书",
+      "collins_def": "a document sent by a public corporation to its shareholders containing information on matters to be voted on at the annual meeting and soliciting proxies.",
+      "pron_tip": "proxy（代理）+ statement（声明），即公开公司向股东发出的代理投票说明书",
+      "examples": [
+        {
+          "en": "Investors scrutinized the proxy statement for details on executive compensation.",
+          "cn": "投资者仔细审阅委托投票说明书，以了解高管薪酬细节。"
+        },
+        {
+          "en": "The SEC requires full disclosure of related-party transactions in the proxy statement.",
+          "cn": "美国证监会要求在委托投票说明书中全面披露关联交易。"
+        }
+      ]
+    },
+    {
+      "term": "staggered board",
+      "ipa": "/ˈstæɡərd bɔːrd/",
+      "cn_meaning": "交错董事会（董事任期错开）",
+      "collins_def": "a board of directors whose members are grouped into classes with overlapping terms, typically preventing a complete board overhaul in a single year.",
+      "pron_tip": "staggered（交错的，像台阶一样错开的），每年只改选部分董事",
+      "examples": [
+        {
+          "en": "A staggered board is often adopted as an anti-takeover defense.",
+          "cn": "交错董事会常被用作反收购防御措施。"
+        },
+        {
+          "en": "The insurgent nominees could only replace one-third of the seats due to the staggered board structure.",
+          "cn": "由于交错董事会架构，激进派提名人只能更替三分之一的席位。"
+        }
+      ]
+    },
+    {
+      "term": "clawback",
+      "ipa": "/ˈklɔːbæk/",
+      "cn_meaning": "（薪酬/款项）追回；回拨机制",
+      "collins_def": "a contractual or statutory provision requiring the return of previously paid compensation, especially in cases of misconduct or restatement of financial results.",
+      "pron_tip": "claw（爪子）+ back（回来），像用爪子把钱抓回来",
+      "examples": [
+        {
+          "en": "The CEO was subject to a $5 million clawback following the accounting fraud.",
+          "cn": "会计欺诈曝光后，首席执行官受到500万美元的薪酬追回。"
+        },
+        {
+          "en": "Dodd-Frank expanded clawback provisions for incentive-based executive pay.",
+          "cn": "《多德-弗兰克法案》扩大了基于业绩的高管薪酬追回条款。"
+        }
+      ]
+    },
+    {
+      "term": "related party transaction",
+      "ipa": "/rɪˈleɪtɪd ˈpɑːrti trænˈzækʃn/",
+      "cn_meaning": "关联交易",
+      "collins_def": "a deal or arrangement between a company and an entity or individual closely connected to it, such as a director, major shareholder, or affiliate, requiring enhanced disclosure and approval.",
+      "pron_tip": "三个词直译：related（关联的）+ party（方）+ transaction（交易）",
+      "examples": [
+        {
+          "en": "The audit committee reviewed the related party transaction to ensure it was at arm's length.",
+          "cn": "审计委员会审议了该关联交易，以确保其符合公平交易原则。"
+        },
+        {
+          "en": "Failure to disclose a material related party transaction can trigger securities fraud liability.",
+          "cn": "未披露重大关联交易可能引发证券欺诈责任。"
+        }
+      ]
+    },
+    {
+      "term": "arm's length",
+      "ipa": "/ˌɑːrmz ˈleŋθ/",
+      "cn_meaning": "公平交易原则；正常交易关系",
+      "collins_def": "(of a transaction or relationship) conducted between independent parties who have no special relationship or conflict of interest, as if they were strangers.",
+      "pron_tip": "想象双方各伸出一只手臂保持距离，互不偏袒、互不控制",
+      "examples": [
+        {
+          "en": "The license agreement was negotiated at arm's length between two unrelated entities.",
+          "cn": "该许可协议由两家无关联实体在正常交易条件下谈判达成。"
+        },
+        {
+          "en": "Courts scrutinize whether related party dealings truly reflect arm's length terms.",
+          "cn": "法院会仔细审查关联交易是否真正体现了公平交易条款。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "ultra vires",
+    "derivative action",
+    "business judgment rule",
+    "veil piercing",
+    "quorum",
+    "proxy statement",
+    "staggered board",
+    "clawback",
+    "related party transaction",
+    "arm's length"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "articles": [
+    {
+      "title": "The Tightrope of Internal Investigations: Employee Devices and Corporate Authority",
+      "body": [
+        "The proliferation of bring-your-own-device (BYOD) policies has fundamentally blurred the boundary between corporate and personal data, thrusting internal investigators into an increasingly complex legal landscape. When allegations of misconduct arise, compliance officers routinely face a pressing question: to what extent may a company access an employee’s personal smartphone or laptop to preserve evidence? The answer varies dramatically across jurisdictions and remains one of the most contested frontiers in corporate governance.",
+        "In the European Union, the General Data Protection Regulation (GDPR) and a robust body of labor jurisprudence place stringent limits on employer intrusion into personal devices. Data minimization and necessity are the guiding principles; blanket forensic imaging of an employee’s phone is generally considered disproportionate unless the company can demonstrate an overriding legitimate interest. By contrast, many U.S. states afford employers broader latitude under the doctrine of “employee monitoring,” provided that workers have provided explicit consent through handbook provisions or employment contracts. This transatlantic divergence forces multinational corporations to adopt region-specific investigation protocols rather than one-size-fits-all strategies.",
+        "From a practical standpoint, legal counsel recommend several safeguards to mitigate risk. First, organizations should embed clear data-governance clauses into onboarding documentation, explicitly defining the scope of corporate access to personal devices used for work. Second, investigators should favor targeted collection—extracting only relevant files and communications—over comprehensive device imaging, thereby reducing privacy infringements and subsequent regulatory scrutiny. Third, engaging external law firms to direct the investigation can help shield findings under attorney-client privilege, particularly when regulators later demand disclosure.",
+        "Ultimately, internal investigations are no longer merely about uncovering wrongdoing; they are delicate exercises in legal risk management. Companies that treat digital forensics as an afterthought often discover that the investigation itself becomes a liability. Proactive policy design, tailored to the strictest applicable privacy regime, remains the most reliable defense against parallel regulatory exposure.",
+        "1. **jurisprudence** — the theory or philosophy of law",
+        "2. **divergence** — a difference in opinions, approaches, or states",
+        "3. **disproportionate** — too large or too small in comparison with something else",
+        "4. **shield** — to protect someone or something from danger or harm",
+        "1. \"When allegations of misconduct arise, compliance officers routinely face a pressing question: to what extent may a company access an employee’s personal smartphone or laptop to preserve evidence?\"",
+        "- 主句：compliance officers routinely face a pressing question",
+        "- 从句：When allegations of misconduct arise（时间状语从句）; to what extent may a company access an employee’s personal smartphone or laptop to preserve evidence（同位语从句，解释question的具体内容）",
+        "2. \"Data minimization and necessity are the guiding principles; blanket forensic imaging of an employee’s phone is generally considered disproportionate unless the company can demonstrate an overriding legitimate interest.\"",
+        "- 主句：Data minimization and necessity are the guiding principles",
+        "- 从句：unless the company can demonstrate an overriding legitimate interest（条件状语从句）; blanket forensic imaging of an employee’s phone is generally considered disproportionate（并列分句，被动语态）",
+        "3. \"Companies that treat digital forensics as an afterthought often discover that the investigation itself becomes a liability.\"",
+        "- 主句：Companies often discover that the investigation itself becomes a liability",
+        "- 从句：that treat digital forensics as an afterthought（定语从句，修饰Companies）; that the investigation itself becomes a liability（宾语从句，作discover的宾语）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the passage mainly about?",
+          "options": [
+            "A. The technical process of forensic imaging in corporate investigations.",
+            "B. The legal and practical challenges of accessing employee personal devices during internal investigations.",
+            "C. The differences between GDPR and U.S. state labor laws.",
+            "D. The advantages of BYOD policies for multinational corporations."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章围绕内部调查中公司访问员工个人设备所引发的法律边界争议展开，讨论了欧盟与美国的立场差异，并给出了实务建议，因此B项最能概括主旨。"
+        },
+        {
+          "q": "According to the passage, under what condition might blanket forensic imaging of an employee’s phone be acceptable in the EU?",
+          "options": [
+            "A. If the employee has signed a BYOD consent form.",
+            "B. If the company can demonstrate an overriding legitimate interest.",
+            "C. If the investigation is directed by external legal counsel.",
+            "D. If the phone contains only corporate data."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：正文第二段明确指出，blanket forensic imaging of an employee’s phone is generally considered disproportionate unless the company can demonstrate an overriding legitimate interest，即除非公司能证明存在压倒性的合法利益，否则这种做法通常被认为不成比例。"
+        },
+        {
+          "q": "Which of the following practical measures is explicitly recommended by the author?",
+          "options": [
+            "A. Conducting comprehensive device imaging for all suspected employees.",
+            "B. Relying on verbal agreements to authorize device monitoring.",
+            "C. Embedding clear data-governance clauses into onboarding documentation.",
+            "D. Avoiding external law firms to retain full corporate control."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段第一句提到，organizations should embed clear data-governance clauses into onboarding documentation，这是作者明确推荐的实务措施之一。"
+        },
+        {
+          "q": "What can be inferred about companies that treat digital forensics as an afterthought?",
+          "options": [
+            "A. They are exempt from GDPR if they operate primarily in the United States.",
+            "B. They will automatically forfeit attorney-client privilege.",
+            "C. They risk turning the internal investigation itself into a source of liability.",
+            "D. They are required to adopt the strictest EU protocols globally."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：最后一段指出，Companies that treat digital forensics as an afterthought often discover that the investigation itself becomes a liability，由此可推断这些公司可能使调查本身演变成责任来源。"
+        },
+        {
+          "q": "As used in Paragraph 3, the word \"shield\" most nearly means:",
+          "options": [
+            "A. Conceal",
+            "B. Transfer",
+            "C. Protect",
+            "D. Disclose"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到 engaging external law firms to direct the investigation can help shield findings under attorney-client privilege，即在律师-客户特权下保护调查结果不被强制披露，因此 shield 在此处意为 protect。"
+        }
+      ]
+    },
+    {
+      "title": "Finding Cadence on Ice",
+      "body": [
+        "When I laced up my skates last September after a twelve-year hiatus, my hands trembled with equal parts excitement and dread. The rink smelled exactly as I remembered—sharp, metallic, impossibly clean—and the cold nipped my cheeks in that familiar, almost affectionate way. At thirty-one, I was no longer the fearless teenager who had once dreamed of competitive podiums, but rather someone with an office job, a stiff lower back, and a newfound appreciation for quality knee braces.",
+        "My first steps onto the ice were tentative. The blades, once natural extensions of my feet, now felt like unpredictable strangers. Yet as the rink’s speakers began to spill out Debussy’s *Clair de Lune*, something dormant stirred. I pushed off, not attempting the jumps that once defined my adolescence, but simply gliding, letting the music dictate the length and curve of each edge. Figure skating, I quickly remembered, is not merely about athletic conquest. It is a conversation between body and blade, a quiet negotiation with gravity.",
+        "Last Saturday, beneath fluorescent lights that hummed like distant bees, I finally attempted a single toe loop. The takeoff was wobbly, the landing accompanied by a dramatic windmill of arms that would have horrified my old coach. But in that chaotic, centrifugal second, I laughed out loud. No judges hovered with clipboards; no scoreboard flashed. There was only the spray of ice and the private triumph of choosing artistry over perfection.",
+        "The ice rink has become my sanctuary. In a city that rewards constant motion and noise, it offers a rare, glacial stillness. Every Saturday morning, I return not to resurrect a lost dream, but to nurture a gentler one: that joy does not retire with youth, and that beauty can be pursued without a medal around your neck.",
+        "1. **tentative** — hesitant and uncertain due to lack of confidence",
+        "1. \"My first steps onto the ice were tentative.\"",
+        "- 主句：My first steps onto the ice were tentative",
+        "- 解析：主系表结构，介词短语 onto the ice 作后置定语修饰 steps",
+        "1. **centrifugal** — moving or tending to move away from a center",
+        "1. \"But in that chaotic, centrifugal second, I laughed out loud.\"",
+        "- 主句：I laughed out loud",
+        "- 状语：in that chaotic, centrifugal second 作时间状语，修饰 laughed",
+        "1. **sanctuary** — a peaceful place that provides safety and comfort",
+        "1. \"The ice rink has become my sanctuary.\"",
+        "- 主句：The ice rink has become my sanctuary",
+        "- 解析：现在完成时强调过去动作对现在的影响，说明冰场持续至今的意义",
+        "1. **dormant** — not active or growing, but having the potential to be active",
+        "1. \"...something dormant stirred.\"",
+        "- 主句：something dormant stirred",
+        "- 解析：不定代词 something 作主语，dormant 为形容词后置定语，stirred 为谓语动词"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main theme of the passage?",
+          "options": [
+            "A. The technical requirements for advanced figure skating jumps",
+            "B. The author's experience of returning to skating and valuing artistry over competition",
+            "C. The history of figure skating from amateur to professional levels",
+            "D. The physical risks associated with ice skating for adults"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章主要讲述了作者在31岁重返冰场，不再追求竞技成绩，而是享受滑冰的艺术性和个人快乐，B选项准确概括了这一主题。"
+        },
+        {
+          "q": "According to the passage, how did the author feel during her first return to the rink?",
+          "options": [
+            "A. She was completely confident because she had prior training.",
+            "B. She felt nervous due to the long break and her changed physical condition.",
+            "C. She was disappointed by the changes in the rink's environment.",
+            "D. She regretted quitting skating twelve years ago."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章第一段和第二段提到作者十二年后再穿上冰鞋时手在颤抖（trembled with...dread），背部僵硬（stiff lower back），第一步很试探（tentative），说明她因长时间中断和身体变化而感到紧张。"
+        },
+        {
+          "q": "What can be inferred about the author's current view on figure skating?",
+          "options": [
+            "A. She believes competitive scoring is the best measure of a skater's worth.",
+            "B. She thinks adults should avoid attempting jumps to prevent injury.",
+            "C. She finds greater fulfillment in the personal and artistic aspects of skating than in competition.",
+            "D. She plans to resume training for professional competitions next year."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文中提到没有评委和记分牌（No judges hovered...no scoreboard flashed），作者选择艺术而非完美（choosing artistry over perfection），并认为滑冰是身体与冰刀的对话，可推断她现在更重视滑冰的个人艺术体验而非竞技。"
+        },
+        {
+          "q": "In paragraph 2, the word \"tentative\" most nearly means ______.",
+          "options": [
+            "A. aggressive and powerful",
+            "B. slow and uncertain",
+            "C. graceful and smooth",
+            "D. rapid and confident"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：根据上下文，作者十二年未滑冰，冰刀感觉像陌生的外人（unpredictable strangers），因此她的第一步应该是谨慎、不确信的。tentative 在此处意为 hesitant and careful，与B选项最接近。"
+        },
+        {
+          "q": "Why does the author describe the ice rink as a 'sanctuary'?",
+          "options": [
+            "A. Because it is located in a quiet neighborhood away from the city.",
+            "B. Because it allows her to escape the fast pace of urban life and find peace.",
+            "C. Because she can compete without pressure from judges or audiences.",
+            "D. Because the temperature there is much lower than other places in the city."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章最后一段提到，在这座奖励速度与噪音的城市中，冰场提供了一种罕见的冰川般的宁静（glacial stillness），因此作者将其视为避难所。B选项与此相符。"
+        }
+      ]
+    }
+  ]
+}
