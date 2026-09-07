@@ -1,0 +1,170 @@
+{
+  "articles": [
+    {
+      "title": "Walking the Tightrope: Data Privacy in Cross-Border Internal Investigations",
+      "body": [
+        "When a multinational corporation uncovers potential fraud within its Asian subsidiary, the instinctive response is often to gather all relevant evidence and centralize it at headquarters for review. Yet this reflex, while administratively convenient, increasingly collides with stringent data privacy regimes around the globe. The era of frictionless cross-border internal investigations is effectively over.",
+        "Consider the practical dilemma confronting compliance officers today. Under the European Union’s General Data Protection Regulation (GDPR), transferring employee emails or personnel records to a parent company’s servers in the United States requires a valid legal basis and adequate safeguards. Investigators cannot simply rely on broad consent clauses buried in employment contracts; regulators in Germany and France have explicitly rejected such arguments during dawn raids. Similarly, China’s Personal Information Protection Law (PIPL) mandates security assessments for outbound transfers of sensitive data, adding procedural delays that frustrated executives rarely anticipate.",
+        "Experienced practitioners have learned to adapt. Rather than shipping raw data across borders, leading firms now deploy localized forensic teams who review materials on-site under the supervision of local counsel. Redacted summaries—not underlying documents—are then transmitted to global headquarters. This approach satisfies most data localization requirements while preserving investigative integrity. Nevertheless, it demands upfront investment: standardized investigation protocols must be drafted before any crisis emerges, and regional legal teams need authority to veto improper data requests from headquarters.",
+        "Ultimately, treating privacy compliance as an obstacle to internal investigations is a strategic miscalculation. Companies that fail to embed data-protection checks into their investigation workflows risk not only regulatory fines but also the destruction of employee trust, which is far harder to rebuild than a compliance deficit. A single unlawful transfer discovered by a local data protection authority can paralyze an entire inquiry and expose the organization to parallel criminal liability.",
+        "1. **collides** — to come into conflict or opposition",
+        "2. **frictionless** — smooth and easy, without obstacles or complications",
+        "3. **mandates** — official orders or requirements to do something",
+        "4. **redacted** — edited to remove sensitive or confidential information",
+        "5. **miscalculation** — a wrong or misguided judgment about a situation",
+        "1. \"Under the European Union’s General Data Protection Regulation (GDPR), transferring employee emails or personnel records to a parent company’s servers in the United States requires a valid legal basis and adequate safeguards.\"",
+        "- 主句：transferring employee emails or personnel records to a parent company’s servers in the United States requires a valid legal basis and adequate safeguards",
+        "- 状语：Under the European Union’s General Data Protection Regulation (GDPR)",
+        "- 非谓语/动名词短语作主语：transferring employee emails or personnel records to a parent company’s servers in the United States",
+        "2. \"Companies that fail to embed data-protection checks into their investigation workflows risk not only regulatory fines but also the destruction of employee trust, which is far harder to rebuild than a compliance deficit.\"",
+        "- 主句：Companies risk not only regulatory fines but also the destruction of employee trust",
+        "- 定语从句（修饰Companies）：that fail to embed data-protection checks into their investigation workflows",
+        "- 非限制性定语从句（修饰the destruction of employee trust）：which is far harder to rebuild than a compliance deficit"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Multinational corporations should cease all internal investigations in foreign subsidiaries.",
+            "B. Cross-border data privacy laws have significantly complicated internal investigations for multinational companies.",
+            "C. The GDPR and PIPL are identical in their treatment of employee data transfers.",
+            "D. Localized forensic teams are too costly to be practical for most global firms."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章开篇即指出跨境内部调查的时代已不复存在，随后用GDPR和PIPL为例说明数据隐私法规如何使调查复杂化，并提出了应对策略，因此B项最能概括全文主旨。"
+        },
+        {
+          "q": "According to the passage, what does China's Personal Information Protection Law (PIPL) require for outbound transfers of sensitive data?",
+          "options": [
+            "A. Explicit written consent from every individual employee.",
+            "B. Security assessments before data can be transferred abroad.",
+            "C. Approval solely from the parent company's general counsel.",
+            "D. Complete prohibition on transferring personnel records outside China."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：根据正文第二段，中国《个人信息保护法》（PIPL）mandates security assessments for outbound transfers of sensitive data，因此B项正确。"
+        },
+        {
+          "q": "What approach do leading firms currently use to balance investigative needs with data privacy compliance?",
+          "options": [
+            "A. They ship all raw evidence to headquarters for centralized review.",
+            "B. They depend on broad consent clauses in employment contracts to justify transfers.",
+            "C. They deploy localized forensic teams to review data on-site and send only redacted summaries abroad.",
+            "D. They avoid investigating jurisdictions with strict data localization requirements."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：正文第三段明确指出，领先企业不再将原始数据跨境传输，而是部署本地化取证团队在本地审查材料，并仅将经删节（redacted）的摘要发送至全球总部，故C项正确。"
+        },
+        {
+          "q": "What does the author imply about companies that treat privacy compliance as merely an obstacle to internal investigations?",
+          "options": [
+            "A. They will ultimately reduce operational costs by streamlining procedures.",
+            "B. They risk losing employee trust and facing financial penalties from regulators.",
+            "C. They are likely to complete fraud investigations faster than their competitors.",
+            "D. They demonstrate a sophisticated understanding of global regulatory frameworks."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：正文最后一段指出，将隐私合规视为障碍是战略误判（strategic miscalculation），未能将数据保护嵌入调查流程的公司不仅面临监管罚款，还会摧毁员工信任，因此B项符合作者的推断。"
+        },
+        {
+          "q": "The word 'redacted' in paragraph 3 most nearly means ______.",
+          "options": [
+            "A. legally binding and enforceable",
+            "B. shortened by removing unnecessary sections",
+            "C. edited to remove sensitive or confidential information",
+            "D. translated into the language of the parent company"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：根据上下文，原始文件（underlying documents）留在本地，而redacted summaries被发送到总部，说明这些摘要经过了处理以隐去敏感内容，因此C项“编辑以删除敏感或机密信息”最符合文意。"
+        }
+      ]
+    },
+    {
+      "title": "The Quiet Diplomacy of a Cat's Evening Routine",
+      "body": [
+        "At exactly 6:47 p.m., if the amber light hits the living room window just right, you will find her there: a compact silhouette against the glass, tail wrapped neatly around her paws. This is not the explosive, tail-wagging homecoming a dog might offer. Instead, she blinks at me slowly—one deliberate unclicking of the eyes, then another—a feline gesture that behaviorists affectionately call a \"cat kiss.\" It is her understated way of saying, \"You are back. The world is still in order.\"",
+        "What follows is a meticulously choreographed ritual. She will lead me—not to her food bowl immediately, but on a brief inspection tour of the apartment, pausing at the sofa corner she claimed last autumn, then at the radiator where a dust mote still dances. Only after this architectural review does she deign to eat, and afterward, she migrates to the couch. There, she settles into the \"loaf\" position: paws invisible, ears forward, radiating a tacit warmth exactly three inches from my thigh. She does not demand to be touched. She simply appoints herself my adjunct, a quiet consul overseeing the evening's paperwork.",
+        "Ethologists suggest that cats regard their human companions not as masters, but as inept, oversized members of their own colony. Yet I prefer a warmer interpretation. The cat chooses proximity without contingency. She does not love with the transactional enthusiasm of a pack animal; she loves like a small, private stamp collector—quietly, specifically, and without display. When she places one paw on my wrist while I type, it is not a request. It is a reciprocation.",
+        "In a city that rewards velocity and noise, there is something radical about being chosen by a creature whose highest compliment is simply to remain nearby. The dog asks, \"Are we enough?\" The cat seems to answer, \"We are, precisely because we do not have to ask.\"",
+        "1. **silhouette** — the dark shape of someone or something visible against a lighter background",
+        "1. **understated** — presented or expressed in a subtle and restrained way",
+        "1. **meticulously** — in a way that shows great attention to detail; very carefully",
+        "1. **deign** — do something that one considers to be beneath one's dignity",
+        "1. **adjunct** — a thing added to something else as a supplementary rather than an essential part",
+        "1. **reciprocation** — the act of responding to a gesture or action by making a corresponding one",
+        "1. \"At exactly 6:47 p.m., if the amber light hits the living room window just right, you will find her there: a compact silhouette against the glass, tail wrapped neatly around her paws.\"",
+        "- 主句：you will find her there",
+        "- 条件状语从句：if the amber light hits the living room window just right",
+        "- 同位语：a compact silhouette against the glass",
+        "- 独立主格：tail wrapped neatly around her paws",
+        "1. \"What follows is a meticulously choreographed ritual.\"",
+        "- 主句：What follows is a meticulously choreographed ritual",
+        "- 主语从句：What follows",
+        "1. \"Ethologists suggest that cats regard their human companions not as masters, but as inept, oversized members of their own colony.\"",
+        "- 主句：Ethologists suggest",
+        "- 宾语从句：that cats regard their human companions not as masters, but as inept, oversized members of their own colony",
+        "1. \"In a city that rewards velocity and noise, there is something radical about being chosen by a creature whose highest compliment is simply to remain nearby.\"",
+        "- 主句：there is something radical about being chosen by a creature",
+        "- 定语从句：that rewards velocity and noise",
+        "- 定语从句：whose highest compliment is simply to remain nearby"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are more independent than dogs and therefore make better pets for busy people.",
+            "B. The author describes the quiet and meaningful ways a cat expresses companionship.",
+            "C. Scientists believe cats view humans as inferior members of their social group.",
+            "D. Evening routines are important for maintaining a cat's physical health."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章通过描述猫咪傍晚迎接主人、巡视房间、安静陪伴等行为，展现了猫以一种含蓄而深情的方式表达陪伴，而非讨论猫狗优劣或猫咪健康。"
+        },
+        {
+          "q": "According to the passage, what does the cat do immediately after the author returns home?",
+          "options": [
+            "A. She demands food from her bowl.",
+            "B. She runs around the apartment excitedly.",
+            "C. She blinks slowly at the author from the window.",
+            "D. She jumps onto the couch and falls asleep."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：根据第一段，作者回家后，猫咪在窗边缓慢眨眼（blinks at me slowly），这是行为学家所称的“猫之吻”，而非立刻要食物或跑跳。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward the cat's behavior?",
+          "options": [
+            "A. She finds it cold and disappointing compared to a dog's welcome.",
+            "B. She appreciates its quiet and deliberate nature.",
+            "C. She wishes the cat would be more affectionate and active.",
+            "D. She believes the cat is manipulating her for food."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：从作者使用“understated way”“tacit warmth”“warmer interpretation”“something radical”等积极描述可以推断，她欣赏猫咪安静而从容的陪伴方式。"
+        },
+        {
+          "q": "In paragraph 2, the word \"deign\" most nearly means:",
+          "options": [
+            "A. refuse completely",
+            "B. agree to do something one considers beneath oneself",
+            "C. forget unintentionally",
+            "D. perform enthusiastically"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文中提到猫咪在“建筑学巡查”之后才deign去进食，结合该词常用于描述屈尊做某事的语境，可推断其意为“屈尊、俯就”。"
+        },
+        {
+          "q": "What does the author suggest about the cat's choice to sit near her?",
+          "options": [
+            "A. It is a calculated move to get more treats.",
+            "B. It shows the cat views her as the leader of the pack.",
+            "C. It is a genuine but understated sign of trust and companionship.",
+            "D. It is purely accidental and has no special meaning."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到猫咪选择靠近是没有条件的（without contingency），第四段指出被这样一只动物选择是一种很高的赞美（highest compliment），说明作者认为这是真诚而含蓄的信任与陪伴。"
+        }
+      ]
+    }
+  ]
+}

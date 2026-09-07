@@ -1,0 +1,188 @@
+{
+  "theme": "合同法与商业交易精要",
+  "theme_en": "Contract Law & Commercial Transactions",
+  "words": [
+    {
+      "term": "consideration",
+      "ipa": "/kənˌsɪdəˈreɪʃn/",
+      "cn_meaning": "对价；约因",
+      "collins_def": "Something of value given by one party to another in exchange for a promise or performance, which is necessary for the formation of a valid contract.",
+      "pron_tip": "重音在第四音节 con-sid-er-A-tion；法律含义为‘对价’，切勿理解为日常‘考虑’。",
+      "examples": [
+        {
+          "en": "A gratuitous promise without consideration is generally not enforceable at common law.",
+          "cn": "在普通法下，没有对价的无偿允诺通常不具有强制执行力。"
+        },
+        {
+          "en": "The court found that past consideration could not support the new agreement.",
+          "cn": "法院认定过去的对价不能支撑这份新协议。"
+        }
+      ]
+    },
+    {
+      "term": "novation",
+      "ipa": "/nəʊˈveɪʃn/",
+      "cn_meaning": "合同更新；债务替代",
+      "collins_def": "The substitution of a new contract for an existing one, with the mutual agreement of all parties, typically replacing an original party with a new one.",
+      "pron_tip": "no-VAY-shun，联想 nova（新星），合同关系如新星般焕然一新。",
+      "examples": [
+        {
+          "en": "The lender accepted a novation substituting the parent company as the new borrower.",
+          "cn": "债权人接受以母公司替代原借款人的合同更新。"
+        },
+        {
+          "en": "Novation requires the explicit consent of all three parties involved.",
+          "cn": "合同更新必须经涉及的三方明确同意。"
+        }
+      ]
+    },
+    {
+      "term": "estoppel",
+      "ipa": "/ɪˈstɒpl/",
+      "cn_meaning": "禁反言；禁止反言",
+      "collins_def": "A legal principle that prevents a party from asserting a claim or right that is inconsistent with their previous conduct or statements.",
+      "pron_tip": "e-STOP-el，联想 stop（阻止），法律上阻止你反言。",
+      "examples": [
+        {
+          "en": "Promissory estoppel allowed the claimant to enforce the oral promise despite the lack of a written contract.",
+          "cn": "尽管缺乏书面合同，允诺禁反言原则使原告得以强制执行该口头承诺。"
+        },
+        {
+          "en": "The doctrine of equitable estoppel barred the landlord from terminating the lease.",
+          "cn": "衡平法禁反言原则阻止了房东终止租约。"
+        }
+      ]
+    },
+    {
+      "term": "waiver",
+      "ipa": "/ˈweɪvər/",
+      "cn_meaning": "弃权；权利放弃",
+      "collins_def": "The voluntary and intentional relinquishment of a known right, claim, or privilege under a contract.",
+      "pron_tip": "WAY-ver，联想 wave（挥手），挥手放弃权利。",
+      "examples": [
+        {
+          "en": "The seller’s failure to insist on strict performance did not constitute a waiver of future breaches.",
+          "cn": "卖方未坚持要求严格履行并不构成对未来违约的弃权。"
+        },
+        {
+          "en": "The shareholder signed a waiver of pre-emption rights.",
+          "cn": "股东签署了放弃优先购买权的弃权书。"
+        }
+      ]
+    },
+    {
+      "term": "repudiation",
+      "ipa": "/rɪˌpjuːdiˈeɪʃn/",
+      "cn_meaning": "拒绝履行；预期违约",
+      "collins_def": "An unequivocal indication by a party to a contract that they will not perform their obligations, entitling the innocent party to treat the contract as breached.",
+      "pron_tip": "re-pyoo-dee-AY-shun，联想 refuse（拒绝），正式拒绝履约。",
+      "examples": [
+        {
+          "en": "The buyer’s anticipatory repudiation entitled the seller to sue for damages before the delivery date.",
+          "cn": "买方的预期违约使卖方得以在交货日前起诉索赔。"
+        },
+        {
+          "en": "A party may retract a repudiation unless the other party has materially changed position.",
+          "cn": "一方可以撤回拒绝履行的表示，除非对方已实质性改变立场。"
+        }
+      ]
+    },
+    {
+      "term": "rescission",
+      "ipa": "/rɪˈsɪʒn/",
+      "cn_meaning": "撤销；解除合同",
+      "collins_def": "The cancellation or unmaking of a contract by a court or by mutual agreement, with the aim of restoring the parties to their pre-contractual positions.",
+      "pron_tip": "rih-SI-zhun，注意中间的 s 发 /ʒ/ 音，类似 vision；意为‘撕毁’合同。",
+      "examples": [
+        {
+          "en": "The court ordered rescission of the agreement on the grounds of fraudulent misrepresentation.",
+          "cn": "法院以欺诈性虚假陈述为由下令撤销该协议。"
+        },
+        {
+          "en": "Rescission is an equitable remedy that unwinds the transaction entirely.",
+          "cn": "解除是一种衡平法救济，旨在彻底撤销交易。"
+        }
+      ]
+    },
+    {
+      "term": "liquidated damages",
+      "ipa": "/ˈlɪkwɪdeɪtɪd ˈdæmɪdʒɪz/",
+      "cn_meaning": "约定违约金；定额损害赔偿金",
+      "collins_def": "A sum specified in a contract as compensation for breach, enforceable if it represents a genuine pre-estimate of loss rather than a penalty.",
+      "pron_tip": "LI-kwi-day-ted，注意动词 liquidate 在此读作 /ˈlɪkwɪdeɪt/；非‘清算的损害’。",
+      "examples": [
+        {
+          "en": "The construction contract imposed liquidated damages of $5,000 for each day of delay.",
+          "cn": "该建筑合同约定每延误一天支付 5,000 美元的违约金。"
+        },
+        {
+          "en": "If the stipulated sum is deemed a penalty, the liquidated damages clause will be unenforceable.",
+          "cn": "若约定金额被视为罚金，则该约定违约金条款将不可执行。"
+        }
+      ]
+    },
+    {
+      "term": "specific performance",
+      "ipa": "/spəˈsɪfɪk pərˈfɔːrməns/",
+      "cn_meaning": "强制履行；特定履行令",
+      "collins_def": "An equitable remedy whereby a court orders a party to perform their contractual obligations precisely as agreed, typically granted when damages are inadequate.",
+      "pron_tip": "spe-SI-fic per-FOR-mance，衡平法上的特殊救济，用于金钱赔偿不足时。",
+      "examples": [
+        {
+          "en": "The purchaser sought specific performance because the subject land was unique.",
+          "cn": "因涉案土地具有独特性，买方请求法院判令强制履行。"
+        },
+        {
+          "en": "Courts are generally reluctant to grant specific performance for personal service contracts.",
+          "cn": "法院通常不情愿就个人服务合同判令强制履行。"
+        }
+      ]
+    },
+    {
+      "term": "force majeure",
+      "ipa": "/ˌfɔːrs mæˈʒɜːr/",
+      "cn_meaning": "不可抗力",
+      "collins_def": "A contractual clause that excuses a party from liability for failures caused by extraordinary events beyond their reasonable control, such as war, strikes, or natural disasters.",
+      "pron_tip": "fors ma-ZHUR，法语借词，字面意为‘优越力量’。",
+      "examples": [
+        {
+          "en": "The pandemic triggered the force majeure clause, suspending all delivery obligations.",
+          "cn": "疫情触发了不可抗力条款，中止了全部交货义务。"
+        },
+        {
+          "en": "The supplier invoked force majeure to avoid liability for the delayed shipment.",
+          "cn": "供应商援引不可抗力以免除迟延交货的责任。"
+        }
+      ]
+    },
+    {
+      "term": "severability",
+      "ipa": "/ˌsevərəˈbɪləti/",
+      "cn_meaning": "（合同条款的）可分割性",
+      "collins_def": "The legal principle that if one provision of a contract is held invalid or unenforceable, the remainder of the agreement shall continue in full force and effect.",
+      "pron_tip": "seh-vuh-ra-BIL-i-tee，重音在 bil；联想 sever（切断），切掉无效条款，其余继续有效。",
+      "examples": [
+        {
+          "en": "The severability clause ensures that an unenforceable term does not void the entire contract.",
+          "cn": "可分割性条款确保某一条款不可执行不会导致整份合同无效。"
+        },
+        {
+          "en": "Without severability, one illegal provision could invalidate the whole agreement.",
+          "cn": "倘若没有可分割性，一项违法条款就可能使整份协议归于无效。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "consideration",
+    "novation",
+    "estoppel",
+    "waiver",
+    "repudiation",
+    "rescission",
+    "liquidated damages",
+    "specific performance",
+    "force majeure",
+    "severability"
+  ]
+}
