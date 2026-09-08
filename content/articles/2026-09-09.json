@@ -1,0 +1,141 @@
+{
+  "articles": [
+    {
+      "title": "Operationalizing AI Governance: From Policy Papers to Engineering Practice",
+      "body": [
+        "For many enterprises, artificial intelligence governance remains an exercise in documentation—drafting polished policies that satisfy boards and regulators yet rarely shape daily operations or engineering workflows. This checkbox mentality, however, fundamentally misunderstands the nature of algorithmic risk. Effective governance demands that ethical guardrails be woven into the fabric of product development, procurement, and deployment rather than parked in a compliance manual that engineers never read.",
+        "Static policy frameworks are particularly vulnerable in the AI context because machine learning systems are inherently dynamic. A model approved in January may produce biased or inaccurate outputs by June as underlying data distributions shift or consumer behavior changes. Without continuous monitoring and recalibration protocols, organizations effectively operate blind to incremental degradation in model performance—a phenomenon known as concept drift that static rules and annual audits cannot capture.",
+        "Progressive organizations are therefore shifting from paper-based oversight to genuine operational integration. Leading firms now rely on cross-functional committees comprising legal, engineering, and ethics officers to vet deployment decisions, ensuring that rigorous risk assessments occur before models ever reach production. Equally critical is the insistence on human-in-the-loop protocols for high-stakes domains such as credit underwriting and hiring, where automated outputs must be reviewable by qualified personnel rather than rubber-stamped by opaque algorithms.",
+        "Ultimately, sustainable AI governance is less about the thickness of policy binders and more about deep cultural embedding. True governance succeeds only when ethical constraints are embedded into the development pipeline from the outset, not appended as an afterthought once the model is built. In an era where regulatory scrutiny is intensifying globally, the companies that thrive will be those treating AI ethics as an engineering problem, not merely a legal one.",
+        "1. **drift** — a gradual change or movement from a fixed point or course",
+        "1. \"Without continuous monitoring and recalibration protocols, organizations effectively operate blind to incremental degradation in model performance—a phenomenon known as concept drift that static rules and annual audits cannot capture.\"",
+        "- 主句：organizations effectively operate blind to incremental degradation in model performance",
+        "- 同位语及定语从句：a phenomenon known as concept drift that static rules and annual audits cannot capture（同位语解释incremental degradation；that引导定语从句修饰drift）",
+        "2. **embed** — to fix something firmly and deeply in a surrounding mass or context",
+        "2. \"True governance succeeds only when ethical constraints are embedded into the development pipeline from the outset, not appended as an afterthought once the model is built.\"",
+        "- 主句：True governance succeeds only when ethical constraints are embedded into the development pipeline from the outset",
+        "- 从句：once the model is built（时间状语从句）",
+        "- 分词短语：not appended as an afterthought（过去分词短语表示对比/补充说明）",
+        "3. **cross-functional** — involving people from different departments or areas of expertise working together",
+        "3. \"Leading firms now rely on cross-functional committees comprising legal, engineering, and ethics officers to vet deployment decisions, ensuring that rigorous risk assessments occur before models ever reach production.\"",
+        "- 主句：Leading firms now rely on cross-functional committees to vet deployment decisions",
+        "- 分词短语：comprising legal, engineering, and ethics officers（现在分词短语作后置定语修饰committees）",
+        "- 从句：ensuring that rigorous risk assessments occur before models ever reach production（现在分词短语作结果状语，内含before引导的时间状语从句）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the author's central claim regarding AI governance?",
+          "options": [
+            "A. It should be managed exclusively by compliance departments to minimize liability.",
+            "B. Its effectiveness depends on integrating ethical controls into operational workflows rather than relying on static documents.",
+            "C. It is primarily a technical issue that software engineers can solve without legal input.",
+            "D. It requires annual audits but does not need continuous monitoring protocols."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章开篇即批判'checkbox mentality'，强调Effective governance demands that ethical guardrails be woven into the fabric of product development... rather than parked in a compliance manual，并在末段重申True governance succeeds only when ethical constraints are embedded into the development pipeline，表明核心论点是AI治理必须融入运营而非停留于纸面。"
+        },
+        {
+          "q": "According to the passage, why are static policy frameworks inadequate for AI systems?",
+          "options": [
+            "A. They are too concise to impress regulators.",
+            "B. They fail to account for the dynamic nature of machine learning models and changing data.",
+            "C. They place excessive burdens on engineering teams.",
+            "D. They prohibit the use of cross-functional committees."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段明确指出Static policy frameworks are particularly vulnerable... because machine learning systems are inherently dynamic，并以模型随数据分布变化（data distributions shift）而产生偏差为例，说明静态政策无法应对concept drift。"
+        },
+        {
+          "q": "What can be inferred about the 'human-in-the-loop' protocols mentioned in the passage?",
+          "options": [
+            "A. They are intended to fully automate high-stakes decisions.",
+            "B. They are only necessary for credit underwriting, not hiring.",
+            "C. They imply that human review is essential in certain high-risk AI applications.",
+            "D. They serve as a temporary substitute for technical model audits."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到human-in-the-loop protocols用于high-stakes domains such as credit underwriting and hiring，并强调automated outputs must be reviewable by qualified personnel rather than rubber-stamped by algorithms，可推断作者认为在关键领域仍需人工审核。"
+        },
+        {
+          "q": "What does the author mean by stating that ethical constraints should not be 'appended as an afterthought'?",
+          "options": [
+            "A. Ethical considerations should be integrated early in the development process.",
+            "B. Ethical reviews should be conducted only after model deployment.",
+            "C. Documentation should be added as a final step in the compliance checklist.",
+            "D. Afterthoughts often produce more creative ethical solutions."
+          ],
+          "answer": "A",
+          "explanation": "中文解析：最后一段将embedded into the development pipeline from the outset与appended as an afterthought once the model is built形成对比，说明作者主张从一开始就将伦理约束嵌入开发流程，而非事后追加。"
+        }
+      ]
+    },
+    {
+      "title": "The Quiet Grammar of Feline Affection",
+      "body": [
+        "If dogs write their love in exclamation marks, cats prefer the subtle art of the semicolon. For years, I misread my tabby’s aloofness as indifference until I learned that her affection speaks in a dialect of deliberate gestures rather than loud declarations. Living with a cat is less like owning a pet and more like being assigned a mysterious roommate who occasionally reviews your life choices with a slow, judgmental blink.",
+        "Every morning at six-fifteen, Maple initiates what scientists call \"kneading\" but what I call her pre-coffee pastry routine. With paws pressing rhythmically against my blanket and a purr running like a quiet motor, she performs this leftover kitten behavior that signals absolute trust. It is her way of saying, \"You are my safe place,\" without uttering a single meow.",
+        "The true plot twist arrives when she deposits her felt mouse at my feet. Contrary to popular belief, she is not offering a gift. Feline behaviorists suggest that cats bring prey—or its synthetic equivalent—to human companions because they view us as spectacularly incompetent hunters who need remedial training. There is something hilariously tender about being pitied by an eight-pound predator who has never actually caught a real mouse.",
+        "Then comes the classic keyboard occupation, a move every remote worker knows too well. While I once interpreted this as sabotage, I now recognize it as a strategic bid for proximity. She does not want the screen; she wants the warm perch beside my hands. By midnight, when the house falls silent, she curls into the crook of my arm, and the day’s tiny negotiations dissolve into one clear truth: her love was there all along, written in a code I simply needed the patience to read.",
+        "1. **aloofness** — a state of being distant, reserved, or emotionally uninvolved",
+        "1. **kneading** — a rhythmic motion cats make with their paws, originally to stimulate milk flow during nursing",
+        "1. **synthetic** — made by chemical synthesis, especially to imitate a natural product; artificial",
+        "1. **proximity** — nearness in space, time, or relationship",
+        "1. \"With paws pressing rhythmically against my blanket and a purr running like a quiet motor, she performs this leftover kitten behavior that signals absolute trust.\"",
+        "- 主句：she performs this leftover kitten behavior",
+        "- 从句：that signals absolute trust（定语从句，修饰 behavior）",
+        "- 伴随状语：With paws pressing rhythmically against my blanket and a purr running like a quiet motor",
+        "1. \"Feline behaviorists suggest that cats bring prey—or its synthetic equivalent—to human companions because they view us as spectacularly incompetent hunters who need remedial training.\"",
+        "- 主句：Feline behaviorists suggest",
+        "- 宾语从句：that cats bring prey—or its synthetic equivalent—to human companions",
+        "- 原因状语从句：because they view us as spectacularly incompetent hunters",
+        "- 定语从句：who need remedial training（修饰 hunters）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are fundamentally less loving than dogs and prefer to be alone.",
+            "B. Remote workers should avoid keeping cats because they disrupt productivity.",
+            "C. Understanding a cat’s unique behaviors reveals a deep, if quiet, form of affection.",
+            "D. Scientific studies prove that cats only show trust when they want food."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文章通过描述猫咪踩奶、送玩具、趴在键盘旁等行为，说明猫咪以独特而安静的方式表达爱意。C项准确概括了全文主旨。"
+        },
+        {
+          "q": "According to the passage, why does Maple knead the blanket in the morning?",
+          "options": [
+            "A. To sharpen her claws before going outside.",
+            "B. To wake the author up and ask for breakfast.",
+            "C. As a sign of trust and comfort carried over from kittenhood.",
+            "D. To create a softer sleeping spot for herself."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第二段明确指出，踩奶是 leftover kitten behavior，并且 signals absolute trust，因此C项与原文细节一致。"
+        },
+        {
+          "q": "What can be inferred about the author’s reaction to Maple bringing the felt mouse?",
+          "options": [
+            "A. She feels insulted and throws the toy away immediately.",
+            "B. She finds the behavior both funny and touching.",
+            "C. She believes Maple is asking for a real mouse in return.",
+            "D. She interprets it as a genuine gift of gratitude."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第三段末尾提到 There is something hilariously tender about being pitied...，hilariously 对应 funny，tender 对应 touching，因此B项正确。"
+        },
+        {
+          "q": "The word \"synthetic\" in paragraph 3 is closest in meaning to ______.",
+          "options": [
+            "A. natural",
+            "B. artificial",
+            "C. fragile",
+            "D. colorful"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第三段中 synthetic equivalent 指代前文提到的 felt mouse（毡制玩具），与真正的猎物 prey 相对，因此 synthetic 意为\"人造的、仿真的\"，与 artificial 同义。"
+        }
+      ]
+    }
+  ]
+}

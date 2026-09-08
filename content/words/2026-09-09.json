@@ -1,0 +1,145 @@
+{
+  "theme": "合规与监管法律术语",
+  "theme_en": "Regulatory Compliance Essentials",
+  "words": [
+    {
+      "term": "subpoena",
+      "ipa": "/səˈpiːnə/",
+      "cn_meaning": "传票；传唤出庭令",
+      "collins_def": "A writ ordering a person to attend a court or regulatory proceeding and give testimony or produce documents.",
+      "pron_tip": "重音在第二音节 sub-PEE-nuh，源自拉丁语“under penalty（服从惩罚）”",
+      "examples": [
+        {
+          "en": "The regulator issued a subpoena requiring the firm to produce all internal communications related to the transaction.",
+          "cn": "监管机构签发了传票，要求该公司提交与该交易相关的所有内部通讯。"
+        }
+      ]
+    },
+    {
+      "term": "injunction",
+      "ipa": "/ɪnˈdʒʌŋkʃn/",
+      "cn_meaning": "（法院/监管机构）禁令；强制令",
+      "collins_def": "A judicial or regulatory remedy that prohibits a party from undertaking a specific act or compels them to perform an action.",
+      "pron_tip": "与 injure 同源，联想法院“阻止”进一步损害",
+      "examples": [
+        {
+          "en": "The court granted a preliminary injunction blocking the acquisition pending antitrust review.",
+          "cn": "法院发布初步禁令，在反垄断审查期间阻止该收购。"
+        }
+      ]
+    },
+    {
+      "term": "consent decree",
+      "ipa": "/kənˈsent dɪˈkriː/",
+      "cn_meaning": "同意令；和解裁决（监管机构与企业间的和解）",
+      "collins_def": "A legally binding agreement formalizing a settlement between a regulatory agency and a defendant, entered without admission of guilt.",
+      "pron_tip": "注意 decree 发音为 /dɪˈkriː/，重音在后",
+      "examples": [
+        {
+          "en": "The pharmaceutical giant entered into a consent decree with the FDA over manufacturing violations.",
+          "cn": "这家制药巨头就生产违规与美国食品药品监督管理局达成同意令。"
+        }
+      ]
+    },
+    {
+      "term": "deferred prosecution agreement",
+      "ipa": "/dɪˈfɜːrd ˌproʊsɪˈkjuːʃn əˈɡriːmənt/",
+      "cn_meaning": "暂缓起诉协议（DPA）",
+      "collins_def": "An arrangement where prosecution is conditionally suspended for a defined period, provided the organization meets specified compliance obligations and pays penalties.",
+      "pron_tip": "常缩写为 DPA，合规和解常见工具",
+      "examples": [
+        {
+          "en": "Under the deferred prosecution agreement, the bank must submit to independent audits for two years.",
+          "cn": "根据暂缓起诉协议，该银行必须接受为期两年的独立审计。"
+        }
+      ]
+    },
+    {
+      "term": "compliance monitor",
+      "ipa": "/kəmˈplaɪəns ˈmɒnɪtər/",
+      "cn_meaning": "合规监察员（法院或监管机构指派）",
+      "collins_def": "An independent third party appointed to oversee and verify that a company adheres to legal and regulatory requirements, typically as part of a settlement.",
+      "examples": [
+        {
+          "en": "The settlement requires the company to bear the full cost of a compliance monitor for three years.",
+          "cn": "和解协议要求该公司承担为期三年的合规监察员全部费用。"
+        }
+      ]
+    },
+    {
+      "term": "whistleblower",
+      "ipa": "/ˈwɪslbloʊər/",
+      "cn_meaning": "举报人；内部吹哨人",
+      "collins_def": "A person who informs the public or a regulator about alleged dishonest or illegal activities occurring within an organization.",
+      "examples": [
+        {
+          "en": "The whistleblower’s detailed allegations triggered a full-scale regulatory investigation.",
+          "cn": "举报人详尽的指控引发了一场全面的监管调查。"
+        }
+      ]
+    },
+    {
+      "term": "retaliation",
+      "ipa": "/rɪˌtæliˈeɪʃn/",
+      "cn_meaning": "报复（尤指对举报人的打击报复）",
+      "collins_def": "An adverse action taken against an individual because they reported misconduct, exercised a legal right, or participated in an investigation.",
+      "pron_tip": "重音在第四音节 re-tal-i-AY-shun",
+      "examples": [
+        {
+          "en": "The firm faced separate penalties for retaliation against employees who reported safety violations.",
+          "cn": "该公司因报复举报安全违规的员工而面临额外处罚。"
+        }
+      ]
+    },
+    {
+      "term": "disgorgement",
+      "ipa": "/dɪsˈɡɔːrdʒmənt/",
+      "cn_meaning": "非法所得没收；吐赃（监管处罚）",
+      "collins_def": "The act of giving up profits or ill-gotten gains obtained through illegal or unethical conduct, typically ordered by a court or regulator.",
+      "pron_tip": "dis-GORJ-ment，联想 disgorge “吐出”不义之财",
+      "examples": [
+        {
+          "en": "The court ordered disgorgement of all profits derived from the insider trading scheme.",
+          "cn": "法院下令没收所有内幕交易非法所得。"
+        }
+      ]
+    },
+    {
+      "term": "due diligence",
+      "ipa": "/ˌduː ˈdɪlɪdʒəns/",
+      "cn_meaning": "尽职调查（法律/合规/商业）",
+      "collins_def": "A comprehensive appraisal of a business or transaction to establish its assets, liabilities, and evaluate commercial and regulatory risks.",
+      "pron_tip": "固定搭配 DOO DIL-i-jence，不可省略 due",
+      "examples": [
+        {
+          "en": "Regulatory due diligence revealed significant anti-money laundering control deficiencies.",
+          "cn": "监管尽职调查揭示了重大的反洗钱内控缺陷。"
+        }
+      ]
+    },
+    {
+      "term": "internal controls",
+      "ipa": "/ɪnˈtɜːrnəl kənˈtroʊlz/",
+      "cn_meaning": "内部控制（制度）",
+      "collins_def": "The mechanisms, rules, and procedures implemented by an organization to ensure the integrity of financial information and compliance with applicable laws.",
+      "examples": [
+        {
+          "en": "Weak internal controls allowed the fraudulent payments to go undetected for years.",
+          "cn": "薄弱的内部控制使欺诈性付款多年未被发现。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "subpoena",
+    "injunction",
+    "consent decree",
+    "deferred prosecution agreement",
+    "compliance monitor",
+    "whistleblower",
+    "retaliation",
+    "disgorgement",
+    "due diligence",
+    "internal controls"
+  ]
+}
