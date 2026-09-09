@@ -138,5 +138,15 @@
     "type": "articles",
     "date": "2026-09-09",
     "file": "articles/2026-09-09.json"
+  },
+  {
+    "type": "words",
+    "date": "2026-09-10",
+    "file": "words/2026-09-10.json"
+  },
+  {
+    "type": "articles",
+    "date": "2026-09-10",
+    "file": "articles/2026-09-10.json"
   }
 ]

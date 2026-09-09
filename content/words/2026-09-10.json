@@ -1,0 +1,142 @@
+{
+  "theme": "内部调查与合规调查关键术语",
+  "theme_en": "Internal Investigations & Compliance Audits",
+  "words": [
+    {
+      "term": "privilege",
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "cn_meaning": "(律师-当事人)特权；豁免权",
+      "collins_def": "A special legal right or immunity that protects certain communications, such as those between a lawyer and client, from being disclosed to third parties or regulators.",
+      "examples": [
+        {
+          "en": "The company asserted attorney-client privilege to resist producing the internal investigation report.",
+          "cn": "该公司主张律师-当事人特权，拒绝提交内部调查报告。"
+        }
+      ]
+    },
+    {
+      "term": "forensic",
+      "ipa": "/fəˈrenzɪk/",
+      "cn_meaning": "法证的；法庭科学的；用于取证的",
+      "pron_tip": "重音在第二音节，类似 '弗伦-zik'",
+      "collins_def": "Relating to the application of scientific methods and techniques to the investigation of legal or compliance matters, especially the analysis of evidence.",
+      "examples": [
+        {
+          "en": "The board hired a forensic accounting firm to trace the suspicious fund flows.",
+          "cn": "董事会聘请了一家法务会计师事务所来追踪可疑资金流向。"
+        }
+      ]
+    },
+    {
+      "term": "spoliation",
+      "ipa": "/ˌspoʊliˈeɪʃn/",
+      "cn_meaning": "(尤指证据的)毁损、灭失；破坏",
+      "pron_tip": "源自拉丁语 spoliare，注意四个音节 spo-li-A-tion",
+      "collins_def": "The intentional or negligent destruction, alteration, or concealment of evidence that is relevant to a legal proceeding or internal investigation.",
+      "examples": [
+        {
+          "en": "The court issued an adverse inference instruction due to the spoliation of email records.",
+          "cn": "由于电子邮件记录的毁损，法院作出了不利推定的指示。"
+        }
+      ]
+    },
+    {
+      "term": "remediation",
+      "ipa": "/rɪˌmiːdiˈeɪʃn/",
+      "cn_meaning": "整改；补救；纠正",
+      "collins_def": "The act of correcting a fault or deficiency, or putting right a problem that has been identified during an audit or investigation.",
+      "examples": [
+        {
+          "en": "The audit findings triggered a comprehensive remediation plan across all regional offices.",
+          "cn": "审计发现触发了覆盖所有区域办事处的全面整改计划。"
+        }
+      ]
+    },
+    {
+      "term": "allegation",
+      "ipa": "/ˌælɪˈɡeɪʃn/",
+      "cn_meaning": "(无证据的)指控；主张；陈述",
+      "collins_def": "An accusation or claim that someone has done something illegal or wrong, typically made without proof at the time it is presented.",
+      "examples": [
+        {
+          "en": "Every allegation received through the ethics hotline must be logged and assessed within 48 hours.",
+          "cn": "通过道德热线收到的每一项指控都必须在48小时内记录并评估。"
+        }
+      ]
+    },
+    {
+      "term": "misconduct",
+      "ipa": "/mɪsˈkɒndʌkt/",
+      "cn_meaning": "不当行为；失职；渎职",
+      "pron_tip": "重音在第二音节，mis-CON-duct",
+      "collins_def": "Unacceptable or improper behaviour, especially by an employee or professional person, that violates established rules, policies, or ethical standards.",
+      "examples": [
+        {
+          "en": "The internal investigation substantiated claims of financial misconduct by the CFO.",
+          "cn": "内部调查证实了有关首席财务官财务不当行为的指控。"
+        }
+      ]
+    },
+    {
+      "term": "impartiality",
+      "ipa": "/ɪmˌpɑːrʃiˈæləti/",
+      "cn_meaning": "公正性；不偏不倚",
+      "collins_def": "The quality of being fair and not favouring one side over another, which is essential for investigators, adjudicators, and compliance officers.",
+      "examples": [
+        {
+          "en": "Outside counsel was retained to ensure the impartiality of the investigation.",
+          "cn": "聘请外部律师是为了确保调查的公正性。"
+        }
+      ]
+    },
+    {
+      "term": "confidentiality",
+      "ipa": "/ˌkɒnfɪdenʃiˈæləti/",
+      "cn_meaning": "保密性；机密性",
+      "collins_def": "The state of keeping information private and secret, so that it is not disclosed to unauthorized persons during or after an investigation.",
+      "examples": [
+        {
+          "en": "All interviewees were reminded of their duty of confidentiality under the company code.",
+          "cn": "所有受访者在公司守则下被提醒负有保密义务。"
+        }
+      ]
+    },
+    {
+      "term": "triage",
+      "ipa": "/ˈtriːɑːʒ/",
+      "cn_meaning": "(调查案件的)初步筛选；分诊；分类处理",
+      "pron_tip": "源自法语，尾音类似 '阿日'",
+      "collins_def": "The process of quickly assessing and prioritizing incoming complaints or allegations to determine which require immediate investigation.",
+      "examples": [
+        {
+          "en": "The ethics office uses a standardized protocol for the triage of whistleblower complaints.",
+          "cn": "道德办公室使用标准化流程对举报投诉进行初步筛选。"
+        }
+      ]
+    },
+    {
+      "term": "custodian",
+      "ipa": "/kʌˈstoʊdiən/",
+      "cn_meaning": "(文件/数据)保管人；监护人",
+      "collins_def": "A person or entity responsible for safeguarding records, documents, or data that may be relevant to an investigation or litigation.",
+      "examples": [
+        {
+          "en": "Each custodian of electronic data was issued a litigation hold notice.",
+          "cn": "每一位电子数据的保管人都收到了诉讼保全通知。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "privilege",
+    "forensic",
+    "spoliation",
+    "remediation",
+    "allegation",
+    "misconduct",
+    "impartiality",
+    "confidentiality",
+    "triage",
+    "custodian"
+  ]
+}

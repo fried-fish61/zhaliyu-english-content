@@ -1,0 +1,140 @@
+{
+  "articles": [
+    {
+      "title": "The Privilege Paradox: Navigating Cross-Border Internal Investigations",
+      "body": [
+        "When a multinational corporation uncovers potential misconduct within its Asian subsidiary, launching an internal investigation is only the first step. The real complexity emerges when interview notes, forensic data, and legal memoranda must cross borders to inform headquarters or satisfy U.S. regulators. In this environment, the attorney-client privilege—long regarded as the cornerstone of corporate defense—becomes increasingly fragile.",
+        "The fundamental tension lies in the territorial nature of privilege rules. While U.S. and UK courts broadly protect communications conducted for the purpose of seeking or providing legal advice, many civil-law jurisdictions recognize no equivalent protection for in-house counsel communications. Meanwhile, China’s data-localization regime and the EU’s GDPR create additional friction, potentially treating the transfer of employee interview records to a U.S. parent company as a restricted cross-border data flow rather than a privileged legal communication.",
+        "Practitioners now face a dual-risk scenario. If they withhold documents from local regulators to preserve privilege, they may violate data-sovereignty or disclosure mandates. If they disclose freely to demonstrate cooperation, they risk a subject-matter waiver that destroys privilege protections in subsequent U.S. litigation. The traditional approach—collecting everything and shipping it to headquarters—no longer works.",
+        "Forward-looking legal departments are adopting a segmented architecture. External counsel, rather than in-house lawyers, are positioned at the forefront of fact-gathering to maximize privilege claims under common-law standards. Local counsel in each jurisdiction review materials first to flag data-export restrictions. Interview protocols are tailored: some jurisdictions require witness consent for recordings; others mandate prior notification to labor authorities. Additionally, clean-team agreements and encryption protocols ensure that only a narrow subset of privilege-protected summaries, rather than underlying raw data, travels across jurisdictions.",
+        "Ultimately, privilege in the modern internal investigation is not a default shield but a deliberately engineered outcome. Companies that treat cross-border privilege planning as an afterthought may find their most sensitive investigative materials exposed in enforcement actions on both sides of the Pacific.",
+        "1. **privilege** — A special legal right or protection that keeps certain communications confidential, especially between a lawyer and a client.",
+        "1. \"The attorney-client privilege—long regarded as the cornerstone of corporate defense—becomes increasingly fragile.\"",
+        "- 主句：The attorney-client privilege becomes increasingly fragile.",
+        "- 插入语/定语从句省略：long regarded as the cornerstone of corporate defense，省略 which is，修饰 privilege，说明其传统地位。",
+        "2. **territorial** — Relating to a particular geographic area or jurisdiction; limited in scope to a specific region.",
+        "2. \"The fundamental tension lies in the territorial nature of privilege rules.\"",
+        "- 主句：The fundamental tension lies in the territorial nature of privilege rules.",
+        "- 介词短语：in the territorial nature of privilege rules，作地点/内容状语，说明 lies 的具体内容。",
+        "3. **waiver** — The voluntary relinquishment or surrender of a known legal right or protection.",
+        "3. \"If they disclose freely to demonstrate cooperation, they risk a subject-matter waiver that destroys privilege protections in subsequent U.S. litigation.\"",
+        "- 条件状语从句：If they disclose freely to demonstrate cooperation，置于句首表假设。",
+        "- 主句：they risk a subject-matter waiver.",
+        "- 定语从句：that destroys privilege protections in subsequent U.S. litigation，修饰 waiver，说明其法律后果。"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Multinational corporations should abandon attorney-client privilege to comply strictly with local data laws.",
+            "B. Cross-border internal investigations create complex challenges for maintaining attorney-client privilege due to conflicting legal regimes.",
+            "C. The EU GDPR and Chinese data-localization laws have completely eliminated the concept of legal privilege worldwide.",
+            "D. External counsel are always more cost-effective than in-house lawyers when conducting internal investigations."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章开篇即指出跨境内部调查中律师-客户特权的脆弱性，随后分述了地域性法律冲突、双重风险及应对架构，核心主旨是跨境调查因法律体系冲突使特权保护面临复杂挑战。A与文意相反，C过于绝对，D文中未提及成本比较。"
+        },
+        {
+          "q": "According to the passage, what risk do practitioners face if they disclose documents freely to local regulators?",
+          "options": [
+            "A. They will automatically violate the attorney-client privilege rules in the UK.",
+            "B. They may trigger a subject-matter waiver that undermines privilege protections in subsequent U.S. litigation.",
+            "C. They are required to publish all interview records on a public database.",
+            "D. They will be prohibited from hiring external counsel in future investigations."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：依据第三段第二句，'If they disclose freely to demonstrate cooperation, they risk a subject-matter waiver that destroys privilege protections in subsequent U.S. litigation.' 明确指出自由披露文件可能导致主题事项弃权，从而破坏在美国后续诉讼中的特权保护。"
+        },
+        {
+          "q": "What can be inferred about the author's view on the 'segmented architecture' approach mentioned in paragraph 4?",
+          "options": [
+            "A. It is too complicated and should be avoided by most corporations.",
+            "B. Its primary purpose is to bypass Chinese data-localization laws entirely.",
+            "C. It represents a practical strategy to balance privilege protection with regulatory compliance.",
+            "D. It guarantees absolute privilege protection across all jurisdictions."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第四段详细描述了分层架构的具体措施（外部律师主导、当地律师审查、定制化访谈协议等），并在末段强调特权是'deliberately engineered outcome'，可推断作者认为这是一种在合规与特权保护之间寻求平衡的务实策略。D项'absolute'与文中'not a default shield'矛盾。"
+        },
+        {
+          "q": "The word 'waiver' in paragraph 3 most nearly means ______.",
+          "options": [
+            "A. a formal approval granted by a regulatory authority",
+            "B. a voluntary relinquishment of a legal right or protection",
+            "C. a temporary suspension of an ongoing investigation",
+            "D. a financial penalty imposed for non-disclosure"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：根据第三段语境，'subject-matter waiver' 导致 'destroys privilege protections'，即导致特权保护被摧毁，可推知 waiver 指自愿放弃某项法律保护。文中与 privilege protections 搭配，符合法律术语中'弃权'的含义。"
+        }
+      ]
+    },
+    {
+      "title": "The Art of Conditional Love: Lessons from a Cat",
+      "body": [
+        "When I first adopted Luna, a silver tabby with a perpetually judgmental stare, I assumed I was getting a low-maintenance roommate. What I actually acquired was a furry dictator with a finely tuned emotional GPS. Unlike dogs, who broadcast their devotion with the subtlety of a marching band, cats operate on a frequency of cool indifference punctuated by moments of startling intimacy. Luna does not greet me at the door; she merely permits me to enter her domain.",
+        "Her daily schedule is as rigid as any corporate executive’s. At 6:00 a.m., she performs what I call the \"stomach walk,\" a gentle but deliberate march across my abdomen that serves as her breakfast alarm. By noon, she has claimed the sunniest patch of the hardwood floor, rotating like a solar panel to maximize warmth. The magic, however, happens at exactly 10:00 p.m., when she abandons her post on the windowsill to wedge herself against my laptop, effectively declaring that digital productivity ends now. It is here, in these unsolicited interruptions, that I find an unexpected comfort.",
+        "There is a peculiar honesty in feline affection. Luna does not perform love out of obligation; she bestows it when the room is quiet, when my breathing slows, when I have finally stopped trying to earn it. In a world that runs on notifications and measurable outcomes, a cat’s companionship feels almost rebellious. She asks for nothing but fresh water and an open window, yet she gives back a lesson in presence that no meditation app has managed to teach me.",
+        "Last Tuesday, after a particularly brutal deadline, I collapsed onto the sofa and sighed into the cushions. Within minutes, Luna appeared—not because she cared about my deadline, but because the warm, depressed human-shaped furniture was finally still. As her purr vibrated against my ribs, I realized this was enough. Some feelings do not need fixing; they just need a witness. And a cat, I have learned, is the world’s most honest witness.",
+        "1. **tabby** — a cat with grey or brown fur marked with dark lines or spots",
+        "2. **indifference** — lack of interest, concern, or sympathy",
+        "3. **bestow** — to give something valuable or important to someone",
+        "1. \"Unlike dogs, who broadcast their devotion with the subtlety of a marching band, cats operate on a frequency of cool indifference punctuated by moments of startling intimacy.\"",
+        "- 主句：cats operate on a frequency of cool indifference punctuated by moments of startling intimacy",
+        "- 从句：who broadcast their devotion with the subtlety of a marching band（非限制性定语从句，修饰 dogs，表对比）",
+        "- 介词短语：Unlike dogs（作状语，表对比）",
+        "- 过去分词短语：punctuated by moments of startling intimacy（作后置定语，修饰 indifference）",
+        "2. \"Luna does not perform love out of obligation; she bestows it when the room is quiet, when my breathing slows, when I have finally stopped trying to earn it.\"",
+        "- 主句：Luna does not perform love out of obligation; she bestows it",
+        "- 从句：when the room is quiet, when my breathing slows, when I have finally stopped trying to earn it（三个并列时间状语从句，说明 bestows 的条件）",
+        "- 不定式短语：to earn it（作 trying 的宾语）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are more independent than dogs and therefore make better pets for busy professionals.",
+            "B. The author describes how her cat’s unique way of showing affection has brought unexpected comfort and life lessons.",
+            "C. The passage mainly compares the biological differences between felines and canines.",
+            "D. The author argues that adopting a cat is the best cure for work-related stress."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：文章通篇通过描述作者与猫咪 Luna 的日常互动，强调猫咪以独特、诚实的方式给予陪伴，并给作者带来了关于「在场」与「见证」的人生感悟。B 选项准确概括了这一主旨，而 A、C、D 均过于片面或偏离文意。"
+        },
+        {
+          "q": "According to the passage, what does Luna do at exactly 10:00 p.m.?",
+          "options": [
+            "A. She demands breakfast by walking on the author’s stomach.",
+            "B. She rotates in the sunniest spot on the hardwood floor.",
+            "C. She wedges herself against the author’s laptop to stop them from working.",
+            "D. She greets the author at the door with startling intimacy."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文中第二段明确提到：「The magic, however, happens at exactly 10:00 p.m., when she abandons her post on the windowsill to wedge herself against my laptop, effectively declaring that digital productivity ends now.」因此正确答案为 C。"
+        },
+        {
+          "q": "What can be inferred about the author’s attitude toward feline companionship?",
+          "options": [
+            "A. She believes cats are emotionally distant and therefore poor companions.",
+            "B. She regrets adopting Luna because of her demanding daily schedule.",
+            "C. She appreciates the honesty and boundary-respecting nature of a cat’s affection.",
+            "D. She thinks cats are superior to dogs in every possible way."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：第三段提到「There is a peculiar honesty in feline affection」以及猫咪的陪伴「feels almost rebellious」，并教会作者「presence」；最后一段又写道猫咪是「the world’s most honest witness」。这些都表明作者欣赏猫咪 affection 中的诚实与尊重边界的特质，故选 C。"
+        },
+        {
+          "q": "In paragraph 1, the word \"broadcast\" is closest in meaning to:",
+          "options": [
+            "A. Transmit via radio waves",
+            "B. Display or make widely and openly known",
+            "C. Record for future audiences",
+            "D. Whisper quietly to a single listener"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第一段中「broadcast their devotion with the subtlety of a marching band」将狗的忠诚表达比作行进乐队，意在强调高调、公开地展示情感。因此 broadcast 在此语境下最接近「公开表露、使众所周知」之意，故选 B。"
+        }
+      ]
+    }
+  ]
+}
