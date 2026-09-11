@@ -1,0 +1,172 @@
+{
+  "articles": [
+    {
+      "title": "Navigating the AI Governance Dilemma: Transparency vs. Trade Secrets",
+      "body": [
+        "By September 2026, the global shift from aspirational AI principles to enforceable regulation has reached a critical inflection point. The European Union’s Artificial Intelligence Act is now fully operational, mandating that high-risk algorithms—from credit-scoring models to medical diagnostic tools—meet stringent transparency and risk-management standards. Yet beneath this regulatory momentum lies a profound corporate governance dilemma: the more regulators demand to see inside the “black box,” the more companies resist, arguing that their model architectures, training data pipelines, and feature-weighting logic constitute proprietary trade secrets.",
+        "The tension is not merely theoretical. Consider a multinational financial institution deploying an AI-driven loan-underwriting system across jurisdictions. A national banking regulator requests granular documentation on how the model weights variables such as employment history and geographic data to ensure compliance with anti-discrimination laws. The institution’s compliance team faces an unenviable choice: disclose enough to satisfy the regulator and risk exposing competitively sensitive intellectual property, or withhold technical specifics and face enforcement action, reputational damage, and potential market exclusion.",
+        "Governance professionals increasingly argue that this binary framing—transparency versus secrecy—is counterproductive. Meaningful AI accountability does not require public dissemination of source code; rather, it demands a tiered disclosure architecture. Under this approach, detailed technical audits are shared with regulators under strict confidentiality protocols, while end-users receive plain-language explanations of how decisions affect them. Some commentators advocate for “algorithmic escrow” arrangements, where independent third parties verify fairness metrics without revealing underlying code to competitors.",
+        "Ultimately, effective AI governance in 2026 hinges on designing institutional interfaces that reconcile legitimate regulatory oversight with the protection of innovation incentives. The challenge for boards and chief ethics officers is no longer whether to adopt AI, but how to construct compliance frameworks precise enough to satisfy diverse regulators yet flexible enough to preserve the proprietary advantages that justify the technology’s enormous capital investment.",
+        "1. **inflection point** — a time of significant change in a situation or process; a turning point",
+        "2. **proprietary** — relating to an owner or ownership; used, produced, or marketed under exclusive legal right of the inventor or maker",
+        "3. **granular** — consisting of small grains or particles; detailed and specific",
+        "4. **escrow** — a legal arrangement in which a third party temporarily holds money or property until a particular condition has been met",
+        "1. \"Yet beneath this regulatory momentum lies a profound corporate governance dilemma: the more regulators demand to see inside the 'black box,' the more companies resist, arguing that their model architectures, training data pipelines, and feature-weighting logic constitute proprietary trade secrets.\"",
+        "- 主句：Yet beneath this regulatory momentum lies a profound corporate governance dilemma",
+        "- 同位语/比较结构：the more regulators demand to see inside the 'black box,' the more companies resist",
+        "- 现在分词短语+宾语从句：arguing that their model architectures... constitute proprietary trade secrets",
+        "2. \"Governance professionals increasingly argue that this binary framing—transparency versus secrecy—is counterproductive.\"",
+        "- 主句：Governance professionals increasingly argue...",
+        "- 宾语从句：that this binary framing... is counterproductive",
+        "- 插入语/同位语：transparency versus secrecy",
+        "3. \"Ultimately, effective AI governance in 2026 hinges on designing institutional interfaces that reconcile legitimate regulatory oversight with the protection of innovation incentives.\"",
+        "- 主句：Ultimately, effective AI governance in 2026 hinges on designing institutional interfaces",
+        "- 定语从句：that reconcile legitimate regulatory oversight with the protection of innovation incentives"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. The EU AI Act has successfully eliminated algorithmic bias in all high-risk sectors.",
+            "B. Companies should refuse regulatory requests to protect their trade secrets regardless of legal consequences.",
+            "C. There is a fundamental tension between algorithmic transparency requirements and trade-secret protection, requiring a nuanced, tiered governance approach.",
+            "D. Independent third parties have replaced government regulators as the primary enforcers of AI fairness."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：文章从EU AI Act的监管要求出发，核心讨论了算法透明度与商业秘密保护之间的冲突，并在第三、四段提出分层披露等精细化治理方案，C项准确概括了这一主旨。A项与文中未解决的冲突矛盾；B项过于绝对，与文中主张平衡的观点相悖；D项与文中第三方仅作为补充手段的表述不符。"
+        },
+        {
+          "q": "According to the passage, why do companies resist full algorithmic transparency?",
+          "options": [
+            "A. They fear that public disclosure will make their systems vulnerable to cyberattacks.",
+            "B. They believe their technical methodologies and model architectures qualify as proprietary trade secrets.",
+            "C. They lack sufficient documentation to explain their AI models to regulators.",
+            "D. They consider the EU AI Act's transparency standards to be legally unenforceable."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第一段明确指出，公司抵制的原因是认为其模型架构、训练数据流程和特征权重逻辑构成“proprietary trade secrets”，B项与此一致。A项的“cyberattacks”文中未提及；C项和D项在文中没有依据。"
+        },
+        {
+          "q": "Which of the following best describes the “unenviable choice” faced by the financial institution in paragraph 2?",
+          "options": [
+            "A. Whether to adopt AI technology or revert to traditional manual underwriting methods",
+            "B. Whether to disclose technically sensitive details to regulators or risk enforcement action and reputational harm",
+            "C. Whether to expand AI operations into the European Union or focus on less regulated markets",
+            "D. Whether to share proprietary data with competitors or face fines from consumer protection groups"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段具体描述了金融机构面临的困境：充分披露以满足监管要求可能暴露竞争性知识产权，而隐瞒技术细节则可能面临执法行动、声誉损害和市场排斥，B项准确对应这一两难选择。其他选项均与原文细节不符。"
+        },
+        {
+          "q": "What can be inferred about the author's view on “algorithmic escrow” arrangements?",
+          "options": [
+            "A. They impose an excessive financial burden on most technology companies.",
+            "B. They represent a pragmatic compromise between regulatory verification and corporate confidentiality.",
+            "C. They should become the sole mechanism for all AI oversight worldwide.",
+            "D. They are only effective for loan-underwriting systems in the financial sector."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第三段在提出“algorithmic escrow”时，将其置于分层披露架构下，说明独立第三方可在不透露底层代码的情况下验证公平指标，可见作者将其视为验证与保密之间的务实折中，B项正确。A项未提及；C项“sole mechanism”过于绝对；D项“only effective”与文中普适性讨论矛盾。"
+        },
+        {
+          "q": "As used in paragraph 2, the word “granular” most nearly means:",
+          "options": [
+            "A. overly complex and incomprehensible",
+            "B. broad and generalized",
+            "C. highly detailed and specific",
+            "D. randomly generated and unstructured"
+          ],
+          "answer": "C",
+          "explanation": "中文解析：在第二段中，监管机构要求“granular documentation”以了解模型如何加权各种变量，结合上下文，这里指详细具体的文档，与“detailed and specific”同义。B项为反义；A项和D项不符合语境。"
+        }
+      ]
+    },
+    {
+      "title": "The Quiet Art of Feline Companionship",
+      "body": [
+        "There is a particular kind of wisdom in the way a cat moves through the world. On a slow Sunday morning, while the coffee brews and sunlight pools across the floorboards, my tabby, Mochi, claims his favorite spot by the window. He does not rush. He does not perform. He simply arrives, curls into a perfect crescent, and begins his daily surveillance of the garden with the seriousness of a seasoned philosopher.",
+        "Unlike dogs, who greet every moment with exuberant transparency, cats operate on their own exquisite terms. Their affection is not given freely; it is earned, negotiated, and ultimately bestowed as a quiet privilege. When Mochi pads across my keyboard during a deadline, he is not interrupting—he is reminding me that existence is not measured in productivity charts. His purr, a low-frequency rumble that seems to vibrate through the floorboards, acts as a kind of meditation bell, pulling me back from the precipice of to-do lists and unread emails.",
+        "What fascinates me most is their mastery of presence. A cat does not worry about tomorrow’s breakfast while eating today’s. He does not check his watch while basking in a sunbeam. In a world that glorifies hustle, these small, furry creatures offer a countercultural lesson: that stillness is not emptiness, but a form of fullness. When Mochi nestles against my arm at night, his breathing slow and deliberate, I am reminded that companionship does not always require conversation. Sometimes, the most profound connections happen in shared, comfortable silence.",
+        "This is the gift they give—not unconditional devotion, but a gentle invitation to slow down, look around, and simply be.",
+        "1. **exquisite** — extremely beautiful and, typically, delicate",
+        "1. **bestowed** — conferred or presented as an honor, right, or gift",
+        "1. **precipice** — a very steep rock face or cliff; a dangerous situation",
+        "1. **countercultural** — relating to a culture whose values oppose those of the established social mainstream",
+        "1. **deliberate** — done consciously and intentionally; slow and unhurried",
+        "1. \"Unlike dogs, who greet every moment with exuberant transparency, cats operate on their own exquisite terms.\"",
+        "- 主句：cats operate on their own exquisite terms",
+        "- 从句：who greet every moment with exuberant transparency（修饰dogs的非限制性定语从句）",
+        "1. \"Their affection is not given freely; it is earned, negotiated, and ultimately bestowed as a quiet privilege.\"",
+        "- 主句：Their affection is not given freely；it is earned, negotiated, and ultimately bestowed",
+        "- 修饰：as a quiet privilege（介词短语作状语，说明bestowed的方式）",
+        "1. \"His purr... acts as a kind of meditation bell, pulling me back from the precipice of to-do lists and unread emails.\"",
+        "- 主句：His purr acts as a kind of meditation bell",
+        "- 分词短语：pulling me back from the precipice of to-do lists and unread emails（现在分词短语作伴随/结果状语）",
+        "1. \"In a world that glorifies hustle, these small, furry creatures offer a countercultural lesson: that stillness is not emptiness, but a form of fullness.\"",
+        "- 主句：these small, furry creatures offer a countercultural lesson",
+        "- 从句：that glorifies hustle（定语从句，修饰world）；that stillness is not emptiness, but a form of fullness（同位语从句，解释lesson的具体内容）",
+        "1. \"When Mochi nestles against my arm at night, his breathing slow and deliberate, I am reminded that companionship does not always require conversation.\"",
+        "- 主句：I am reminded that companionship does not always require conversation",
+        "- 从句：When Mochi nestles against my arm at night（时间状语从句）；that companionship does not always require conversation（宾语从句）",
+        "- 独立主格：his breathing slow and deliberate（补充说明伴随状态）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are more intelligent than dogs because they are independent.",
+            "B. The writer believes cats teach humans the value of slowing down and being present.",
+            "C. Taking care of a cat requires more patience than taking care of other pets.",
+            "D. The writer uses cats as a metaphor for lazy and unproductive lifestyles."
+          ],
+          "answer": "B",
+          "explanation": "文章通过描述与猫相处的日常，强调猫教会人们放慢脚步、活在当下，最后一段总结“This is the gift they give—not unconditional devotion, but a gentle invitation to slow down, look around, and simply be”，点明主旨。"
+        },
+        {
+          "q": "According to the passage, how does the author describe a cat's affection?",
+          "options": [
+            "A. It is openly given to everyone who feeds the cat.",
+            "B. It is loud, energetic, and constantly demanding attention.",
+            "C. It must be earned and is given as a quiet privilege.",
+            "D. It is less genuine than the affection shown by dogs."
+          ],
+          "answer": "C",
+          "explanation": "第二段明确提到“Their affection is not given freely; it is earned, negotiated, and ultimately bestowed as a quiet privilege.”，说明猫的爱需要被赢得，是一种安静的特权。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward \"hustle culture\"?",
+          "options": [
+            "A. He fully embraces it and wishes his cat would be more productive.",
+            "B. He finds it exhausting and appreciates the cat's alternative lifestyle.",
+            "C. He believes it is necessary for success in modern life.",
+            "D. He thinks cats should learn to adapt to busy human schedules."
+          ],
+          "answer": "B",
+          "explanation": "第三段提到“In a world that glorifies hustle, these small, furry creatures offer a countercultural lesson”，将猫的生活方式与忙碌文化对比，暗示作者对过度忙碌持反思态度，欣赏猫带来的宁静与反主流文化的生活哲学。"
+        },
+        {
+          "q": "In the context of the passage, \"precipice\" in paragraph 2 most nearly means:",
+          "options": [
+            "A. A peaceful garden where one can relax fully",
+            "B. The edge of a dangerous or stressful situation",
+            "C. A comfortable spot for afternoon naps",
+            "D. A type of meditation music"
+          ],
+          "answer": "B",
+          "explanation": "文中“pulling me back from the precipice of to-do lists and unread emails”中，to-do lists和unread emails代表压力与繁重任务，precipice比喻处于危险或高压状态的边缘。"
+        },
+        {
+          "q": "What does the author mean when he says cats \"do not perform\"?",
+          "options": [
+            "A. Cats refuse to play with their owners.",
+            "B. Cats do not act for attention or approval in the way some pets do.",
+            "C. Cats are bad at learning tricks.",
+            "D. Cats dislike being watched by humans."
+          ],
+          "answer": "B",
+          "explanation": "第一段“He does not rush. He does not perform.”结合后文对狗“exuberant transparency”的对比，说明猫不会为了讨好主人而刻意表现，它们只是按自己的方式生活。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "theme": "数据合规与隐私保护术语",
+  "theme_en": "Data Compliance & Privacy Protection",
+  "words": [
+    {
+      "term": "anonymization",
+      "ipa": "/əˌnɒnɪmaɪˈzeɪʃn/",
+      "cn_meaning": "匿名化（无法识别特定自然人且不能复原的数据处理状态）",
+      "collins_def": "The irreversible process of removing or altering personally identifiable information from data so that the data subject can no longer be identified directly or indirectly.",
+      "pron_tip": "注意与假名化区分：a-non-y-mi-za-tion，前缀 a- 表‘无’，词根 onym = name。",
+      "examples": [
+        {
+          "en": "True anonymization under the GDPR is permanent; if data can be re-identified, it remains personal data.",
+          "cn": "根据GDPR，真正的匿名化是永久性的；如果数据可被重新识别，则仍属于个人数据。"
+        },
+        {
+          "en": "The company invested heavily in anonymization techniques to unlock the commercial value of user datasets.",
+          "cn": "该公司投入大量资源用于匿名化技术，以释放用户数据集的商业价值。"
+        }
+      ]
+    },
+    {
+      "term": "pseudonymization",
+      "ipa": "/ˌsuːdənɪmaɪˈzeɪʃn/",
+      "cn_meaning": "假名化（用标识符替换直接身份信息，附加信息单独保存时可重新识别）",
+      "collins_def": "The processing of personal data in such a way that it can no longer be attributed to a specific data subject without the use of additional information, which must be kept separately and subject to technical measures.",
+      "pron_tip": "pseudo- 意为‘假的、伪的’，发音 /ˈsuːdəʊ/ 类似‘苏豆’，注意中间 d 的浊化。",
+      "examples": [
+        {
+          "en": "Pseudonymization reduces privacy risks while allowing controllers to retain some analytical utility in the dataset.",
+          "cn": "假名化在降低隐私风险的同时，允许控制者在数据集中保留一定的分析效用。"
+        },
+        {
+          "en": "Unlike anonymization, pseudonymization is a reversible security measure rather than an exemption from data protection rules.",
+          "cn": "与匿名化不同，假名化是一种可逆的安全措施，而非数据保护规则的豁免。"
+        }
+      ]
+    },
+    {
+      "term": "de-identification",
+      "ipa": "/ˌdiː aɪˌdentɪfɪˈkeɪʃn/",
+      "cn_meaning": "去标识化（移除直接或间接标识符，降低识别风险但理论上可能重识别）",
+      "collins_def": "The process of removing direct and indirect identifiers from personal data to mitigate the risk of identification, though re-identification may still be technically possible.",
+      "pron_tip": "de- 表‘去除’，identification 表‘识别’；注意与 anonymization（不可逆）的核心区别。",
+      "examples": [
+        {
+          "en": "Chinese PIPL distinguishes de-identification from anonymization based on whether re-identification is possible.",
+          "cn": "中国《个人信息保护法》根据能否重新识别，区分了去标识化与匿名化。"
+        },
+        {
+          "en": "After de-identification, the research team could still perform aggregate analysis without accessing names or ID numbers.",
+          "cn": "在去标识化后，研究团队仍可进行聚合分析，而无需接触姓名或身份证号。"
+        }
+      ]
+    },
+    {
+      "term": "minimization",
+      "ipa": "/ˌmɪnɪmaɪˈzeɪʃn/",
+      "cn_meaning": "(数据)最小化（仅收集和处理实现特定目的所必要的数据）",
+      "collins_def": "The data protection principle that personal data collected should be adequate, relevant, and limited to what is necessary in relation to the purposes for which it is processed.",
+      "pron_tip": "minimize 的名词形式，重音在第三音节 /maɪ/，不要读成 /ˈmɪnɪməzeɪʃn/。",
+      "examples": [
+        {
+          "en": "Data minimization requires companies to delete excessive user information once the original purpose is fulfilled.",
+          "cn": "数据最小化要求企业在原始目的达成后删除过多的用户信息。"
+        },
+        {
+          "en": "The regulator fined the platform for violating minimization principles by requesting unnecessary location permissions.",
+          "cn": "监管机构因该平台要求不必要的定位权限、违反最小化原则而对其处以罚款。"
+        }
+      ]
+    },
+    {
+      "term": "profiling",
+      "ipa": "/ˈprəʊfaɪlɪŋ/",
+      "cn_meaning": "(自动化)画像/画像分析（评估个人工作表现、经济状况、健康状况等特征的数据处理）",
+      "collins_def": "Any form of automated processing of personal data consisting of the use of such data to evaluate certain personal aspects relating to a natural person.",
+      "pron_tip": "来自 profile（画像），双音节重音在首音；注意 GDPR 第22条对此有特殊限制。",
+      "examples": [
+        {
+          "en": "Under the GDPR, profiling that produces legal or similarly significant effects requires a lawful basis and often human intervention.",
+          "cn": "根据GDPR，产生法律或类似重大效力的画像分析需要具备合法基础，并通常需要人为干预。"
+        },
+        {
+          "en": "The advertising network was accused of building sensitive health profiles through covert behavioral profiling.",
+          "cn": "该广告网络被指控通过隐蔽的行为画像分析建立敏感的健康档案。"
+        }
+      ]
+    },
+    {
+      "term": "portability",
+      "ipa": "/ˌpɔːtəˈbɪləti/",
+      "cn_meaning": "(数据)可携带性/可移植权（以结构化通用格式获取并转移个人数据的权利）",
+      "collins_def": "The right of a data subject to receive the personal data concerning them in a structured, commonly used, and machine-readable format, and to transmit it to another controller.",
+      "pron_tip": "port（携带）+ ability（能力），注意 /təˈbɪl/ 音节不要吞音。",
+      "examples": [
+        {
+          "en": "The right to data portability empowers consumers to switch service providers without losing their historical records.",
+          "cn": "数据可携带权使消费者能够切换服务提供商而不会丢失历史记录。"
+        },
+        {
+          "en": "The social media platform must provide an export tool to comply with user requests grounded in portability.",
+          "cn": "该社交媒体平台必须提供导出工具，以履行基于可携带权的用户请求。"
+        }
+      ]
+    },
+    {
+      "term": "erasure",
+      "ipa": "/ɪˈreɪʒər/",
+      "cn_meaning": "(数据)删除/擦除（常指‘被遗忘权’项下要求删除个人数据的权利）",
+      "collins_def": "The removal or deletion of personal data from records and systems, typically exercised by data subjects under the ‘right to be forgotten’.",
+      "pron_tip": "e-rase 的名词形式，注意结尾为 /ʒər/（如 measure），而非 /zər/。",
+      "examples": [
+        {
+          "en": "Upon a valid request for erasure, the controller must ensure complete deletion from both active and backup databases.",
+          "cn": "在收到有效的删除请求后，控制者必须确保从活动数据库和备份数据库中彻底删除。"
+        },
+        {
+          "en": "The court balanced the claimant’s right to erasure against the public interest in freedom of expression.",
+          "cn": "法院在申请人的删除权与公共利益中的言论自由之间进行了权衡。"
+        }
+      ]
+    },
+    {
+      "term": "rectification",
+      "ipa": "/ˌrektɪfɪˈkeɪʃn/",
+      "cn_meaning": "(数据)更正（纠正不准确或不完整个人数据的权利或行为）",
+      "collins_def": "The process of correcting inaccurate or incomplete personal data to ensure that it conforms to the truth and meets data quality standards.",
+      "pron_tip": "rect-（直、正）+ ify（使）+ cation，核心含义是‘使正确’，注意 /fɪˈkeɪʃn/ 的连读。",
+      "examples": [
+        {
+          "en": "Data subjects have the right to rectification if their credit reports contain factual errors.",
+          "cn": "如果信用报告包含事实错误，数据主体享有更正权。"
+        },
+        {
+          "en": "The bank processed his rectification request and updated the inaccurate residential address within thirty days.",
+          "cn": "该银行处理了他的更正请求，并在三十天内更新了不准确的居住地址。"
+        }
+      ]
+    },
+    {
+      "term": "objection",
+      "ipa": "/əbˈdʒekʃn/",
+      "cn_meaning": "(数据主体)反对(权)（针对特定数据处理活动提出异议的权利）",
+      "collins_def": "The right of a data subject to contest the processing of their personal data, particularly where processing is based on legitimate interests or for direct marketing purposes.",
+      "pron_tip": "ob-（反）+ ject（扔）=‘往回扔’，引申为反对；重音在第二音节。",
+      "examples": [
+        {
+          "en": "Once a consumer lodges an objection to direct marketing, the company must immediately cease processing their contact details.",
+          "cn": "一旦消费者对直接营销提出反对，公司必须立即停止处理其联系方式。"
+        },
+        {
+          "en": "The controller bore the burden of demonstrating compelling legitimate grounds to override the data subject’s objection.",
+          "cn": "控制者负有举证责任，证明存在压倒性的合法理由以推翻数据主体的反对。"
+        }
+      ]
+    },
+    {
+      "term": "adequacy",
+      "ipa": "/ˈædɪkwəsi/",
+      "cn_meaning": "充分性(认定)（欧盟认定非欧盟国家/地区达到同等数据保护水平的决定）",
+      "collins_def": "A determination by the European Commission that a non-EU country or territory ensures a level of data protection essentially equivalent to that within the European Union.",
+      "pron_tip": "ad-（向）+ equ（平等）+ acy，即‘达到平等标准’，重音在首音节。",
+      "examples": [
+        {
+          "en": "An adequacy decision allows unrestricted cross-border data flows from the EU to the recipient jurisdiction.",
+          "cn": "充分性认定允许数据从欧盟不受限制地流向接收方司法辖区。"
+        },
+        {
+          "en": "The absence of an adequacy ruling forces companies to rely on standard contractual clauses for transatlantic transfers.",
+          "cn": "由于缺乏充分性认定，企业不得不依赖标准合同条款进行跨大西洋数据传输。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "anonymization",
+    "pseudonymization",
+    "de-identification",
+    "minimization",
+    "profiling",
+    "portability",
+    "erasure",
+    "rectification",
+    "objection",
+    "adequacy"
+  ]
+}
