@@ -1,0 +1,148 @@
+{
+  "theme": "并购重组与资本市场核心术语",
+  "theme_en": "M&A Restructuring & Capital Markets",
+  "words": [
+    {
+      "term": "tender offer",
+      "ipa": "/ˈtendər ˌɔːfər/",
+      "cn_meaning": "要约收购",
+      "collins_def": "A public offer to buy shares from existing shareholders of a company at a specified price during a set time period, usually in an effort to acquire control of the company.",
+      "pron_tip": "注意 tender 发 /ˈtendər/，勿与 tinder 混淆",
+      "examples": [
+        {
+          "en": "The acquirer launched a tender offer to purchase 100% of the target's outstanding shares at a 30% premium to the market price.",
+          "cn": "收购方发起要约收购，拟以较市价溢价30%的价格购买目标公司全部流通股份。"
+        }
+      ]
+    },
+    {
+      "term": "hostile takeover",
+      "ipa": "/ˈhɒstaɪl ˈteɪkˌoʊvər/",
+      "cn_meaning": "敌意收购",
+      "collins_def": "An acquisition of one company by another against the wishes of the target company's management and board of directors.",
+      "pron_tip": "hostile 重音在前 /ˈhɒstaɪl/，切勿读成 /hɒˈstaɪl/",
+      "examples": [
+        {
+          "en": "The board adopted a poison pill strategy to fend off the hostile takeover bid from the corporate raider.",
+          "cn": "董事会采取了毒丸策略，以抵御企业狙击手的敌意收购要约。"
+        }
+      ]
+    },
+    {
+      "term": "goodwill",
+      "ipa": "/ˈɡʊdwɪl/",
+      "cn_meaning": "商誉",
+      "collins_def": "An intangible asset that arises when a buyer acquires an existing business for more than the fair value of its net identifiable assets, often reflecting brand reputation or customer relationships.",
+      "pron_tip": "由 good + will 构成，但在会计与并购中专指无形资产“商誉”",
+      "examples": [
+        {
+          "en": "The transaction resulted in $500 million of goodwill being recorded on the acquirer's balance sheet.",
+          "cn": "该交易导致收购方资产负债表上记入了5亿美元的商誉。"
+        }
+      ]
+    },
+    {
+      "term": "indemnification",
+      "ipa": "/ɪnˌdemnɪfɪˈkeɪʃn/",
+      "cn_meaning": "赔偿；补偿",
+      "collins_def": "A contractual obligation of one party to compensate another for losses or damages arising from breaches of representations, warranties, or covenants.",
+      "pron_tip": "分段记忆 in-dem-ni-fi-ca-tion，重音在 ca 音节",
+      "examples": [
+        {
+          "en": "The seller agreed to provide indemnification for any tax liabilities arising from pre-closing periods.",
+          "cn": "卖方同意就交割前期间产生的任何税务责任提供赔偿。"
+        }
+      ]
+    },
+    {
+      "term": "material adverse effect",
+      "ipa": "/məˈtɪəriəl ˈædvɜːrs ɪˈfekt/",
+      "cn_meaning": "重大不利影响（MAE）",
+      "collins_def": "A significant negative impact on a company's business, assets, financial condition, or results of operations that permits a buyer to withdraw from or renegotiate a transaction.",
+      "pron_tip": "缩写 MAE 在交易文件中极为常见，material 此处指“重大的”",
+      "examples": [
+        {
+          "en": "The buyer argued that the pandemic constituted a material adverse effect, allowing it to terminate the merger agreement.",
+          "cn": "买方主张疫情构成了重大不利影响，使其有权终止合并协议。"
+        }
+      ]
+    },
+    {
+      "term": "escrow",
+      "ipa": "/ˈeskroʊ/",
+      "cn_meaning": "托管；第三方托管",
+      "collins_def": "A legal arrangement in which a neutral third party temporarily holds assets or documents on behalf of transacting parties until specified conditions are met.",
+      "pron_tip": "es-crow，词尾发音为 /oʊ/，不要读出 w 的音",
+      "examples": [
+        {
+          "en": "Ten percent of the purchase price was placed in escrow to secure the seller's indemnification obligations.",
+          "cn": "购买价格的10%被置于托管账户，以担保卖方的赔偿义务。"
+        }
+      ]
+    },
+    {
+      "term": "lock-up period",
+      "ipa": "/ˈlɒk ʌp ˈpɪəriəd/",
+      "cn_meaning": "锁定期",
+      "collins_def": "A contractual period after an initial public offering or acquisition during which certain shareholders are prohibited from selling their shares.",
+      "pron_tip": "lock-up 作形容词性复合词，重音落在 lock",
+      "examples": [
+        {
+          "en": "Pre-IPO investors agreed to a 180-day lock-up period following the company's listing on the exchange.",
+          "cn": "上市前投资者同意在公司挂牌后遵守180天的锁定期。"
+        }
+      ]
+    },
+    {
+      "term": "drag-along right",
+      "ipa": "/ˈdræɡ əˌlɒŋ raɪt/",
+      "cn_meaning": "领售权；强制随售权",
+      "collins_def": "A provision that enables a majority shareholder to force minority shareholders to join in the sale of a company on the same terms and conditions.",
+      "pron_tip": "字面“拖拽同行”，形象表示大股东可“拖着”小股东一起出售公司",
+      "examples": [
+        {
+          "en": "The venture capital firm exercised its drag-along right to compel the founders to sell their shares in the exit transaction.",
+          "cn": "风险投资机构行使其领售权，强制创始人在退出交易中一同出售股份。"
+        }
+      ]
+    },
+    {
+      "term": "pro forma",
+      "ipa": "/proʊ ˈfɔːrmə/",
+      "cn_meaning": "备考的；模拟的（报表）",
+      "collins_def": "Describing financial statements prepared to reflect a hypothetical transaction or event as if it had occurred at an earlier date, used for illustrative or comparative purposes.",
+      "pron_tip": "源自拉丁语，pro 发 /proʊ/，forma 发 /ˈfɔːrmə/",
+      "examples": [
+        {
+          "en": "The issuer presented pro forma financials showing the combined results of the two entities post-merger.",
+          "cn": "发行人提交了备考财务报表，展示两家实体合并后的模拟业绩。"
+        }
+      ]
+    },
+    {
+      "term": "fairness opinion",
+      "ipa": "/ˈfeənəs əˌpɪnjən/",
+      "cn_meaning": "公允性意见；公平意见",
+      "collins_def": "A professional evaluation by a financial advisor stating whether the financial terms of a proposed transaction are fair to shareholders from a financial point of view.",
+      "pron_tip": "fairness 注意 /eə/ 双元音，opinion 重音在第二音节",
+      "examples": [
+        {
+          "en": "The special committee obtained a fairness opinion from an independent investment bank before recommending the buyout.",
+          "cn": "特别委员会在建议接受收购方案前，从独立投资银行获取了公允性意见。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "tender offer",
+    "hostile takeover",
+    "goodwill",
+    "indemnification",
+    "material adverse effect",
+    "escrow",
+    "lock-up period",
+    "drag-along right",
+    "pro forma",
+    "fairness opinion"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "articles": [
+    {
+      "title": "The EU AI Act: A New Compliance Horizon for Global Enterprises",
+      "body": [
+        "The European Union’s Artificial Intelligence Act, set to take full effect in phases through 2026, is reshaping how multinational corporations govern their AI systems. Unlike sector-specific regulations, the Act adopts a risk-based framework that classifies AI applications into four tiers: minimal, limited, high, and unacceptable risk. This classification triggers a cascade of compliance obligations, particularly for high-risk systems used in hiring, credit scoring, and supply-chain management. Compliance officers must now evaluate training data quality, model robustness, and bias mitigation before any high-risk system enters the EU market.",
+        "For global enterprises, the Act’s extraterritorial reach presents immediate operational challenges. Any company deploying AI within the EU market, regardless of where the algorithm is developed or hosted, must adhere to strict transparency, data governance, and human-oversight requirements. Legal teams now face the daunting task of mapping thousands of AI models across disparate business units to determine regulatory exposure, a process that demands cross-functional coordination between engineers, legal advisors, and risk managers.",
+        "Critics argue that compliance costs could stifle innovation, especially for mid-sized technology vendors struggling with limited resources. However, proponents contend that the Act establishes a de facto global standard, much like the GDPR did for data privacy. Forward-looking firms are already integrating “compliance by design” into their AI development pipelines, treating regulatory alignment not as a burden but as a competitive differentiator that builds trust with customers and regulators alike.",
+        "Ultimately, the EU AI Act signals a decisive shift from self-regulation to legally enforceable AI governance. Companies that delay adaptation risk not only fines of up to seven percent of global turnover but also severe reputational damage in an era where algorithmic accountability is increasingly non-negotiable. For multinational enterprises, the message is clear: AI governance is no longer merely an ethical aspiration but a board-level operational imperative with tangible legal consequences.",
+        "1. **extraterritorial** — extending beyond the territorial limits of a particular jurisdiction",
+        "1. \"Any company deploying AI within the EU market, regardless of where the algorithm is developed or hosted, must adhere to strict transparency, data governance, and human-oversight requirements.\"",
+        "- 主句：Any company must adhere to strict transparency, data governance, and human-oversight requirements.",
+        "- 从句一（现在分词短语作后置定语）：deploying AI within the EU market = 修饰 company",
+        "- 从句二（让步状语）：regardless of where the algorithm is developed or hosted = 无论算法在何处开发或托管",
+        "1. **de facto** — existing in practice or actuality, even if not legally or officially established",
+        "1. \"However, proponents contend that the Act establishes a de facto global standard, much like the GDPR did for data privacy.\"",
+        "- 主句：proponents contend that...",
+        "- 宾语从句：the Act establishes a de facto global standard",
+        "- 比较状语：much like the GDPR did for data privacy = 正如GDPR在数据隐私领域所做的那样",
+        "1. **algorithmic accountability** — the principle that organizations must explain, justify, and take responsibility for decisions made by automated systems",
+        "1. \"Companies that delay adaptation risk not only fines of up to seven percent of global turnover but also severe reputational damage in an era where algorithmic accountability is increasingly non-negotiable.\"",
+        "- 主句：Companies risk not only fines but also severe reputational damage",
+        "- 定语从句（修饰 Companies）：that delay adaptation = 那些拖延适应的公司",
+        "- 定语从句（修饰 era）：where algorithmic accountability is increasingly non-negotiable = 在这个算法问责日益不可妥协的时代",
+        "- 并列结构：not only... but also... = 不仅……而且……"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. The EU AI Act exclusively targets European domestic technology startups.",
+            "B. The EU AI Act creates a risk-based compliance framework with significant implications for multinational enterprises.",
+            "C. The EU AI Act primarily focuses on reducing the computational costs of AI training.",
+            "D. The EU AI Act encourages complete deregulation of AI to foster rapid innovation."
+          ],
+          "answer": "B",
+          "explanation": "文章围绕欧盟AI法案的风险分级框架展开，重点讨论其对跨国企业的合规影响、域外效力及处罚措施，B项准确概括全文主旨。"
+        },
+        {
+          "q": "According to the passage, which applications are specifically mentioned as examples of high-risk AI systems?",
+          "options": [
+            "A. Social media recommendation engines and search algorithms",
+            "B. Hiring, credit scoring, and supply-chain management",
+            "C. Email spam filters and calendar scheduling tools",
+            "D. Weather forecasting and traffic navigation apps"
+          ],
+          "answer": "B",
+          "explanation": "第一段明确指出高风险系统包括“hiring, credit scoring, and supply-chain management”，B项与原文细节完全一致。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward “compliance by design”?",
+          "options": [
+            "A. The author considers it an impractical ideal that only large firms can afford.",
+            "B. The author believes it is a temporary trend that will disappear after 2026.",
+            "C. The author views it as a strategic approach that can benefit competitive positioning.",
+            "D. The author suggests it is primarily a marketing gimmick with no legal value."
+          ],
+          "answer": "C",
+          "explanation": "第三段提到前瞻性企业将合规视为“competitive differentiator that builds trust”，表明作者认为这是一种能够带来竞争优势的战略方法。"
+        },
+        {
+          "q": "What consequence might companies face if they fail to comply with the EU AI Act?",
+          "options": [
+            "A. Mandatory transfer of their AI intellectual property to EU regulators.",
+            "B. Fines of up to seven percent of global turnover and reputational damage.",
+            "C. Automatic imprisonment of their executive officers.",
+            "D. A permanent ban on exporting any technology outside their home country."
+          ],
+          "answer": "B",
+          "explanation": "最后一段明确提到延迟适应的企业将面临“fines of up to seven percent of global turnover but also severe reputational damage”，B项准确复现原文细节。"
+        }
+      ]
+    },
+    {
+      "title": "The Quiet Language of Whiskers and Purrs",
+      "body": [
+        "If dogs are open books of affection, cats are beautifully cryptic poetry. For years, I bought into the stereotype that felines were aloof roommates who tolerated humans merely for kibble and warm radiators. Then I adopted Mochi, a tuxedo cat with the dignity of a butler and the impulse control of a toddler, and my entire framework collapsed.",
+        "Mochi does not wag his tail or leap into my arms when I return home. Instead, he greets me by performing what I have termed the \"zoomie of honor\"—a frantic, thunderous sprint from the living room to the kitchen and back, as if celebrating my arrival with a one-cat stampede. It is absurd, slightly destructive, and utterly endearing.",
+        "His affection appears in smaller gestures, too. There is the morning head-bump against my chin, a feline behavior called bunting that deposits scent glands and marks me, quite literally, as his property. There is the slow, deliberate blink across the room—the cat equivalent of a blown kiss. And then there is the gift-giving: not flowers, but half-chewed toy mice left strategically on my pillow like offerings to a rather confused deity.",
+        "Perhaps the most telling moment came last winter when I was buried under deadlines. Mochi, who usually disdains laps, leaped onto my keyboard and sprawled across the screen. I sighed, prepared to nudge him aside, until I realized he was purring—a steady, rumbling motor against my anxiety. He was not sabotaging my work; he was insisting I pause. In that ridiculous, furry obstruction, I found an unexpected intimacy.",
+        "Cats may not love loudly, but they love strangely, creatively, and on their own terms. Learning to read their eccentric dialect has taught me that companionship does not always need grand gestures. Sometimes, it is simply a shared silence, a stolen sock, and the soft weight of a creature who chooses, every single day, to be near you.",
+        "1. **aloof** — unfriendly and distant in behavior or feeling",
+        "2. **endearing** — inspiring affection or warm sympathy; charming",
+        "3. **deliberate** — done consciously and intentionally; unhurried and careful",
+        "4. **sabotaging** — deliberately destroying, damaging, or obstructing something",
+        "5. **eccentric** — unconventional and slightly strange",
+        "1. \"If dogs are open books of affection, cats are beautifully cryptic poetry.\"",
+        "- 主句：cats are beautifully cryptic poetry（系表结构，将猫比喻为深奥的诗歌）",
+        "- 从句：If dogs are open books of affection（条件状语从句，将狗比喻为一目了然的书籍）",
+        "2. \"He was not sabotaging my work; he was insisting I pause.\"",
+        "- 主句：He was not sabotaging my work（过去进行时，描述猫当时的行为）",
+        "- 从句：I pause（宾语从句，省略引导词that，作insisting的宾语）",
+        "3. \"Learning to read their eccentric dialect has taught me that companionship does not always need grand gestures.\"",
+        "- 主句：Learning to read their eccentric dialect has taught me（动名词短语作主语）",
+        "- 从句：that companionship does not always need grand gestures（that引导的宾语从句，说明教会作者的具体内容）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the primary purpose of the passage?",
+          "options": [
+            "A. To compare the intelligence levels of cats and dogs.",
+            "B. To criticize people who treat cats merely as low-maintenance pets.",
+            "C. To describe how cats express affection through peculiar but meaningful behaviors.",
+            "D. To provide scientific explanations for feline scent-marking habits."
+          ],
+          "answer": "C",
+          "explanation": "全文围绕猫咪如何用独特且含蓄的方式表达爱意展开，从\"zoomie of honor\"、bunting、slow blink到趴在键盘上的行为，都旨在说明这一点，而非单纯比较猫狗智商或批评养猫人。"
+        },
+        {
+          "q": "Which of the following behaviors does Mochi NOT display, according to the passage?",
+          "options": [
+            "A. Sprinting around the house when the author arrives home.",
+            "B. Pressing his head against the author's chin in the morning.",
+            "C. Leaving half-chewed toy mice on the author's pillow.",
+            "D. Bringing dead insects as gifts to the author."
+          ],
+          "answer": "D",
+          "explanation": "文中第四段提到Mochi会送'half-chewed toy mice'作为礼物，但并未提及带dead insects（死昆虫），因此D项与原文事实不符。"
+        },
+        {
+          "q": "Why does the author describe Mochi's lying on the keyboard as 'an unexpected intimacy'?",
+          "options": [
+            "A. Because the cat had never jumped onto furniture before that day.",
+            "B. Because she eventually understood it as the cat's way of comforting her during a stressful time.",
+            "C. Because the laptop was warm and attracted the cat to sleep there.",
+            "D. Because the cat accidentally typed a complete sentence on the screen."
+          ],
+          "answer": "B",
+          "explanation": "文中第四段指出，作者原本以为猫在捣乱，但后来意识到猫发出呼噜声是在对抗她的焦虑（against my anxiety），让她停下来休息，因此这是一种意想不到的亲密与关怀。"
+        },
+        {
+          "q": "What can be inferred about the author's attitude toward owning a cat?",
+          "options": [
+            "A. It is less emotionally rewarding than she had hoped.",
+            "B. It requires expensive training and professional guidance.",
+            "C. It is more fulfilling than her previous assumptions about cats suggested.",
+            "D. It is only suitable for people who work from home and have flexible schedules."
+          ],
+          "answer": "C",
+          "explanation": "文章开头提到作者曾认为猫'aloof'，只是为食物和暖气而容忍人类；但通过与Mochi的相处，她发现了猫咪独特而温暖的爱，可以推断养猫的体验比她原先设想的更有满足感。"
+        },
+        {
+          "q": "In paragraph 1, the word 'aloof' is closest in meaning to ______.",
+          "options": [
+            "A. affectionate",
+            "B. distant",
+            "C. aggressive",
+            "D. playful"
+          ],
+          "answer": "B",
+          "explanation": "第一段中'aloof roommates who tolerated humans merely for kibble and warm radiators'描述猫对人类冷淡、疏离，只为食物和暖气才容忍人类，因此'aloof'与'distant'（疏远的）意思最接近。"
+        }
+      ]
+    }
+  ]
+}
