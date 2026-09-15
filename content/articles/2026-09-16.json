@@ -1,0 +1,147 @@
+{
+  "articles": [
+    {
+      "title": "Why AI Governance Must Escape the IT Silo",
+      "body": [
+        "For years, artificial intelligence governance has been treated as a technical afterthought—something to be delegated to data-science teams once a model is already in production. This approach is not merely outdated; it is dangerous. As regulators from Brussels to Beijing tighten oversight, organizations that fail to embed governance into their corporate DNA risk penalties that extend far beyond fines to include operational shutdowns of high-risk systems.",
+        "Effective AI governance demands a deliberate adaptation of the \"three lines of defense\" model. The first line requires business units to own the risks of the algorithms they deploy, rather than assuming that procurement contracts transfer liability. The second line should be an independent AI risk function with genuine veto power over deployments, not merely an advisory body that drafts guidelines no one reads. The third line—internal audit—must evolve beyond traditional checklists to scrutinize model drift, training-data provenance, and the robustness of human-in-the-loop overrides.",
+        "In practice, however, most enterprises stumble over three predictable hurdles. First, they allow governance to remain fragmented across legal, IT, and compliance silos, producing disparate standards that confuse rather than control risk. Second, they rely on vendor self-assessments as sufficient evidence of regulatory conformity, ignoring that third-party certifications often lag behind evolving statutes. Third, they treat AI ethics boards as cosmetic veneers, staffing them with part-time volunteers who lack the authority to halt a project. A governance framework that cannot say \"no\" is not governance at all.",
+        "The path forward is to treat AI compliance not as a destination but as a dynamic operational rhythm. Multinational corporations, in particular, should establish a unified baseline that exceeds the strictest jurisdictional requirements—such as the European Union’s AI Act—rather than maintaining patchwork regional policies. Only when governance is vested with real authority, clear accountability, and cross-functional coordination can it keep pace with the technology it is meant to restrain.",
+        "1. **afterthought** — something that is thought of or added later, and not part of the original plan",
+        "1. \"For years, artificial intelligence governance has been treated as a technical afterthought—something to be delegated to data-science teams once a model is already in production.\"",
+        "- 主句：artificial intelligence governance has been treated as a technical afterthought",
+        "- 同位语：something to be delegated to data-science teams once a model is already in production（补充说明 afterthought）",
+        "2. **disparate** — essentially different in kind; not comparable",
+        "2. \"First, they allow governance to remain fragmented across legal, IT, and compliance silos, producing disparate standards that confuse rather than control risk.\"",
+        "- 主句：they allow governance to remain fragmented across legal, IT, and compliance silos",
+        "- 结果状语：producing disparate standards that confuse rather than control risk",
+        "- 定语从句：that confuse rather than control risk（修饰 standards）",
+        "3. **veneer** — a superficial or deceptively attractive appearance that hides something undesirable",
+        "3. \"Third, they treat AI ethics boards as cosmetic veneers, staffing them with part-time volunteers who lack the authority to halt a project.\"",
+        "- 主句：they treat AI ethics boards as cosmetic veneers",
+        "- 伴随状语：staffing them with part-time volunteers who lack the authority to halt a project",
+        "- 定语从句：who lack the authority to halt a project（修饰 volunteers）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main argument of the passage?",
+          "options": [
+            "A. AI ethics boards should be abolished because they slow down innovation.",
+            "B. AI governance should be integrated across business functions rather than confined to technical teams.",
+            "C. The European Union’s AI Act is the only regulatory framework multinational companies need to follow.",
+            "D. Vendor self-assessments are the most reliable method for ensuring AI compliance."
+          ],
+          "answer": "B",
+          "explanation": "文章开篇即批判将AI治理视为技术事后考量的做法，随后论证需要跨部门协调、“三层防线”模型及有实权的治理结构，核心论点是AI治理必须超越IT部门，融入企业整体运营。"
+        },
+        {
+          "q": "According to the author, which of the following is a common mistake companies make in AI governance?",
+          "options": [
+            "A. Granting internal audit teams too much authority over AI deployments.",
+            "B. Relying on vendor self-assessments as proof of regulatory compliance.",
+            "C. Establishing AI risk functions with veto power over deployments.",
+            "D. Creating unified compliance baselines that exceed regional requirements."
+          ],
+          "answer": "B",
+          "explanation": "文章第三段明确指出，企业常犯的第二个错误是“rely on vendor self-assessments as sufficient evidence of regulatory conformity”，即过度依赖供应商的自我评估。"
+        },
+        {
+          "q": "What can be inferred about the author's view on AI ethics boards?",
+          "options": [
+            "A. They should be staffed exclusively by external legal consultants.",
+            "B. They are unnecessary if a company already has an internal audit team.",
+            "C. They should possess the authority to stop AI projects when necessary.",
+            "D. They function best when their role is limited to public relations."
+          ],
+          "answer": "C",
+          "explanation": "作者批评许多企业将AI伦理委员会当作“cosmetic veneers”（表面装饰），并指出“A governance framework that cannot say 'no' is not governance at all”，可推断作者认为伦理委员会应拥有实际否决权，能够在必要时叫停项目。"
+        },
+        {
+          "q": "As used in the passage, the word \"veneer\" most nearly means:",
+          "options": [
+            "A. a protective layer of material",
+            "B. a superficially attractive appearance hiding flaws",
+            "C. an official certification of quality",
+            "D. a detailed architectural blueprint"
+          ],
+          "answer": "B",
+          "explanation": "文中“cosmetic veneers”修饰AI伦理委员会，前文提到这些委员会由兼职志愿者组成且缺乏叫停项目的权力，因此“veneer”在此处意为掩盖本质问题的表面装饰或虚饰。"
+        }
+      ]
+    },
+    {
+      "title": "The Quiet Alchemy of Cat Companionship",
+      "body": [
+        "There is a peculiar magic in sharing your home with a creature that fundamentally does not care about your schedule. Unlike their canine counterparts, who bound toward the door with explosive joy, cats arrive on their own terms—a soft pad of paws across hardwood, a shadow slipping into your lap not because you called, but because the temperature, the light, and the cosmic alignment momentarily suit them. This independence, far from creating distance, makes their affection feel like a secret language, legible only to the patient.",
+        "My own feline supervisor, a ginger tabby with alarmingly judgmental eyes, operates on what I can only describe as \"selective intimacy.\" He will ignore me for hours, perched atop a bookshelf like a furry gargoyle, only to materialize beside my keyboard the moment a deadline looms. Yet it is in the quiet hours—when his purr vibrates against my arm like a tiny motor of contentment, or when he offers that slow, deliberate blink that cat behaviorists call a \"cat kiss\"—that I feel the weight of genuine connection. He does not perform love; he simply allows it to exist in the spaces between us.",
+        "Science confirms what enthusiasts have long suspected: these interactions are bi-directional balm. The frequency of a cat's purr, typically between 25 and 150 Hertz, has been linked to lowered stress hormones and even bone-density healing in humans. But beyond the laboratory data lies something less measurable—the way a cat's relentless presence forces us to decelerate, to notice the slant of afternoon sun across a windowsill, to accept that not all companionship needs to be loud to be real.",
+        "Living with a cat is, ultimately, an exercise in humility. You cannot command devotion; you can only create an environment worthy of their curiosity. In return, they offer not servitude, but partnership—a reminder that the most profound bonds often grow in silence, one slow blink at a time.",
+        "1. **counterpart** — a person or thing that has the same function or role as another in a different place or situation",
+        "2. **materialize** — to appear or happen, especially in a sudden or unexpected way",
+        "3. **deliberate** — done consciously and intentionally; careful and unhurried",
+        "4. **humility** — the quality of having a modest view of one's own importance",
+        "1. \"Unlike their canine counterparts, who bound toward the door with explosive joy, cats arrive on their own terms—a soft pad of paws across hardwood, a shadow slipping into your lap not because you called, but because the temperature, the light, and the cosmic alignment momentarily suit them.\"",
+        "- 主句：cats arrive on their own terms",
+        "- 定语从句：who bound toward the door with explosive joy（修饰 canine counterparts）",
+        "- 独立主格：a soft pad of paws across hardwood, a shadow slipping into your lap... 对主句进行画面补充",
+        "- 原因状语从句：not because you called, but because the temperature, the light, and the cosmic alignment momentarily suit them",
+        "2. \"He will ignore me for hours, perched atop a bookshelf like a furry gargoyle, only to materialize beside my keyboard the moment a deadline looms.\"",
+        "- 主句：He will ignore me for hours",
+        "- 过去分词短语作伴随状语：perched atop a bookshelf like a furry gargoyle",
+        "- 结果状语：only to materialize beside my keyboard（表示出乎意料的结果）",
+        "- 时间状语从句（省略that）：the moment (that) a deadline looms",
+        "3. \"But beyond the laboratory data lies something less measurable—the way a cat's relentless presence forces us to decelerate, to notice the slant of afternoon sun across a windowsill, to accept that not all companionship needs to be loud to be real.\"",
+        "- 倒装句主句：beyond the laboratory data lies something less measurable（正常语序：Something less measurable lies beyond the laboratory data）",
+        "- 同位语从句：the way (that) a cat's relentless presence forces us to decelerate... 解释说明something less measurable",
+        "- 不定式并列：to decelerate, to notice..., to accept... 作宾语补足语",
+        "- 宾语从句：that not all companionship needs to be loud to be real（作accept的宾语）"
+      ],
+      "comprehension": [
+        {
+          "q": "What is the main idea of the passage?",
+          "options": [
+            "A. Cats are superior to dogs because they require less daily attention.",
+            "B. Scientific evidence proves that a cat's purr can cure all human bone diseases.",
+            "C. The quiet and independent nature of cats creates a unique, meaningful bond with humans.",
+            "D. Cat owners must learn to control their pets through disciplined training."
+          ],
+          "answer": "C",
+          "explanation": "中文解析：全文围绕猫咪独立而温柔的行为展开，强调这种不张扬的陪伴如何与人建立深刻情感联结，而非讨论优劣对比、治愈所有疾病或训练方法。"
+        },
+        {
+          "q": "According to the passage, how does the author's cat demonstrate affection?",
+          "options": [
+            "A. By greeting her enthusiastically at the door every day.",
+            "B. Through subtle behaviors such as purring and slow blinking.",
+            "C. By helping her finish work before the deadline.",
+            "D. Through loud and constant demands for attention."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段明确提到，猫咪在安静时刻发出呼噜声（purr vibrates against my arm）以及缓慢眨眼（slow, deliberate blink... \"cat kiss\"），这些都是细微而温柔的情感表达。"
+        },
+        {
+          "q": "What can be inferred about the author's view on living with a cat?",
+          "options": [
+            "A. She considers it a frustrating struggle against the cat's unpredictable nature.",
+            "B. She regards it as a humbling experience that fosters patience and mindfulness.",
+            "C. She believes cats are too emotionally distant to be good companions.",
+            "D. She feels that owning a cat is primarily a scientific remedy for physical illness."
+          ],
+          "answer": "B",
+          "explanation": "中文解析：最后一段指出与猫共处是一种humility（谦逊）的修炼；第三段提到猫的存在迫使人们decelerate（放慢节奏）。由此可推断，作者认为这是一种培养耐心与专注当下的体验。"
+        },
+        {
+          "q": "In paragraph 2, the word \"materialize\" is closest in meaning to:",
+          "options": [
+            "A. vanish completely",
+            "B. appear suddenly",
+            "C. fall asleep",
+            "D. play noisily"
+          ],
+          "answer": "B",
+          "explanation": "中文解析：第二段中，作者描述猫咪先\"ignore me for hours\"（数小时不理人），随后\"only to materialize beside my keyboard\"（出现在键盘旁边）。由上下文逻辑可知，materialize意为\"突然出现\"，与appear suddenly同义。"
+        }
+      ]
+    }
+  ]
+}

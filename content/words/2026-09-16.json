@@ -1,0 +1,148 @@
+{
+  "theme": "公司法与公司治理核心术语",
+  "theme_en": "Corporate Law & Governance",
+  "words": [
+    {
+      "term": "fiduciary duty",
+      "ipa": "/fɪˈduːʃiˌɛri ˈduːti/",
+      "cn_meaning": "信义义务；受托责任",
+      "collins_def": "A legal obligation of one party to act in the best interest of another; in corporate law, the duty of directors and officers to act in the best interest of the corporation and its shareholders.",
+      "pron_tip": "注意 fi-du-ci-a-ry 四个音节，重音在 du",
+      "examples": [
+        {
+          "en": "The directors breached their fiduciary duty by approving the merger for personal gain.",
+          "cn": "董事们为谋取私利批准合并，违反了信义义务。"
+        }
+      ]
+    },
+    {
+      "term": "bylaws",
+      "ipa": "/ˈbaɪˌlɔːz/",
+      "cn_meaning": "（公司）内部规章；章程细则",
+      "collins_def": "The rules and regulations enacted by a corporation's board of directors to govern the company's internal affairs and the conduct of its officers, directors, and shareholders.",
+      "pron_tip": "由 by + laws 组成，字面即“附属之法律”",
+      "examples": [
+        {
+          "en": "The bylaws specify that board meetings must be held quarterly.",
+          "cn": "公司内部规章规定董事会每季度必须召开一次会议。"
+        }
+      ]
+    },
+    {
+      "term": "unanimous written consent",
+      "ipa": "/juˈnænɪməs ˈrɪtən kənˈsɛnt/",
+      "cn_meaning": "全体一致书面同意（不经会议以书面形式表决）",
+      "collins_def": "A document signed by all members of a board or all shareholders to approve a corporate action without holding a formal meeting.",
+      "pron_tip": "unanimous 重音在 nan，意为“无异议的”",
+      "examples": [
+        {
+          "en": "The acquisition was approved by unanimous written consent of the board.",
+          "cn": "该收购事项经由董事会全体一致书面同意获得批准。"
+        }
+      ]
+    },
+    {
+      "term": "shareholders' agreement",
+      "ipa": "/ˈʃɛrˌhoʊldərz əˈɡriːmənt/",
+      "cn_meaning": "股东协议",
+      "collins_def": "A private contract among the shareholders of a company that defines their rights, obligations, and the management of the company, often supplementing the articles of incorporation.",
+      "pron_tip": "shareholder 重音在 share，所有格加 z 音",
+      "examples": [
+        {
+          "en": "The shareholders' agreement restricts the transfer of shares to third parties.",
+          "cn": "股东协议限制向第三方转让股份。"
+        }
+      ]
+    },
+    {
+      "term": "preemptive right",
+      "ipa": "/prɪˈɛmptɪv raɪt/",
+      "cn_meaning": "优先认购权；先买权",
+      "collins_def": "A shareholder's contractual or statutory right to purchase newly issued shares in proportion to their existing holdings before they are offered to outsiders.",
+      "pron_tip": "preemptive 含前缀 pre-（预先）+ empt（拿取），即“抢先拿取”",
+      "examples": [
+        {
+          "en": "The investor exercised its preemptive right to maintain its 20% equity stake.",
+          "cn": "投资人行使优先认购权以维持其20%的股权比例。"
+        }
+      ]
+    },
+    {
+      "term": "tag-along right",
+      "ipa": "/tæɡ əˈlɔːŋ raɪt/",
+      "cn_meaning": "随售权；共同出售权",
+      "collins_def": "A contractual right that allows minority shareholders to join a sale of shares by a majority shareholder to a third party on the same terms and conditions.",
+      "pron_tip": "tag 原意为“跟随、尾随”，记忆为“跟着大股东一起卖”",
+      "examples": [
+        {
+          "en": "Minority holders invoked their tag-along right when the founder sold his stake.",
+          "cn": "当创始人出售其持股时，少数股东行使了随售权。"
+        }
+      ]
+    },
+    {
+      "term": "right of first refusal",
+      "ipa": "/raɪt ʌv fɜːrst rɪˈfjuːzəl/",
+      "cn_meaning": "优先购买权；先买权",
+      "collins_def": "A contractual privilege that gives its holder the option to enter into a business transaction with the grantor before the grantor may enter into that transaction with a third party.",
+      "pron_tip": "refusal 重音在 fu，意为“拒绝权”，即别人卖时你得先问我要不要",
+      "examples": [
+        {
+          "en": "The right of first refusal requires the selling shareholder to offer shares to existing investors first.",
+          "cn": "优先购买权要求出售股东先将股份提供给现有投资人。"
+        }
+      ]
+    },
+    {
+      "term": "appraisal right",
+      "ipa": "/əˈpreɪzəl raɪt/",
+      "cn_meaning": "（异议股东）股份评估权；股份收买请求权",
+      "collins_def": "A statutory right of a dissenting shareholder to demand that the corporation purchase their shares at fair value following a fundamental corporate transaction such as a merger.",
+      "pron_tip": "appraisal 意为“估价、评估”，与 praise（表扬）同源",
+      "examples": [
+        {
+          "en": "Dissenting shareholders exercised their appraisal right after the squeeze-out merger.",
+          "cn": "在挤压式合并后，异议股东行使了股份评估权。"
+        }
+      ]
+    },
+    {
+      "term": "golden parachute",
+      "ipa": "/ˈɡoʊldən ˈpærəˌʃuːt/",
+      "cn_meaning": "金色降落伞（高管离职补偿条款）",
+      "collins_def": "A lucrative employment contract provision that guarantees substantial benefits to senior executives if they are terminated following a change in corporate control, often used as an anti-takeover device.",
+      "pron_tip": "parachute 重音在 par，常作反收购措施， golden 形容补偿丰厚",
+      "examples": [
+        {
+          "en": "The golden parachute clauses triggered automatic payouts upon the hostile takeover.",
+          "cn": "敌意收购发生后，金色降落伞条款触发了自动巨额赔付。"
+        }
+      ]
+    },
+    {
+      "term": "supermajority provision",
+      "ipa": "/ˌsuːpərməˈdʒɔːrɪti prəˈvɪʒən/",
+      "cn_meaning": "超级多数条款",
+      "collins_def": "A corporate governance provision requiring a vote by more than a simple majority, typically two-thirds or three-quarters of shareholders, to approve certain major decisions or amendments.",
+      "pron_tip": "super-（超过）+ majority（多数），常指 2/3 或 3/4 以上",
+      "examples": [
+        {
+          "en": "The charter contains a supermajority provision for removing directors without cause.",
+          "cn": "公司章程规定，无因罢免董事须经超级多数表决通过。"
+        }
+      ]
+    }
+  ],
+  "used_terms": [
+    "fiduciary duty",
+    "bylaws",
+    "unanimous written consent",
+    "shareholders' agreement",
+    "preemptive right",
+    "tag-along right",
+    "right of first refusal",
+    "appraisal right",
+    "golden parachute",
+    "supermajority provision"
+  ]
+}
